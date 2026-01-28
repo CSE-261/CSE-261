@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+data/
+tat_docs_test/
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+*.log
+logs/
+
+# Output
+results/
+output/
+
+# Secrets/keys
+*.pem
+
+# Data
+
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Docker
+docker-compose.override.yml
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Database
+*.db
+*.sqlite
+qdrant_storage/
+
+# Models
+models/
+
+# Tooling
+.claude/
+.pem

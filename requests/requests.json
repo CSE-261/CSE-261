@@ -1,0 +1,148 @@
+[
+  {
+    "query": "What is the total number of A10 Networks' PSUs granted in April and December 2019 altogether?",
+    "answer": "721453",
+    "source": "/app/data/a10-networks-inc_2019.pdf",
+    "gold": [
+      {
+        "content": "In April 2019, we granted 346,453 PSUs with certain financial targets. These PSUs will become eligible to vest\nat 75% on the second month following achievement of certain performance targets by December 31, 2021, with the\nremaining 25% of the PSUs to vest on the first anniversary of the initial vesting date, subject to continued service\nvesting requirements. None of these PSUs were vested as of December 31, 2019.",
+        "type": "TEXT"
+      },
+      {
+        "content": "In December 2019, we granted 375,000 PSUs with certain market performance-based targets to be achieved\nbetween December 2019 and December 2023. One-third of each tranche of these PSUs will become eligible to vest\non each of the three anniversaries of the date the performance-based target is achieved, subject to continued service\nvesting requirements. The grant date fair values of each tranche of these PSUs were estimated to be $4.59, $4.06 and\n$3.59 and determined using the Monte Carlo simulation model with the following assumptions: expected term of\n4.0 years, expected volatility of 38.45%, risk-free interest rate of 1.7% and expected dividend yield of 0.0%. None\nof these PSUs were vested as of December 31, 2019.",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "What is the total revenue earned by A10 Networks between 2015 to 2019?",
+    "answer": "1103862",
+    "source": "/app/data/a10-networks-inc_2019.pdf",
+    "gold": [
+      {
+        "content": "TAT-RAG/csvs/a10-networks-inc_2019_page_45_table_0.csv",
+        "type": "FILE"
+      }
+    ]
+  },
+  {
+    "query": "In Oracle's report, What areas are being examined by the US federal and state taxing authorities, internationally and domestically?",
+    "answer": "Domestically, U.S. federal and state taxing authorities are currently examining income tax returns of Oracle and various acquired entities for years through fiscal 2017,Internationally, tax authorities for numerous non-U.S. jurisdictions are also examining returns affecting our unrecognized tax benefits.",
+    "source": "/app/data/oracle-corporation_2019.pdf",
+    "gold": [
+      {
+        "content": "Domestically, U.S. federal and state taxing authorities are currently examining income tax returns of Oracle and various acquired entities for years through fiscal\n2017. Many issues are at an advanced stage in the examination process, the most significant of which include the deductibility of certain royalty payments,\ntransfer pricing, extraterritorial income exemptions, domestic production activity, foreign tax credits, and research and development credits taken. With all of\nthese domestic audit issues considered in the aggregate, we believe that it was reasonably possible that, as of May 31, 2019, the gross unrecognized tax benefits\nrelated to these audits could decrease (whether by payment, release, or a combination of both) in the next 12 months by as much as $516 million ($357 million\nnet of offsetting tax benefits). Our U.S. federal income tax returns have been examined for all years prior to fiscal 2010 and we are no longer subject to audit for\nthose periods. Our U.S. state income tax returns, with some exceptions, have been examined for all years prior to fiscal 2007 and we are no longer subject to\naudit for those periods.",
+        "type": "TEXT"
+      },
+      {
+        "content": "Internationally, tax authorities for numerous non-U.S. jurisdictions are also examining returns affecting our unrecognized tax benefits. We believe that it was\nreasonably possible that, as of May 31, 2019, the gross unrecognized tax benefits could decrease (whether by payment, release, or a combination of both) by as\nmuch as $186 million ($87 million net of offsetting tax benefits) in the next 12 months related primarily to transfer pricing.",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "What is the different of total revenue in 2019 between A10-Networks and Oracle?",
+    "answer": "$39,293,372 in thousands",
+    "source": "/app/data/a10-networks-inc_2019.pdf, /app/data/oracle-corporation_2019.pdf",
+    "gold": [
+      {
+        "content": "TAT-RAG/csvs/a10-networks-inc_2019_page_45_table_0.csv",
+        "type": "FILE"
+      },
+      {
+        "content": "TAT-RAG/csvs/oracle-corporation_2019_page_36_table_0.csv",
+        "type": "FILE"
+      }
+    ]
+  },
+  {
+    "query": "Who are the members of the board of directors in Xperi?",
+    "answer": "Darcy Antonellis,David C. Habiger,Richard S. Hill,Jon E. Kirchner,V. Sue Molina,George A. Riedel,Christopher A. Seams",
+    "source": "/app/data/xperi-corporation_2019",
+    "gold": [
+      {
+        "content": "Darcy Antonellis has served on the Board since December 2018. Since January 2014, Ms. Antonellis has been the Chief Executive Officer of Vubiquity, Inc., a\nwholly owned subsidiary of Amdocs Limited since February 22, 2018, the largest global provider of premium content services and technical solutions serving\nclients in 120 countries and in 80 languages. From June 1998 until December 2013, Ms. Antonellis held numerous positions at Warner Bros. Entertainment Inc., a\nTime Warner company, including President, Technical Operations and Chief Technology Officer. Ms. Antonellis has also served as a member of the Board of\nDirectors of Cinemark Holdings, Inc. since July 7, 2015. Ms, Antonellis received a B.S. in electrical engineering from Temple University and an M.B.A. from\nFordham University. The Board believes Ms. Antonellis brings her extensive expertise in executive management, operations and engineering and her in-depth\nunderstanding of content services, media and entertainment industry to her role as a member of the Board.",
+        "type": "TEXT"
+      },
+      {
+        "content": "David C. Habiger has served on the Board since December 2016. Mr. Habiger currently serves as the Chief Executive Officer of JD Power, a privately held\ncompany. Mr. Habiger served as a director of DTS from March 2014 until its acquisition by the Company in December 2016. Mr. Habiger serves as a director of\nthe Chicago Federal Reserve Board. He is on the SABOR (Systems Activities, Bank Operations and Risk) Committee and the Governance & HR Committee for the\nFederal Reserve. Mr. Habiger served as the CEO at Textura Corporation, a software company focused on construction management, from May 2015 until its sale to\nOracle in June 2016. From May 2011 to August 2012, he served as the Chief Executive Officer of NDS Group Ltd., a provider of video software and content\nsecurity solutions. Mr. Habiger worked with the founding members of Sonic Solutions (“Sonic”), a computer software company, from 1992 to 2011 and served as\nPresident and Chief Executive Officer of Sonic from 2005 to 2011. He serves as a director for Echo Global Logistics, Inc., GrubHub Inc., and Stamps.com Inc., and\npreviously served as a director for Control4 Corporation, Enova International, Inc., Immersion Corporation, RealD Inc., Textura Corporation, DTS, and Sonic\nSolutions. He is a member of the National Association of Corporate Directors and is on the Advisory Board of the University of Chicago Center for\nEntrepreneurship. Mr. Habiger received a bachelor’s degree in business administration from St. Norbert College and an M.B.A. from the University of Chicago.\nThe Board believes that Mr. Habiger brings extensive experience in the digital media and entertainment industries and his in-depth knowledge and understanding of\nthe consumer electronics industry to his role as a member of the Board.",
+        "type": "TEXT"
+      },
+      {
+        "content": "Richard S. Hill has served as a member of the Board since August 2012 and as Chairman of the Board since March 2013. Mr. Hill also served as the Company’s\nInterim Chief Executive Officer from April 15, 2013 until May 29, 2013. Mr. Hill previously served as the Chief Executive Officer and member of the board of\ndirectors of Novellus Systems Inc., until its acquisition by Lam Research Corporation in June 2012. During his nearly 20 years leading Novellus Systems, a\ndesigner, manufacturer, and marketer of semiconductor equipment used in fabricating integrated circuits, Mr. Hill grew annual revenues from approximately\n$100 million to over $1 billion. Presently, Mr. Hill is Chairman of Marvell Technology Group Ltd. (“Marvell”), a producer of storage, communications and\nconsumer semiconductor products, and a member of its board of directors. Mr. Hill served as Interim Chief Executive Officer of Marvell from May 2016 until July\n2016. Mr. Hill is a member of the boards of directors of Arrow Electronics, Inc., a global provider of products and services to industrial and commercial users of\nelectronic components and enterprise computing, and Cabot Microelectronics Corporation, the leading global supplier of chemical mechanical planarization (CMP)\nslurries and a growing CMP pad supplier to the semiconductor industry. Mr. Hill previously served on the board of directors of Symantec Corporation, LSI\nCorporation, Planar Systems, Autodesk, Inc. and Yahoo Inc. Mr. Hill received a B.S. in Bioengineering from the University of Illinois in Chicago and an M.B.A.\nfrom Syracuse University. The Board believes that Mr. Hill brings extensive expertise in executive management and engineering for technology and defense-\nrelated companies to his role as Chairman of the Board.",
+        "type": "TEXT"
+      },
+      {
+        "content": "Jon E. Kirchner has served on the Board and as Chief Executive Officer since June 2017. Previously he was president of Xperi following the completion of the\nacquisition of DTS in December 2016. He served as DTS’s Chairman of the board of directors and Chief Executive Officer from 2010 to December 2016 and had\nbeen a member of DTS’s board of directors from 2002 to December 2016. From 2001 to 2010, he served as DTS’s Chief Executive Officer. Prior to his tenure as\nChief Executive Officer, Mr. Kirchner served at DTS from 1993 to 2001 in a number of senior leadership roles including President, Chief Operating Officer and\nChief Financial Officer. Prior to joining DTS, Mr. Kirchner worked for the consulting and audit groups at Price Waterhouse LLP (now PricewaterhouseCoopers\nLLP), an international accounting firm. In 2012, Mr. Kirchner received the Ernst & Young Technology Entrepreneur of the Year Award for Greater Los Angeles.\nIn 2011, Mr. Kirchner was honored by the Producers Guild of America, receiving the “Digital 25: Leaders in Emerging Entertainment” award for being among the\nvisionaries that have made significant contributions to the advancement of digital entertainment and storytelling. Mr. Kirchner currently serves on the board of\ndirectors of Free Stream Media Corporation (Samba TV), a leader in developing cross platform TV experiences for consumers and advertisers. Mr. Kirchner is a\nCertified Public Accountant and received a B.A. in Economics, cum laude, from Claremont McKenna College. The Board believes that Mr. Kirchner brings his\nexperience in the senior management of public companies, including service as chairman, president, Chief Executive Officer, Chief Operating Officer and Chief\nFinancial Officer, his extensive experience in the digital media and entertainment industries, as well as his knowledge of the Company as its Chief Executive\nOfficer, to his role as a member of the Board.",
+        "type": "TEXT"
+      },
+      {
+        "content": "V. Sue Molina has served on the Board since February 2018. Most recently she served on the Board of Directors of DTS from January 2008 until December 2016,\nand served as Chair of the Audit Committee and Nominating and Corporate Governance Committee. From November 1997 until her retirement in May 2004,\nMs. Molina was a tax partner at Deloitte & Touche LLP, an international accounting firm, serving from 2000 until May 2004 as the national partner in charge of\nDeloitte’s Initiative for the Retention and Advancement of Women. Prior to that, she spent twenty years with Ernst & Young LLP, an international accounting firm,\nthe last ten years as a partner. Ms. Molina has prior board experience serving on the Board of Directors, chair of the Compensation Committee and member of the\nAudit Committee of Sucampo Pharmaceuticals, Inc., and on the Board of Directors, chair of the Audit Committee and a member of the Compensation Committee\nof Royal Neighbors of America. She received a B.S.B.A. and a Masters of Accounting degree from the University of Arizona. The Board believes that Ms. Molina\nbrings her extensive accounting and financial expertise, her experience in advising boards and her past service on boards of public companies, to her role as a\nmember of the Board.",
+        "type": "TEXT"
+      },
+      {
+        "content": "George A. Riedel has served on the Board since May 2013. He also has served on the board of Cerner Corporation, a leading supplier of health care information\ntechnology solutions and tech-enabled services, since May 2019. Since January 2018, Mr. Riedel has been a Senior Lecturer at Harvard Business School. Prior to\nthat, he was the Chairman of the Board of Montreal-based Accedian Networks, where he had served as a director since 2010. Until January 2017, Mr. Riedel also\nserved as Chairman and CEO of Cloudmark, Inc., a private network security company. Mr. Riedel joined the board at Cloudmark in June 2013, became Chairman\nin January 2014 and CEO in December 2014. Mr. Riedel also served on the board of directors of PeerApp from 2011 until 2014 and on the board of directors of\nBlade Network Technologies from 2009 until its sale to IBM in 2010. In March 2006, Mr. Riedel joined Nortel Networks Corporation, a publicly-traded,\nmultinational, telecommunications equipment manufacturer (“Nortel”), as part of the turnaround team as the Chief Strategy Officer. His role changed after Nortel\ninitiated creditor protection under the respective restructuring regimes of Canada under the Companies’ Creditors Arrangement Act, in the U.S. under the\nBankruptcy Code, the United Kingdom under the Insolvency Act 1986, on January 14, 2009, and",
+        "type": "TEXT"
+      },
+      {
+        "content": "Christopher A. Seams has served on the Board since March 2013. Mr. Seams served as the Chief Executive Officer and a director of Deca Technologies Inc., a\nsubsidiary of Cypress Semiconductor Corporation, a global semiconductor company, from May 2013 until August 2016. Mr. Seams previously was an Executive\nVice President of Sales & Marketing at Cypress Semiconductor Corporation, from July 2005 until June 2013. He previously served as an Executive Vice President\nof Worldwide Manufacturing & Research and Development of Cypress Semiconductor Corporation. Mr. Seams joined Cypress in 1990 and held a variety of\npositions in process and assembly technology research and development and manufacturing operations. Prior to joining Cypress in 1990, he worked as a process\ndevelopment Engineer or Manager for Advanced Micro Devices and Philips Research Laboratories. Mr. Seams currently serves as the Chairman of the Board of\nDirectors of Onto Innovation Inc. (formerly Nanometrics Inc.). Mr. Seams is a senior member of IEEE, a member of NACD and ACCD, served on the Engineering\nAdvisory Council for Texas A&M University and was a board member of Joint Venture Silicon Valley. Mr. Seams received a B.S. in Electrical Engineering from\nTexas A&M University and a M.S. in Electrical and Computer Engineering from the University of Texas at Austin. Mr. Seams has a Professional Certificate in\nAdvanced Computer Security from Stanford University. Mr. Seams also holds a National Association of Corporate Directors certification which was awarded to\nhim based on NACD training and examination standards. The Board believes that Mr. Seams brings extensive management, sales and marketing, and engineering\nexperience in the semiconductor industry to his role as a member of the Board.",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "What was Xperi's total operating income/loss from 2017 to 2019, respectively (include unit)?",
+    "answer": "$(4,822),$38,981,$16,320 (in thousand)",
+    "source": "/app/data/xperi-corporation_2019",
+    "gold": [
+      {
+        "content": "TAT-RAG/csvs/xperi-corporation_2019_page_42_table_0.csv",
+        "type": "FILE"
+      }
+    ]
+  },
+  {
+    "query": "In Eros International's report, what is taken into account while releasing films?",
+    "answer": "school holidays,national holidays,the festivals,competitor film release dates,major cricket events in India,film production schedules.",
+    "source": "/app/data/eros-international-plc_2019.pdf",
+    "gold": [
+      {
+        "content": "Our revenues and operating results are significantly affected by the timing, number and breadth of our theatrical releases and their\nbudgets, the timing of television syndication agreements, and our amortization policy for the first 12 months of commercial\nexploitation for a film. The timing of releases is determined based on several factors. A significant portion of the films we distribute\nare delivered to Indian theaters at times when theater attendance has traditionally been highest, including school holidays, national\nholidays and the festivals. This timing of releases also takes into account competitor film release dates, major cricket events in\nIndia and film production schedules. Significant holidays and festivals, such as Diwali, Eid and Christmas, occur during July to\nDecember each year, and the Indian Premier League cricket season generally occurs during April and May of each year. The Tamil\nNew Year, called Pongal, falls in January each year making the quarter ending March an important one for Tamil releases.",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+  "query": "In Eros International's report, what are the Three months ended periods that have gross revenue exceeding $70,000 thousand?",
+  "answer": "September 30, 2018,December 31, 2018,March 31, 2019",
+  "source": "/app/data/eros-international-plc_2019.pdf",
+  "gold": [
+    {
+      "content": "TAT-RAG/csvs/eros-international-plc_2019_page_113_table_0.csv",
+      "type": "FILE"
+    }
+  ]
+},
+  {
+    "query": "In Overseas Shipholding Group's report, what is the change in Interest cost on benefit obligation for pension benefits from December 31, 2018 and 2019?",
+    "answer": "129",
+    "source": "/app/data/overseas-shipholding-group-inc_2019.pdf",
+    "gold": [
+      {
+        "content": "TAT-RAG/csvs/overseas-shipholding-group-inc_2019_page_96_table_0.csv",
+        "type": "FILE"
+      }
+    ]
+  },
+  {
+    "query": "What led to the decrease in interest expense of Overseas Shipholding Group?",
+    "answer": "primarily associated with the impact of the refinancing of our term loan at the end of 2018 and interest capitalized during 2019 due to vessels under construction.",
+    "source": "/app/data/overseas-shipholding-group-inc_2019.pdf",
+    "gold": [
+      {
+        "content": "Interest expense, including administrative and other fees, was $25,633 for 2019 compared with $30,890 in 2018. The decrease in\ninterest expense was primarily associated with the impact of the refinancing of our term loan at the end of 2018 and interest\ncapitalized during 2019 due to vessels under construction.",
+        "type": "TEXT"
+      }
+    ]
+  }
+]

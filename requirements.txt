@@ -1,0 +1,40 @@
+# Core dependencies
+qdrant-client>=1.12.0
+# LangChain 1.0 aligned packages avoid resolver conflicts
+langchain==1.0.2
+langchain-community==0.4.0
+langchain-ollama==1.0.0
+langchain-aws==1.0.0
+# Google Gemini support - using only LangChain wrapper for compatibility
+# Note: langchain-google-genai includes google-generativeai as a dependency
+langchain-google-genai>=2.0.0,<4.0.0
+requests>=2.31.0
+
+# AWS Bedrock
+boto3>=1.28.0
+
+# Local embedding models
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# RAGAS for evaluation
+ragas>=0.1.0
+datasets>=2.14.0
+# langchain-google-genai installs google-ai-generativelanguage clients internally
+
+# Data processing
+pandas>=2.0.0
+numpy>=2.3.0,<3.0.0
+
+# Utilities
+tqdm>=4.66.0
+
+# Web interface
+streamlit>=1.30.0
+
+# PDF parsing & table extraction for chunking
+pymupdf4llm>=0.0.17
+PyMuPDF>=1.24.9
+tabula-py>=2.9.0
+jpype1>=1.5.0
+tiktoken>=0.7.0
