@@ -1,3 +1,33 @@
+x-rag-app-common: &rag-app-common
+  build: .
+  env_file:
+    - .env
+  environment:
+    # Override Qdrant host for Docker networking
+    - QDRANT_HOST=qdrant
+    # Override embedding cache directory for Docker
+    - EMBEDDING_CACHE_DIR=/app/models
+  volumes:
+    - ./data:/app/data
+    - ./output:/app/output
+    - ./models:/app/models              # Mount models directory
+    - ./src:/app/src                    # Mount source code for development
+    - ./requests:/app/requests        # Mount requests directory
+    - ./original_text:/app/original_text # Mount source PDFs/TXTs
+    - ./main.py:/app/main.py            # Mount main script
+    - ./app.py:/app/app.py              # Mount Streamlit app
+    - ./scripts:/app/scripts            # Mount scripts directory
+  ports:
+    - "8501:8501"                       # Streamlit port
+  networks:
+    - rag-network
+  stdin_open: true
+  tty: true
+  depends_on:
+    - qdrant
+  # Auto-start Streamlit web UI
+  command: streamlit run app.py --server.port 8501 --server.address 0.0.0.0
+
 services:
   # Qdrant vector database
   qdrant:
@@ -16,34 +46,17 @@ services:
       - rag-network
     restart: unless-stopped
 
-  # RAG application
+  # RAG application (CPU/default)
   rag-app:
-    build: .
+    <<: *rag-app-common
     container_name: rag-app
-    depends_on:
-      - qdrant
-    env_file:
-      - .env
-    environment:
-      # Override Qdrant host for Docker networking
-      - QDRANT_HOST=qdrant
-      # Override embedding cache directory for Docker
-      - EMBEDDING_CACHE_DIR=/app/models
-    volumes:
-      - ./data:/app/data
-      - ./output:/app/output
-      - ./models:/app/models              # Mount models directory
-      - ./src:/app/src                    # Mount source code for development
-      - ./requests:/app/requests        # Mount requests directory
-      - ./main.py:/app/main.py            # Mount main script
-      - ./app.py:/app/app.py              # Mount Streamlit app
-      - ./scripts:/app/scripts            # Mount scripts directory
-    ports:
-      - "8501:8501"                       # Streamlit port
-    networks:
-      - rag-network
-    stdin_open: true
-    tty: true
+    profiles: ["cpu"]
+
+  # RAG application (GPU optional)
+  rag-app-gpu:
+    <<: *rag-app-common
+    container_name: rag-app-gpu
+    profiles: ["gpu"]
     deploy:
       resources:
         reservations:
@@ -51,8 +64,6 @@ services:
             - driver: nvidia
               count: 1
               capabilities: [gpu]
-    # Auto-start Streamlit web UI
-    command: streamlit run app.py --server.port 8501 --server.address 0.0.0.0
 
 volumes:
   qdrant_storage:

@@ -12,7 +12,7 @@ import tiktoken
 CONFIG = {
     "max_chunk_tokens": 512,
     "chunk_overlap": int(512 * 0.3),  # 30% overlap
-    "input_dir": "/app/tat_docs_test/",
+    "input_dir": "/app/original_text/",
     "output_file": "/app/data/chunks_all.jsonl",
     "exclude_file": "./not_included.txt",
     "num_workers": None,

@@ -21,7 +21,7 @@ CONFIG = {
     "chunk_overlap": 48, # ~15% overlap for ~320-token chunks
     
     # Docker paths so output lives in /app/data for ingest
-    "input_dir": "/app/tat_docs_test/",
+    "input_dir": "/app/original_text/",
     "output_file": "/app/data/chunks_all.jsonl",
     "exclude_file": "./not_included.txt",
     "csv_output_dir": "/app/data/csvs/",

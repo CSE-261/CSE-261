@@ -22,17 +22,20 @@ A production-ready Retrieval-Augmented Generation stack that pairs **Qdrant** ve
 # 1. Configure environment
 cp .env.example .env
 # edit .env to point at your Ollama/GPU settings as needed
+# To switch to GPU runs later, set COMPOSE_PROFILES=gpu in .env or per-command.
 # optional: enable hybrid retrieval by setting HYBRID_SEARCH_ENABLED=true
 
 # 2. Launch services
-docker-compose up -d
+COMPOSE_PROFILES=cpu docker-compose up -d   # Default CPU (Mac/Linux)
+# GPU on Linux/NVIDIA: COMPOSE_PROFILES=gpu docker-compose up -d
 
 # (Optional) Reset Qdrant collection before re-ingesting
 docker-compose exec rag-app python -c "from qdrant_client import QdrantClient; QdrantClient(host='qdrant', port=6333).delete_collection('documents')"
+# If you used GPU profile, swap service name to rag-app-gpu in the exec commands below.
 
 # 3. (If you need to create chunks from PDFs) Run the chunker
-# Make sure docker-compose mounts your PDFs: ./tat_docs_test -> /app/tat_docs_test
-docker-compose run --rm -w /app/scripts rag-app python chunking.py
+# Make sure docker-compose mounts your PDFs: ./original_text -> /app/original_text
+docker-compose run --rm -w /app/scripts rag-app python chunking_jsonl_naive.py
 # Output: /app/data/chunks_all.jsonl and /app/data/csvs/
 
 # 4. Ingest pre-chunked data (JSONL + CSVs on disk)
@@ -97,7 +100,7 @@ Update `.env` to control the pipeline:
 
 Restart the `rag-app` service after changing environment variables:
 ```bash
-docker-compose restart rag-app
+COMPOSE_PROFILES=cpu docker compose restart rag-app 
 ```
 
 ## Project Structure

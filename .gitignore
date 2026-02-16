@@ -61,7 +61,7 @@ output/
 *.pem
 
 # Data
-
+original_text
 
 # OS
 .DS_Store

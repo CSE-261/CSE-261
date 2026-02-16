@@ -1,148 +1,857 @@
 [
   {
-    "query": "What is the total number of A10 Networks' PSUs granted in April and December 2019 altogether?",
-    "answer": "721453",
-    "source": "/app/data/a10-networks-inc_2019.pdf",
+    "query": "who voiced chip in beauty and the beast 2017",
+    "answer": "Nathan Mack",
+    "source": "https://en.wikipedia.org//w/index.php?title=Beauty_and_the_Beast_(2017_film)&amp;oldid=839088172",
     "gold": [
       {
-        "content": "In April 2019, we granted 346,453 PSUs with certain financial targets. These PSUs will become eligible to vest\nat 75% on the second month following achievement of certain performance targets by December 31, 2021, with the\nremaining 25% of the PSUs to vest on the first anniversary of the initial vesting date, subject to continued service\nvesting requirements. None of these PSUs were vested as of December 31, 2019.",
-        "type": "TEXT"
-      },
-      {
-        "content": "In December 2019, we granted 375,000 PSUs with certain market performance-based targets to be achieved\nbetween December 2019 and December 2023. One-third of each tranche of these PSUs will become eligible to vest\non each of the three anniversaries of the date the performance-based target is achieved, subject to continued service\nvesting requirements. The grant date fair values of each tranche of these PSUs were estimated to be $4.59, $4.06 and\n$3.59 and determined using the Monte Carlo simulation model with the following assumptions: expected term of\n4.0 years, expected volatility of 38.45%, risk-free interest rate of 1.7% and expected dividend yield of 0.0%. None\nof these PSUs were vested as of December 31, 2019.",
+        "content": "Nathan Mack",
         "type": "TEXT"
       }
     ]
   },
   {
-    "query": "What is the total revenue earned by A10 Networks between 2015 to 2019?",
-    "answer": "1103862",
-    "source": "/app/data/a10-networks-inc_2019.pdf",
+    "query": "what is the tulsi plant called in english",
+    "answer": "holy basil",
+    "source": "https://en.wikipedia.org//w/index.php?title=Ocimum_tenuiflorum&amp;oldid=802986114",
     "gold": [
       {
-        "content": "TAT-RAG/csvs/a10-networks-inc_2019_page_45_table_0.csv",
-        "type": "FILE"
-      }
-    ]
-  },
-  {
-    "query": "In Oracle's report, What areas are being examined by the US federal and state taxing authorities, internationally and domestically?",
-    "answer": "Domestically, U.S. federal and state taxing authorities are currently examining income tax returns of Oracle and various acquired entities for years through fiscal 2017,Internationally, tax authorities for numerous non-U.S. jurisdictions are also examining returns affecting our unrecognized tax benefits.",
-    "source": "/app/data/oracle-corporation_2019.pdf",
-    "gold": [
-      {
-        "content": "Domestically, U.S. federal and state taxing authorities are currently examining income tax returns of Oracle and various acquired entities for years through fiscal\n2017. Many issues are at an advanced stage in the examination process, the most significant of which include the deductibility of certain royalty payments,\ntransfer pricing, extraterritorial income exemptions, domestic production activity, foreign tax credits, and research and development credits taken. With all of\nthese domestic audit issues considered in the aggregate, we believe that it was reasonably possible that, as of May 31, 2019, the gross unrecognized tax benefits\nrelated to these audits could decrease (whether by payment, release, or a combination of both) in the next 12 months by as much as $516 million ($357 million\nnet of offsetting tax benefits). Our U.S. federal income tax returns have been examined for all years prior to fiscal 2010 and we are no longer subject to audit for\nthose periods. Our U.S. state income tax returns, with some exceptions, have been examined for all years prior to fiscal 2007 and we are no longer subject to\naudit for those periods.",
-        "type": "TEXT"
-      },
-      {
-        "content": "Internationally, tax authorities for numerous non-U.S. jurisdictions are also examining returns affecting our unrecognized tax benefits. We believe that it was\nreasonably possible that, as of May 31, 2019, the gross unrecognized tax benefits could decrease (whether by payment, release, or a combination of both) by as\nmuch as $186 million ($87 million net of offsetting tax benefits) in the next 12 months related primarily to transfer pricing.",
+        "content": "holy basil",
         "type": "TEXT"
       }
     ]
   },
   {
-    "query": "What is the different of total revenue in 2019 between A10-Networks and Oracle?",
-    "answer": "$39,293,372 in thousands",
-    "source": "/app/data/a10-networks-inc_2019.pdf, /app/data/oracle-corporation_2019.pdf",
-    "gold": [
-      {
-        "content": "TAT-RAG/csvs/a10-networks-inc_2019_page_45_table_0.csv",
-        "type": "FILE"
-      },
-      {
-        "content": "TAT-RAG/csvs/oracle-corporation_2019_page_36_table_0.csv",
-        "type": "FILE"
-      }
-    ]
+    "query": "everybody's free to wear sunscreen baz luhrmann",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Wear_Sunscreen&amp;oldid=801172444",
+    "gold": []
   },
   {
-    "query": "Who are the members of the board of directors in Xperi?",
-    "answer": "Darcy Antonellis,David C. Habiger,Richard S. Hill,Jon E. Kirchner,V. Sue Molina,George A. Riedel,Christopher A. Seams",
-    "source": "/app/data/xperi-corporation_2019",
+    "query": "list of shipping companies accredited by marina 2017",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=List_of_shipping_companies_in_the_Philippines&amp;oldid=837026905",
+    "gold": []
+  },
+  {
+    "query": "where are sound vibrations converted into action potentials",
+    "answer": "the inner ear",
+    "source": "https://en.wikipedia.org//w/index.php?title=Transduction_(physiology)&amp;oldid=740171323",
     "gold": [
       {
-        "content": "Darcy Antonellis has served on the Board since December 2018. Since January 2014, Ms. Antonellis has been the Chief Executive Officer of Vubiquity, Inc., a\nwholly owned subsidiary of Amdocs Limited since February 22, 2018, the largest global provider of premium content services and technical solutions serving\nclients in 120 countries and in 80 languages. From June 1998 until December 2013, Ms. Antonellis held numerous positions at Warner Bros. Entertainment Inc., a\nTime Warner company, including President, Technical Operations and Chief Technology Officer. Ms. Antonellis has also served as a member of the Board of\nDirectors of Cinemark Holdings, Inc. since July 7, 2015. Ms, Antonellis received a B.S. in electrical engineering from Temple University and an M.B.A. from\nFordham University. The Board believes Ms. Antonellis brings her extensive expertise in executive management, operations and engineering and her in-depth\nunderstanding of content services, media and entertainment industry to her role as a member of the Board.",
-        "type": "TEXT"
-      },
-      {
-        "content": "David C. Habiger has served on the Board since December 2016. Mr. Habiger currently serves as the Chief Executive Officer of JD Power, a privately held\ncompany. Mr. Habiger served as a director of DTS from March 2014 until its acquisition by the Company in December 2016. Mr. Habiger serves as a director of\nthe Chicago Federal Reserve Board. He is on the SABOR (Systems Activities, Bank Operations and Risk) Committee and the Governance & HR Committee for the\nFederal Reserve. Mr. Habiger served as the CEO at Textura Corporation, a software company focused on construction management, from May 2015 until its sale to\nOracle in June 2016. From May 2011 to August 2012, he served as the Chief Executive Officer of NDS Group Ltd., a provider of video software and content\nsecurity solutions. Mr. Habiger worked with the founding members of Sonic Solutions (“Sonic”), a computer software company, from 1992 to 2011 and served as\nPresident and Chief Executive Officer of Sonic from 2005 to 2011. He serves as a director for Echo Global Logistics, Inc., GrubHub Inc., and Stamps.com Inc., and\npreviously served as a director for Control4 Corporation, Enova International, Inc., Immersion Corporation, RealD Inc., Textura Corporation, DTS, and Sonic\nSolutions. He is a member of the National Association of Corporate Directors and is on the Advisory Board of the University of Chicago Center for\nEntrepreneurship. Mr. Habiger received a bachelor’s degree in business administration from St. Norbert College and an M.B.A. from the University of Chicago.\nThe Board believes that Mr. Habiger brings extensive experience in the digital media and entertainment industries and his in-depth knowledge and understanding of\nthe consumer electronics industry to his role as a member of the Board.",
-        "type": "TEXT"
-      },
-      {
-        "content": "Richard S. Hill has served as a member of the Board since August 2012 and as Chairman of the Board since March 2013. Mr. Hill also served as the Company’s\nInterim Chief Executive Officer from April 15, 2013 until May 29, 2013. Mr. Hill previously served as the Chief Executive Officer and member of the board of\ndirectors of Novellus Systems Inc., until its acquisition by Lam Research Corporation in June 2012. During his nearly 20 years leading Novellus Systems, a\ndesigner, manufacturer, and marketer of semiconductor equipment used in fabricating integrated circuits, Mr. Hill grew annual revenues from approximately\n$100 million to over $1 billion. Presently, Mr. Hill is Chairman of Marvell Technology Group Ltd. (“Marvell”), a producer of storage, communications and\nconsumer semiconductor products, and a member of its board of directors. Mr. Hill served as Interim Chief Executive Officer of Marvell from May 2016 until July\n2016. Mr. Hill is a member of the boards of directors of Arrow Electronics, Inc., a global provider of products and services to industrial and commercial users of\nelectronic components and enterprise computing, and Cabot Microelectronics Corporation, the leading global supplier of chemical mechanical planarization (CMP)\nslurries and a growing CMP pad supplier to the semiconductor industry. Mr. Hill previously served on the board of directors of Symantec Corporation, LSI\nCorporation, Planar Systems, Autodesk, Inc. and Yahoo Inc. Mr. Hill received a B.S. in Bioengineering from the University of Illinois in Chicago and an M.B.A.\nfrom Syracuse University. The Board believes that Mr. Hill brings extensive expertise in executive management and engineering for technology and defense-\nrelated companies to his role as Chairman of the Board.",
-        "type": "TEXT"
-      },
-      {
-        "content": "Jon E. Kirchner has served on the Board and as Chief Executive Officer since June 2017. Previously he was president of Xperi following the completion of the\nacquisition of DTS in December 2016. He served as DTS’s Chairman of the board of directors and Chief Executive Officer from 2010 to December 2016 and had\nbeen a member of DTS’s board of directors from 2002 to December 2016. From 2001 to 2010, he served as DTS’s Chief Executive Officer. Prior to his tenure as\nChief Executive Officer, Mr. Kirchner served at DTS from 1993 to 2001 in a number of senior leadership roles including President, Chief Operating Officer and\nChief Financial Officer. Prior to joining DTS, Mr. Kirchner worked for the consulting and audit groups at Price Waterhouse LLP (now PricewaterhouseCoopers\nLLP), an international accounting firm. In 2012, Mr. Kirchner received the Ernst & Young Technology Entrepreneur of the Year Award for Greater Los Angeles.\nIn 2011, Mr. Kirchner was honored by the Producers Guild of America, receiving the “Digital 25: Leaders in Emerging Entertainment” award for being among the\nvisionaries that have made significant contributions to the advancement of digital entertainment and storytelling. Mr. Kirchner currently serves on the board of\ndirectors of Free Stream Media Corporation (Samba TV), a leader in developing cross platform TV experiences for consumers and advertisers. Mr. Kirchner is a\nCertified Public Accountant and received a B.A. in Economics, cum laude, from Claremont McKenna College. The Board believes that Mr. Kirchner brings his\nexperience in the senior management of public companies, including service as chairman, president, Chief Executive Officer, Chief Operating Officer and Chief\nFinancial Officer, his extensive experience in the digital media and entertainment industries, as well as his knowledge of the Company as its Chief Executive\nOfficer, to his role as a member of the Board.",
-        "type": "TEXT"
-      },
-      {
-        "content": "V. Sue Molina has served on the Board since February 2018. Most recently she served on the Board of Directors of DTS from January 2008 until December 2016,\nand served as Chair of the Audit Committee and Nominating and Corporate Governance Committee. From November 1997 until her retirement in May 2004,\nMs. Molina was a tax partner at Deloitte & Touche LLP, an international accounting firm, serving from 2000 until May 2004 as the national partner in charge of\nDeloitte’s Initiative for the Retention and Advancement of Women. Prior to that, she spent twenty years with Ernst & Young LLP, an international accounting firm,\nthe last ten years as a partner. Ms. Molina has prior board experience serving on the Board of Directors, chair of the Compensation Committee and member of the\nAudit Committee of Sucampo Pharmaceuticals, Inc., and on the Board of Directors, chair of the Audit Committee and a member of the Compensation Committee\nof Royal Neighbors of America. She received a B.S.B.A. and a Masters of Accounting degree from the University of Arizona. The Board believes that Ms. Molina\nbrings her extensive accounting and financial expertise, her experience in advising boards and her past service on boards of public companies, to her role as a\nmember of the Board.",
-        "type": "TEXT"
-      },
-      {
-        "content": "George A. Riedel has served on the Board since May 2013. He also has served on the board of Cerner Corporation, a leading supplier of health care information\ntechnology solutions and tech-enabled services, since May 2019. Since January 2018, Mr. Riedel has been a Senior Lecturer at Harvard Business School. Prior to\nthat, he was the Chairman of the Board of Montreal-based Accedian Networks, where he had served as a director since 2010. Until January 2017, Mr. Riedel also\nserved as Chairman and CEO of Cloudmark, Inc., a private network security company. Mr. Riedel joined the board at Cloudmark in June 2013, became Chairman\nin January 2014 and CEO in December 2014. Mr. Riedel also served on the board of directors of PeerApp from 2011 until 2014 and on the board of directors of\nBlade Network Technologies from 2009 until its sale to IBM in 2010. In March 2006, Mr. Riedel joined Nortel Networks Corporation, a publicly-traded,\nmultinational, telecommunications equipment manufacturer (“Nortel”), as part of the turnaround team as the Chief Strategy Officer. His role changed after Nortel\ninitiated creditor protection under the respective restructuring regimes of Canada under the Companies’ Creditors Arrangement Act, in the U.S. under the\nBankruptcy Code, the United Kingdom under the Insolvency Act 1986, on January 14, 2009, and",
-        "type": "TEXT"
-      },
-      {
-        "content": "Christopher A. Seams has served on the Board since March 2013. Mr. Seams served as the Chief Executive Officer and a director of Deca Technologies Inc., a\nsubsidiary of Cypress Semiconductor Corporation, a global semiconductor company, from May 2013 until August 2016. Mr. Seams previously was an Executive\nVice President of Sales & Marketing at Cypress Semiconductor Corporation, from July 2005 until June 2013. He previously served as an Executive Vice President\nof Worldwide Manufacturing & Research and Development of Cypress Semiconductor Corporation. Mr. Seams joined Cypress in 1990 and held a variety of\npositions in process and assembly technology research and development and manufacturing operations. Prior to joining Cypress in 1990, he worked as a process\ndevelopment Engineer or Manager for Advanced Micro Devices and Philips Research Laboratories. Mr. Seams currently serves as the Chairman of the Board of\nDirectors of Onto Innovation Inc. (formerly Nanometrics Inc.). Mr. Seams is a senior member of IEEE, a member of NACD and ACCD, served on the Engineering\nAdvisory Council for Texas A&M University and was a board member of Joint Venture Silicon Valley. Mr. Seams received a B.S. in Electrical Engineering from\nTexas A&M University and a M.S. in Electrical and Computer Engineering from the University of Texas at Austin. Mr. Seams has a Professional Certificate in\nAdvanced Computer Security from Stanford University. Mr. Seams also holds a National Association of Corporate Directors certification which was awarded to\nhim based on NACD training and examination standards. The Board believes that Mr. Seams brings extensive management, sales and marketing, and engineering\nexperience in the semiconductor industry to his role as a member of the Board.",
+        "content": "the inner ear",
         "type": "TEXT"
       }
     ]
   },
   {
-    "query": "What was Xperi's total operating income/loss from 2017 to 2019, respectively (include unit)?",
-    "answer": "$(4,822),$38,981,$16,320 (in thousand)",
-    "source": "/app/data/xperi-corporation_2019",
-    "gold": [
-      {
-        "content": "TAT-RAG/csvs/xperi-corporation_2019_page_42_table_0.csv",
-        "type": "FILE"
-      }
-    ]
+    "query": "the meaning of the song lucy in the sky with diamonds",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Lucy_in_the_Sky_with_Diamonds&amp;oldid=803144428",
+    "gold": []
   },
   {
-    "query": "In Eros International's report, what is taken into account while releasing films?",
-    "answer": "school holidays,national holidays,the festivals,competitor film release dates,major cricket events in India,film production schedules.",
-    "source": "/app/data/eros-international-plc_2019.pdf",
+    "query": "who is charlotte related to in pretty little liars",
+    "answer": "<Table> <Tr> <Th_colspan=\"2\"> Charlotte Drake </Th> </Tr> <Tr> <Td_colspan=\"2\"> Pretty Little Liars and Pretty Dirty Secrets character </Td> </Tr> <Tr> <Td_colspan=\"2\"> Charlotte eavesdropping on a conversation between Ezra and Aria taking place at his apartment . </Td> </Tr> <Tr> <Th> First appearance </Th> <Td> <Ul> <Li> `` UnmAsked '' ( as Red Coat ) </Li> <Li> ( Season 2 , Episode 25 ) </Li> <Li> `` Crazy '' ( as CeCe ) </Li> <Li> ( Season 3 , Episode 7 ) </Li> </Ul> </Td> </Tr> <Tr> <Th> Last appearance </Th> <Td> <Ul> <Li> `` Till DeAth Do Us PArt '' </Li> <Li> ( Season 7 , Episode 20 ) </Li> </Ul> </Td> </Tr> <Tr> <Th> Created by </Th> <Td> I. Marlene King </Td> </Tr> <Tr> <Th> Portrayed by </Th> <Td> <Ul> <Li> Vanessa Ray </Li> <Li> Dylan Garza ( as a teenager ) </Li> <Li> Wyatt Hodge ( as a child ) </Li> </Ul> </Td> </Tr> <Tr> <Th> </Th> <Td> ( 1988 - 05 - 21 ) May 21 , 1988 </Td> </Tr> <Tr> <Th_colspan=\"2\"> Information </Th> </Tr> <Tr> <Th> Nickname ( s ) </Th> <Td> Big `` A '' Bitch Bully CeCe Charles Charlie Freak Freddie Him / Her / It Leopard Real Wolf of Wall Street Twisted Sister </Td> </Tr> <Tr> <Th> Aliases </Th> <Td> <Ul> <Li> Alison DiLaurentis </Li> <Li> CeCe Drake </Li> <Li> Charles DiLaurentis ( male adoptive name ) </Li> <Li> Charles Drake ( birth name ) </Li> <Li> Charlotte DiLaurentis ( female adoptive name ) </Li> <Li> Paul Varjak </Li> <Li> Red Coat </Li> <Li> Vivian Darkbloom </Li> </Ul> </Td> </Tr> <Tr> <Th> Gender </Th> <Td> Female ( MTF ) </Td> </Tr> <Tr> <Th> Occupation </Th> <Td> A ( formerly ) Red Coat ( formerly ) Owner of the Carissimi Group ( formerly ) Stylist ( formerly ) </Td> </Tr> <Tr> <Th> Affiliation </Th> <Td> The A-Team ( formerly ) </Td> </Tr> <Tr> <Th> Family </Th> <Td> <Ul> <Li> Mary Drake ( biological mother ) </Li> <Li> Ted Wilson ( biological father ) </Li> <Li> Spencer Hastings ( maternal half - sister ) </Li> <Li> Alex Drake ( maternal half - sister ) </Li> <Li> Jessica DiLaurentis ( adoptive mother / maternal aunt ; deceased ) </Li> <Li> Kenneth DiLaurentis ( adoptive father / maternal uncle ) </Li> <Li> Jason DiLaurentis ( adoptive maternal half - brother / maternal cousin ) </Li> <Li> Alison DiLaurentis ( adoptive sister / maternal cousin ) </Li> <Li> Carol Ward ( maternal great aunt ; deceased ) </Li> <Li> Lily DiLaurentis - Fields ( adoptive maternal niece / second maternal cousin ) </Li> <Li> Grace DiLaurentis - Fields ( adoptive maternal niece / second maternal cousin ) </Li> </Ul> </Td> </Tr> <Tr> <Th> Significant other ( s ) </Th> <Td> <Ul> <Li> Eric Kahn ( ex-boyfriend ) </Li> <Li> Jason DiLaurentis ( ex-boyfriend ; dated for a Summer ) </Li> <Li> Archer Dunhill ( ex-boyfriend , in love with ; deceased ) </Li> </Ul> </Td> </Tr> <Tr> <Th> Nationality </Th> <Td> American </Td> </Tr> <Tr> <Th> Status </Th> <Td> Deceased </Td> </Tr> </Table>",
+    "source": "https://en.wikipedia.org//w/index.php?title=Charlotte_Drake&amp;oldid=802375382",
     "gold": [
       {
-        "content": "Our revenues and operating results are significantly affected by the timing, number and breadth of our theatrical releases and their\nbudgets, the timing of television syndication agreements, and our amortization policy for the first 12 months of commercial\nexploitation for a film. The timing of releases is determined based on several factors. A significant portion of the films we distribute\nare delivered to Indian theaters at times when theater attendance has traditionally been highest, including school holidays, national\nholidays and the festivals. This timing of releases also takes into account competitor film release dates, major cricket events in\nIndia and film production schedules. Significant holidays and festivals, such as Diwali, Eid and Christmas, occur during July to\nDecember each year, and the Indian Premier League cricket season generally occurs during April and May of each year. The Tamil\nNew Year, called Pongal, falls in January each year making the quarter ending March an important one for Tamil releases.",
+        "content": "<Table> <Tr> <Th_colspan=\"2\"> Charlotte Drake </Th> </Tr> <Tr> <Td_colspan=\"2\"> Pretty Little Liars and Pretty Dirty Secrets character </Td> </Tr> <Tr> <Td_colspan=\"2\"> Charlotte eavesdropping on a conversation between Ezra and Aria taking place at his apartment . </Td> </Tr> <Tr> <Th> First appearance </Th> <Td> <Ul> <Li> `` UnmAsked '' ( as Red Coat ) </Li> <Li> ( Season 2 , Episode 25 ) </Li> <Li> `` Crazy '' ( as CeCe ) </Li> <Li> ( Season 3 , Episode 7 ) </Li> </Ul> </Td> </Tr> <Tr> <Th> Last appearance </Th> <Td> <Ul> <Li> `` Till DeAth Do Us PArt '' </Li> <Li> ( Season 7 , Episode 20 ) </Li> </Ul> </Td> </Tr> <Tr> <Th> Created by </Th> <Td> I. Marlene King </Td> </Tr> <Tr> <Th> Portrayed by </Th> <Td> <Ul> <Li> Vanessa Ray </Li> <Li> Dylan Garza ( as a teenager ) </Li> <Li> Wyatt Hodge ( as a child ) </Li> </Ul> </Td> </Tr> <Tr> <Th> </Th> <Td> ( 1988 - 05 - 21 ) May 21 , 1988 </Td> </Tr> <Tr> <Th_colspan=\"2\"> Information </Th> </Tr> <Tr> <Th> Nickname ( s ) </Th> <Td> Big `` A '' Bitch Bully CeCe Charles Charlie Freak Freddie Him / Her / It Leopard Real Wolf of Wall Street Twisted Sister </Td> </Tr> <Tr> <Th> Aliases </Th> <Td> <Ul> <Li> Alison DiLaurentis </Li> <Li> CeCe Drake </Li> <Li> Charles DiLaurentis ( male adoptive name ) </Li> <Li> Charles Drake ( birth name ) </Li> <Li> Charlotte DiLaurentis ( female adoptive name ) </Li> <Li> Paul Varjak </Li> <Li> Red Coat </Li> <Li> Vivian Darkbloom </Li> </Ul> </Td> </Tr> <Tr> <Th> Gender </Th> <Td> Female ( MTF ) </Td> </Tr> <Tr> <Th> Occupation </Th> <Td> A ( formerly ) Red Coat ( formerly ) Owner of the Carissimi Group ( formerly ) Stylist ( formerly ) </Td> </Tr> <Tr> <Th> Affiliation </Th> <Td> The A-Team ( formerly ) </Td> </Tr> <Tr> <Th> Family </Th> <Td> <Ul> <Li> Mary Drake ( biological mother ) </Li> <Li> Ted Wilson ( biological father ) </Li> <Li> Spencer Hastings ( maternal half - sister ) </Li> <Li> Alex Drake ( maternal half - sister ) </Li> <Li> Jessica DiLaurentis ( adoptive mother / maternal aunt ; deceased ) </Li> <Li> Kenneth DiLaurentis ( adoptive father / maternal uncle ) </Li> <Li> Jason DiLaurentis ( adoptive maternal half - brother / maternal cousin ) </Li> <Li> Alison DiLaurentis ( adoptive sister / maternal cousin ) </Li> <Li> Carol Ward ( maternal great aunt ; deceased ) </Li> <Li> Lily DiLaurentis - Fields ( adoptive maternal niece / second maternal cousin ) </Li> <Li> Grace DiLaurentis - Fields ( adoptive maternal niece / second maternal cousin ) </Li> </Ul> </Td> </Tr> <Tr> <Th> Significant other ( s ) </Th> <Td> <Ul> <Li> Eric Kahn ( ex-boyfriend ) </Li> <Li> Jason DiLaurentis ( ex-boyfriend ; dated for a Summer ) </Li> <Li> Archer Dunhill ( ex-boyfriend , in love with ; deceased ) </Li> </Ul> </Td> </Tr> <Tr> <Th> Nationality </Th> <Td> American </Td> </Tr> <Tr> <Th> Status </Th> <Td> Deceased </Td> </Tr> </Table>",
         "type": "TEXT"
       }
     ]
   },
   {
-  "query": "In Eros International's report, what are the Three months ended periods that have gross revenue exceeding $70,000 thousand?",
-  "answer": "September 30, 2018,December 31, 2018,March 31, 2019",
-  "source": "/app/data/eros-international-plc_2019.pdf",
-  "gold": [
-    {
-      "content": "TAT-RAG/csvs/eros-international-plc_2019_page_113_table_0.csv",
-      "type": "FILE"
-    }
-  ]
-},
+    "query": "where was the tv show bonanza filmed at",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Ponderosa_Ranch&amp;oldid=832792474",
+    "gold": []
+  },
   {
-    "query": "In Overseas Shipholding Group's report, what is the change in Interest cost on benefit obligation for pension benefits from December 31, 2018 and 2019?",
-    "answer": "129",
-    "source": "/app/data/overseas-shipholding-group-inc_2019.pdf",
+    "query": "who made the first helicopter in the world",
+    "answer": "Paul Cornu",
+    "source": "https://en.wikipedia.org//w/index.php?title=Helicopter&amp;oldid=851327503",
     "gold": [
       {
-        "content": "TAT-RAG/csvs/overseas-shipholding-group-inc_2019_page_96_table_0.csv",
-        "type": "FILE"
+        "content": "Paul Cornu",
+        "type": "TEXT"
       }
     ]
   },
   {
-    "query": "What led to the decrease in interest expense of Overseas Shipholding Group?",
-    "answer": "primarily associated with the impact of the refinancing of our term loan at the end of 2018 and interest capitalized during 2019 due to vessels under construction.",
-    "source": "/app/data/overseas-shipholding-group-inc_2019.pdf",
+    "query": "what was the dog called in neverending story",
+    "answer": "Falkor",
+    "source": "https://en.wikipedia.org//w/index.php?title=List_of_The_Neverending_Story_characters&amp;oldid=864527036",
     "gold": [
       {
-        "content": "Interest expense, including administrative and other fees, was $25,633 for 2019 compared with $30,890 in 2018. The decrease in\ninterest expense was primarily associated with the impact of the refinancing of our term loan at the end of 2018 and interest\ncapitalized during 2019 due to vessels under construction.",
+        "content": "Falkor",
         "type": "TEXT"
       }
     ]
+  },
+  {
+    "query": "when does a firm have an opportunity to charge different prices to different consumers",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Price_discrimination&amp;oldid=826891755",
+    "gold": []
+  },
+  {
+    "query": "how many times pakistan won hockey world cup",
+    "answer": "four",
+    "source": "https://en.wikipedia.org//w/index.php?title=Hockey_World_Cup&amp;oldid=852799434",
+    "gold": [
+      {
+        "content": "four",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "name two items that are not fixed capital",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Fixed_capital&amp;oldid=829643950",
+    "gold": []
+  },
+  {
+    "query": "what number is bbc one hd on sky",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=BBC_HD&amp;oldid=845579897",
+    "gold": []
+  },
+  {
+    "query": "where did the origin of friday the 13th come from",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Friday_the_13th&amp;oldid=839903578",
+    "gold": []
+  },
+  {
+    "query": "where is the headoffice of rashtriya chemicals and fertilizers limited",
+    "answer": "Mumbai",
+    "source": "https://en.wikipedia.org//w/index.php?title=Rashtriya_Chemicals_%26_Fertilizers&amp;oldid=827293805",
+    "gold": [
+      {
+        "content": "Mumbai",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "which of the following was a major foreign policy development during the vietnam war",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Foreign_policy_of_the_John_F._Kennedy_administration&amp;oldid=844493468",
+    "gold": []
+  },
+  {
+    "query": "a program called the new deal was put into effect in which year",
+    "answer": "1933",
+    "source": "https://en.wikipedia.org//w/index.php?title=New_Deal&amp;oldid=835653397",
+    "gold": [
+      {
+        "content": "1933",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "where is the base of the fifth metacarpal",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Fifth_metacarpal_bone&amp;oldid=744718030",
+    "gold": []
+  },
+  {
+    "query": "one of romes most famous narrative art monuments is",
+    "answer": "Trajan 's column",
+    "source": "https://en.wikipedia.org//w/index.php?title=Roman_art&amp;oldid=845412849",
+    "gold": [
+      {
+        "content": "Trajan 's column",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who was the first character added to overwatch",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Characters_of_Overwatch&amp;oldid=832229479",
+    "gold": []
+  },
+  {
+    "query": "where did india east company made it’s first office",
+    "answer": "the Nags Head Inn , opposite St Botolph 's church in Bishopsgate",
+    "source": "https://en.wikipedia.org//w/index.php?title=East_India_Company&amp;oldid=834439119",
+    "gold": [
+      {
+        "content": "the Nags Head Inn , opposite St Botolph 's church in Bishopsgate",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what is the significance of the spanish steps",
+    "answer": "<P> The monumental stairway of 135 steps ( the slightly elevated drainage system is often mistaken for the first step ) was built with French diplomat Étienne Gueffier 's bequeathed funds of 20,000 scudi , in 1723 -- 1725 , linking the Bourbon Spanish Embassy , and the Trinità dei Monti church that was under the patronage of the Bourbon kings of France , both located above -- to the Holy See in Palazzo Monaldeschi located below . The stairway was designed by architects Francesco de Sanctis and Alessandro Specchi . </P>",
+    "source": "https://en.wikipedia.org//w/index.php?title=Spanish_Steps&amp;oldid=854243782",
+    "gold": [
+      {
+        "content": "<P> The monumental stairway of 135 steps ( the slightly elevated drainage system is often mistaken for the first step ) was built with French diplomat Étienne Gueffier 's bequeathed funds of 20,000 scudi , in 1723 -- 1725 , linking the Bourbon Spanish Embassy , and the Trinità dei Monti church that was under the patronage of the Bourbon kings of France , both located above -- to the Holy See in Palazzo Monaldeschi located below . The stairway was designed by architects Francesco de Sanctis and Alessandro Specchi . </P>",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "where will super bowl be held this year",
+    "answer": "U.S. Bank Stadium in Minneapolis , Minnesota",
+    "source": "https://en.wikipedia.org//w/index.php?title=Super_Bowl_LII&amp;oldid=838659554",
+    "gold": [
+      {
+        "content": "U.S. Bank Stadium in Minneapolis , Minnesota",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "when did alison krauss sing when you say nothing at all",
+    "answer": "In 1995",
+    "source": "https://en.wikipedia.org//w/index.php?title=When_You_Say_Nothing_at_All&amp;oldid=848553156",
+    "gold": [
+      {
+        "content": "In 1995",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "where will the winter olympics be held in 4 years",
+    "answer": "Beijing",
+    "source": "https://en.wikipedia.org//w/index.php?title=List_of_Olympic_Games_host_cities&amp;oldid=836847763",
+    "gold": [
+      {
+        "content": "Beijing",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "where was the andy griffith show filmed at",
+    "answer": "Desilu Studios",
+    "source": "https://en.wikipedia.org//w/index.php?title=The_Andy_Griffith_Show&amp;oldid=807591134",
+    "gold": [
+      {
+        "content": "Desilu Studios",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "the four seasons golden hits of the four seasons",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Golden_Hits_of_the_Four_Seasons&amp;oldid=811907748",
+    "gold": []
+  },
+  {
+    "query": "st. martin of tours catholic church louisville ky",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=St._Martin_of_Tours_Catholic_Church_(Louisville,_Kentucky)&amp;oldid=804154950",
+    "gold": []
+  },
+  {
+    "query": "it's the most wonderful time of the year johnny mathis",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=It%27s_the_Most_Wonderful_Time_of_the_Year&amp;oldid=864088139",
+    "gold": []
+  },
+  {
+    "query": "where was d day launched from in england",
+    "answer": "<Tr> <Td> <Table> <Tr> <Th_colspan=\"2\"> Invasion of Normandy </Th> </Tr> <Tr> <Td_colspan=\"2\"> Part of Operation Overlord ( World War II ) </Td> </Tr> <Tr> <Td_colspan=\"2\"> Into the Jaws of Death by Robert F. Sargent . Assault craft land one of the first waves at Omaha Beach . The U.S. Coast Guard caption identifies the unit as Company E , 16th Infantry , 1st Infantry Division . </Td> </Tr> <Tr> <Td_colspan=\"2\"> <Table> <Tr> <Th> Date </Th> <Td> 6 June 1944 -- mid-July 1944 </Td> </Tr> <Tr> <Th> Location </Th> <Td> Normandy , France Coordinates : 49 ° 20 ′ N 0 ° 34 ′ W ﻿ / ﻿ 49.333 ° N 0.567 ° W ﻿ / 49.333 ; - 0.567 </Td> </Tr> <Tr> <Th> Result </Th> <Td> Allied victory : German army retreats south towards Paris </Td> </Tr> </Table> </Td> </Tr> <Tr> <Th_colspan=\"2\"> Belligerents </Th> </Tr> <Tr> <Td> <P> Allies </P> United Kingdom United States Canada Free France Polish armed forces in the West Australia Free Belgian Forces New Zealand Dutch government - in - exile Norwegian government - in - exile Free Czechoslovak Forces Free Luxembourgish Forces Greek government - in - exile </Td> <Td> <P> Axis </P> Germany </Td> </Tr> <Tr> <Th_colspan=\"2\"> Commanders and leaders </Th> </Tr> <Tr> <Td> <P> Dwight D. Eisenhower ( Supreme Allied Commander ) Arthur Tedder ( Deputy Supreme Allied Commander ) Bernard Montgomery ( 21st Army Group , Ground Forces Commander in Chief ) Trafford Leigh - Mallory ( Air Commander in Chief ) Bertram Ramsay ( Naval Commander in Chief ) Miles Dempsey ( British 2nd Army ) </P> Omar Bradley ( U.S. 1st Army ) </Td> <Td> Gerd von Rundstedt ( Oberbefehlshaber West ) Erwin Rommel ( Heeresgruppe B) Friedrich Dollmann ( 7 Armeeoberkommando ) Leo Geyr von Schweppenburg ( Panzergruppe West ) </Td> </Tr> <Tr> <Th_colspan=\"2\"> Strength </Th> </Tr> <Tr> <Td> 1,332,000 ( by 24 July ) </Td> <Td> 380,000 ( by 23 July ) </Td> </Tr> <Tr> <Th_colspan=\"2\"> Casualties and losses </Th> </Tr> <Tr> <Td> by 24 July : ≈ 120,000 casualties </Td> <Td> by 24 July : 113,059 casualties </Td> </Tr> </Table> </Td> </Tr>",
+    "source": "https://en.wikipedia.org//w/index.php?title=Invasion_of_Normandy&amp;oldid=815326410",
+    "gold": [
+      {
+        "content": "<Tr> <Td> <Table> <Tr> <Th_colspan=\"2\"> Invasion of Normandy </Th> </Tr> <Tr> <Td_colspan=\"2\"> Part of Operation Overlord ( World War II ) </Td> </Tr> <Tr> <Td_colspan=\"2\"> Into the Jaws of Death by Robert F. Sargent . Assault craft land one of the first waves at Omaha Beach . The U.S. Coast Guard caption identifies the unit as Company E , 16th Infantry , 1st Infantry Division . </Td> </Tr> <Tr> <Td_colspan=\"2\"> <Table> <Tr> <Th> Date </Th> <Td> 6 June 1944 -- mid-July 1944 </Td> </Tr> <Tr> <Th> Location </Th> <Td> Normandy , France Coordinates : 49 ° 20 ′ N 0 ° 34 ′ W ﻿ / ﻿ 49.333 ° N 0.567 ° W ﻿ / 49.333 ; - 0.567 </Td> </Tr> <Tr> <Th> Result </Th> <Td> Allied victory : German army retreats south towards Paris </Td> </Tr> </Table> </Td> </Tr> <Tr> <Th_colspan=\"2\"> Belligerents </Th> </Tr> <Tr> <Td> <P> Allies </P> United Kingdom United States Canada Free France Polish armed forces in the West Australia Free Belgian Forces New Zealand Dutch government - in - exile Norwegian government - in - exile Free Czechoslovak Forces Free Luxembourgish Forces Greek government - in - exile </Td> <Td> <P> Axis </P> Germany </Td> </Tr> <Tr> <Th_colspan=\"2\"> Commanders and leaders </Th> </Tr> <Tr> <Td> <P> Dwight D. Eisenhower ( Supreme Allied Commander ) Arthur Tedder ( Deputy Supreme Allied Commander ) Bernard Montgomery ( 21st Army Group , Ground Forces Commander in Chief ) Trafford Leigh - Mallory ( Air Commander in Chief ) Bertram Ramsay ( Naval Commander in Chief ) Miles Dempsey ( British 2nd Army ) </P> Omar Bradley ( U.S. 1st Army ) </Td> <Td> Gerd von Rundstedt ( Oberbefehlshaber West ) Erwin Rommel ( Heeresgruppe B) Friedrich Dollmann ( 7 Armeeoberkommando ) Leo Geyr von Schweppenburg ( Panzergruppe West ) </Td> </Tr> <Tr> <Th_colspan=\"2\"> Strength </Th> </Tr> <Tr> <Td> 1,332,000 ( by 24 July ) </Td> <Td> 380,000 ( by 23 July ) </Td> </Tr> <Tr> <Th_colspan=\"2\"> Casualties and losses </Th> </Tr> <Tr> <Td> by 24 July : ≈ 120,000 casualties </Td> <Td> by 24 July : 113,059 casualties </Td> </Tr> </Table> </Td> </Tr>",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who negotiated the treaty for the united states",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Treaty_of_Guadalupe_Hidalgo&amp;oldid=826058148",
+    "gold": []
+  },
+  {
+    "query": "where do we come from what are we where are we going gauguin",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Where_Do_We_Come_From%3F_What_Are_We%3F_Where_Are_We_Going%3F&amp;oldid=841302634",
+    "gold": []
+  },
+  {
+    "query": "california high speed rail phase 1 completion date",
+    "answer": "2033",
+    "source": "https://en.wikipedia.org//w/index.php?title=California_High-Speed_Rail&amp;oldid=854153124",
+    "gold": [
+      {
+        "content": "2033",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "an overview of the schwartz theory of basic values",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Theory_of_Basic_Human_Values&amp;oldid=853152502",
+    "gold": []
+  },
+  {
+    "query": "curious incident of the dog in the nighttime character",
+    "answer": "Christopher John Francis Boone",
+    "source": "https://en.wikipedia.org//w/index.php?title=The_Curious_Incident_of_the_Dog_in_the_Night-Time&amp;oldid=816234177",
+    "gold": [
+      {
+        "content": "Christopher John Francis Boone",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "tyler perrys too close to home season 3",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Too_Close_to_Home_(TV_series)&amp;oldid=810254139",
+    "gold": []
+  },
+  {
+    "query": "when did season 3 of lovesick come out",
+    "answer": "1 January 2018",
+    "source": "https://en.wikipedia.org//w/index.php?title=Lovesick_(TV_series)&amp;oldid=826411425",
+    "gold": [
+      {
+        "content": "1 January 2018",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "when did the anaheim ducks change their logo",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Anaheim_Ducks&amp;oldid=826691258",
+    "gold": []
+  },
+  {
+    "query": "obelisk is a tall slender building or tower",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Obelisk&amp;oldid=864812224",
+    "gold": []
+  },
+  {
+    "query": "who was jason's mom on growing pains",
+    "answer": "Jane Powell as Irma Seaver",
+    "source": "https://en.wikipedia.org//w/index.php?title=Growing_Pains&amp;oldid=792918759",
+    "gold": [
+      {
+        "content": "Jane Powell as Irma Seaver",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who first measured the circumference of the earth",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Eratosthenes&amp;oldid=854033919",
+    "gold": []
+  },
+  {
+    "query": "how many episodes in season three of bloodline",
+    "answer": "10",
+    "source": "https://en.wikipedia.org//w/index.php?title=List_of_Bloodline_episodes&amp;oldid=814922846",
+    "gold": [
+      {
+        "content": "10",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who played ralph in lord of the flies",
+    "answer": "<P> Aubrey made his film debut at the age of 14 in the 1963 ( release date ) adaptation of Lord of the Flies in the lead role of Ralph . Aubrey portrayed Gavin Sorenson in the television adaptation of Bouquet of Barbed Wire ( 1976 ) and its sequel , Another Bouquet ( 1977 ) . He also worked with two cult British filmmakers , Norman J. Warren ( Terror , 1978 ) and Pete Walker ( Home Before Midnight , 1979 ) , and played the ill - fated pop singer B.J. in the Sex Pistols film The Great Rock ' n ' Roll Swindle ( 1980 ) . </P>",
+    "source": "https://en.wikipedia.org//w/index.php?title=James_Aubrey_(actor)&amp;oldid=829753403",
+    "gold": [
+      {
+        "content": "<P> Aubrey made his film debut at the age of 14 in the 1963 ( release date ) adaptation of Lord of the Flies in the lead role of Ralph . Aubrey portrayed Gavin Sorenson in the television adaptation of Bouquet of Barbed Wire ( 1976 ) and its sequel , Another Bouquet ( 1977 ) . He also worked with two cult British filmmakers , Norman J. Warren ( Terror , 1978 ) and Pete Walker ( Home Before Midnight , 1979 ) , and played the ill - fated pop singer B.J. in the Sex Pistols film The Great Rock ' n ' Roll Swindle ( 1980 ) . </P>",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "how many olympic metals did johnny weir win",
+    "answer": "two",
+    "source": "https://en.wikipedia.org//w/index.php?title=Johnny_Weir&amp;oldid=835333262",
+    "gold": [
+      {
+        "content": "two",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "he loves me... he loves me not movie",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=He_Loves_Me..._He_Loves_Me_Not_(film)&amp;oldid=843218552",
+    "gold": []
+  },
+  {
+    "query": "who drives the m and m car in nascar",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Kyle_Busch&amp;oldid=857034900",
+    "gold": []
+  },
+  {
+    "query": "how many episodes in season 7 of true blood",
+    "answer": "ten",
+    "source": "https://en.wikipedia.org//w/index.php?title=True_Blood_(season_7)&amp;oldid=829265220",
+    "gold": [
+      {
+        "content": "ten",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "how much money does clayton kershaw make a game",
+    "answer": "<P> Kershaw was drafted seventh overall in the 2006 MLB draft . He worked his way through the Dodgers ' farm system in just one full season , and reached the majors at 20 years old . When he debuted in 2008 , he was the youngest player in MLB , a title he held for one full year . In 2011 , he won the pitching Triple Crown and the National League Cy Young Award , becoming the youngest pitcher to accomplish either of these feats since Dwight Gooden in 1985 . During the 2013 off - season , the Dodgers signed Kershaw to a franchise record seven - year , $215 million contract extension . Kershaw pitched a no - hitter on June 18 , 2014 , becoming the 22nd Dodger to do so . Being a left - handed strikeout pitcher and playing for the Los Angeles Dodgers , Kershaw has often been compared to Hall of Fame pitcher Sandy Koufax . He became the first pitcher in history to lead MLB in ERA for four consecutive years when he did so in the 2011 through 2014 seasons . </P>",
+    "source": "https://en.wikipedia.org//w/index.php?title=Clayton_Kershaw&amp;oldid=866521591",
+    "gold": [
+      {
+        "content": "<P> Kershaw was drafted seventh overall in the 2006 MLB draft . He worked his way through the Dodgers ' farm system in just one full season , and reached the majors at 20 years old . When he debuted in 2008 , he was the youngest player in MLB , a title he held for one full year . In 2011 , he won the pitching Triple Crown and the National League Cy Young Award , becoming the youngest pitcher to accomplish either of these feats since Dwight Gooden in 1985 . During the 2013 off - season , the Dodgers signed Kershaw to a franchise record seven - year , $215 million contract extension . Kershaw pitched a no - hitter on June 18 , 2014 , becoming the 22nd Dodger to do so . Being a left - handed strikeout pitcher and playing for the Los Angeles Dodgers , Kershaw has often been compared to Hall of Fame pitcher Sandy Koufax . He became the first pitcher in history to lead MLB in ERA for four consecutive years when he did so in the 2011 through 2014 seasons . </P>",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "when was the last perfect game pitched in major league baseball",
+    "answer": "on August 15 , 2012 by Félix Hernández of the Seattle Mariners",
+    "source": "https://en.wikipedia.org//w/index.php?title=List_of_Major_League_Baseball_perfect_games&amp;oldid=800306192",
+    "gold": [
+      {
+        "content": "on August 15 , 2012 by Félix Hernández of the Seattle Mariners",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "length of lord of the rings extended edition",
+    "answer": "<Table> <Tr> <Th> Film </Th> <Th> Theatrical edition length </Th> <Th> Extended edition length </Th> </Tr> <Tr> <Td> The Fellowship of the Ring </Td> <Td> 178 mins </Td> <Td> 208 mins ( 228 with additional credits ) </Td> </Tr> <Tr> <Td> The Two Towers </Td> <Td> 179 mins </Td> <Td> 223 mins ( 235 with additional credits ) </Td> </Tr> <Tr> <Td> The Return of the King </Td> <Td> 200 mins </Td> <Td> 251 mins ( 263 with additional credits ) </Td> </Tr> </Table>",
+    "source": "https://en.wikipedia.org//w/index.php?title=The_Lord_of_the_Rings_(film_series)&amp;oldid=800871127",
+    "gold": [
+      {
+        "content": "<Table> <Tr> <Th> Film </Th> <Th> Theatrical edition length </Th> <Th> Extended edition length </Th> </Tr> <Tr> <Td> The Fellowship of the Ring </Td> <Td> 178 mins </Td> <Td> 208 mins ( 228 with additional credits ) </Td> </Tr> <Tr> <Td> The Two Towers </Td> <Td> 179 mins </Td> <Td> 223 mins ( 235 with additional credits ) </Td> </Tr> <Tr> <Td> The Return of the King </Td> <Td> 200 mins </Td> <Td> 251 mins ( 263 with additional credits ) </Td> </Tr> </Table>",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what do you mean by basic structure of indian constitution",
+    "answer": "that the Constitution of India has certain basic features that can not be altered or destroyed through amendments by the parliament",
+    "source": "https://en.wikipedia.org//w/index.php?title=Basic_structure_doctrine&amp;oldid=801300644",
+    "gold": [
+      {
+        "content": "that the Constitution of India has certain basic features that can not be altered or destroyed through amendments by the parliament",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "queens of the stone age greatest hits album",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Queens_of_the_Stone_Age&amp;oldid=816223352",
+    "gold": []
+  },
+  {
+    "query": "where did the queen mother lie in state",
+    "answer": "Westminster Hall at the Palace of Westminster",
+    "source": "https://en.wikipedia.org//w/index.php?title=Funeral_of_Queen_Elizabeth_The_Queen_Mother&amp;oldid=854260335",
+    "gold": [
+      {
+        "content": "Westminster Hall at the Palace of Westminster",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "when did daylight savings time end in 2017",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Daylight_saving_time&amp;oldid=828896745",
+    "gold": []
+  },
+  {
+    "query": "who gave the theory of separation of powers",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Separation_of_powers&amp;oldid=853894074",
+    "gold": []
+  },
+  {
+    "query": "how big is the us military compared to china",
+    "answer": "<Table> <Tr> <Th> </Th> </Tr> <Tr> <Td> Official name </Td> <Td> Armed Forces of the United States </Td> <Td> People 's Liberation Army 中国 人民 解放军 </Td> </Tr> <Tr> <Td> Service Branches </Td> <Td> U.S. Army <P> U.S. Marine Corps U.S. Navy U.S. Air Force U.S. Coast Guard </P> </Td> <Td> PLA Ground Force <P> PLA Navy PLA Air Force People 's Liberation Army Rocket Force People 's Armed Police </P> </Td> </Tr> <Tr> <Td> Leadership </Td> <Td> Commander - in - Chief President Donald Trump <P> Secretary of Defense James Mattis Chairman of the Joint Chiefs of Staff General Joseph Dunford </P> </Td> <Td> Chairman of Central Military Commission Xi Jinping <P> Minister of National Defense General Chang Wanquan Chief of PLA General Staff General Fang Fenghui </P> </Td> </Tr> <Tr> <Td> Active Personnel </Td> <Td> 1,429,995 approx . ( ranked 2nd ) </Td> <Td> 2,285,000 approx . ( ranked 1st ) </Td> </Tr> <Tr> <Td> Budget </Td> <Td> $692 billion ( FY10 ) ( 1st by total expenditure , 11th as percent of GDP ) </Td> <Td> $100 billion ( FY11 ) 603.1 billion Yuan ( 2011 ) ( ranked 2nd ) </Td> </Tr> <Tr> <Td> Percent of GDP </Td> <Td> 4.7 % ( 2010 est . ) </Td> <Td> 1.65 % ( 2011 est . ) </Td> </Tr> <Tr> <Td> Nuclear Arsenal </Td> <Td> 5,113 warheads ( ranked 2nd . ) </Td> <Td> 250 warheads ( ranked 4th . ) </Td> <Td> </Td> <Td> Major Wars and Events </Td> <Td> American War of Independence ( 1775 -- 1783 ) <P> Early national period ( 1783 -- 1812 ) War with Mexico ( 1846 -- 48 ) American Civil War ( 1861 -- 1865 ) Post -- Civil War era ( 1865 -- 1917 ) Indian Wars ( 1865 -- 1870 ) Spanish -- American War ( 1898 ) Philippine -- American War ( 1899 -- 1902 ) Banana Wars ( 1898 -- 1935 ) Moro Rebellion ( 1899 -- 1913 ) World War I ( 1917 -- 1918 ) World War II ( 1941 -- 1945 ) Cold War ( 1945 -- 1991 ) Korean War Vietnam War ( 1959 -- 1975 ) Gulf War ( 1991 ) Kosovo War ( 1999 ) War in Iraq ( 2001 -- present ) War in Afghanistan ( 2001 -- 14 ) Iraq War ( 2003 -- 2010 ) </P> </Td> <Td> Chinese Civil War against the Kuomintang ( KMT ) as the Chinese Red Army . ( 1927 -- 1949 ) <P> World War II against the Empire of Japan . ( 1937 -- 1945 ) Yangtze Incident ( the battle against British warships on the Yangtze River . ( 1949 ) Reclaiming of Tibet ( 1950 -- 1951 ) Korean War ( Under the banner of the Chinese People 's Volunteer Army ) . ( 1950 -- 1954 ) First Taiwan Strait Crisis. ( 1954 -- 1955 ) Second Taiwan Strait Crisis at Quemoy and Matsu. ( 1958 ) Sino - Indian War . ( 1962 -- 1962 ) Border skirmishes with India. ( 1967 ) Vietnam War ( over 320,000 Chinese soldiers served in North Vietnam throughout the war ) . ( 1965 -- 1970 ) Sino - Soviet border conflict . ( 1969 to 1978 ) Battle of the Paracel Islands . ( 1974 ) Sino - Vietnamese War . ( 1979 ) Border and naval skirmishes with Vietnam . ( 1986 , 1988 ) Tiananmen Square protests ( 1989 ) . Third Taiwan Strait Crisis. ( 1995 -- 1996 ) PLA Control of Hong Kong 's Military Defense ( 1997 ) PLA Control of Macau 's Military Defense ( 1999 ) </P> </Td> </Tr> </Table>",
+    "source": "https://en.wikipedia.org//w/index.php?title=Comparison_of_US_and_Chinese_Military_Armed_Forces&amp;oldid=797388436",
+    "gold": [
+      {
+        "content": "<Table> <Tr> <Th> </Th> </Tr> <Tr> <Td> Official name </Td> <Td> Armed Forces of the United States </Td> <Td> People 's Liberation Army 中国 人民 解放军 </Td> </Tr> <Tr> <Td> Service Branches </Td> <Td> U.S. Army <P> U.S. Marine Corps U.S. Navy U.S. Air Force U.S. Coast Guard </P> </Td> <Td> PLA Ground Force <P> PLA Navy PLA Air Force People 's Liberation Army Rocket Force People 's Armed Police </P> </Td> </Tr> <Tr> <Td> Leadership </Td> <Td> Commander - in - Chief President Donald Trump <P> Secretary of Defense James Mattis Chairman of the Joint Chiefs of Staff General Joseph Dunford </P> </Td> <Td> Chairman of Central Military Commission Xi Jinping <P> Minister of National Defense General Chang Wanquan Chief of PLA General Staff General Fang Fenghui </P> </Td> </Tr> <Tr> <Td> Active Personnel </Td> <Td> 1,429,995 approx . ( ranked 2nd ) </Td> <Td> 2,285,000 approx . ( ranked 1st ) </Td> </Tr> <Tr> <Td> Budget </Td> <Td> $692 billion ( FY10 ) ( 1st by total expenditure , 11th as percent of GDP ) </Td> <Td> $100 billion ( FY11 ) 603.1 billion Yuan ( 2011 ) ( ranked 2nd ) </Td> </Tr> <Tr> <Td> Percent of GDP </Td> <Td> 4.7 % ( 2010 est . ) </Td> <Td> 1.65 % ( 2011 est . ) </Td> </Tr> <Tr> <Td> Nuclear Arsenal </Td> <Td> 5,113 warheads ( ranked 2nd . ) </Td> <Td> 250 warheads ( ranked 4th . ) </Td> <Td> </Td> <Td> Major Wars and Events </Td> <Td> American War of Independence ( 1775 -- 1783 ) <P> Early national period ( 1783 -- 1812 ) War with Mexico ( 1846 -- 48 ) American Civil War ( 1861 -- 1865 ) Post -- Civil War era ( 1865 -- 1917 ) Indian Wars ( 1865 -- 1870 ) Spanish -- American War ( 1898 ) Philippine -- American War ( 1899 -- 1902 ) Banana Wars ( 1898 -- 1935 ) Moro Rebellion ( 1899 -- 1913 ) World War I ( 1917 -- 1918 ) World War II ( 1941 -- 1945 ) Cold War ( 1945 -- 1991 ) Korean War Vietnam War ( 1959 -- 1975 ) Gulf War ( 1991 ) Kosovo War ( 1999 ) War in Iraq ( 2001 -- present ) War in Afghanistan ( 2001 -- 14 ) Iraq War ( 2003 -- 2010 ) </P> </Td> <Td> Chinese Civil War against the Kuomintang ( KMT ) as the Chinese Red Army . ( 1927 -- 1949 ) <P> World War II against the Empire of Japan . ( 1937 -- 1945 ) Yangtze Incident ( the battle against British warships on the Yangtze River . ( 1949 ) Reclaiming of Tibet ( 1950 -- 1951 ) Korean War ( Under the banner of the Chinese People 's Volunteer Army ) . ( 1950 -- 1954 ) First Taiwan Strait Crisis. ( 1954 -- 1955 ) Second Taiwan Strait Crisis at Quemoy and Matsu. ( 1958 ) Sino - Indian War . ( 1962 -- 1962 ) Border skirmishes with India. ( 1967 ) Vietnam War ( over 320,000 Chinese soldiers served in North Vietnam throughout the war ) . ( 1965 -- 1970 ) Sino - Soviet border conflict . ( 1969 to 1978 ) Battle of the Paracel Islands . ( 1974 ) Sino - Vietnamese War . ( 1979 ) Border and naval skirmishes with Vietnam . ( 1986 , 1988 ) Tiananmen Square protests ( 1989 ) . Third Taiwan Strait Crisis. ( 1995 -- 1996 ) PLA Control of Hong Kong 's Military Defense ( 1997 ) PLA Control of Macau 's Military Defense ( 1999 ) </P> </Td> </Tr> </Table>",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "where are the atlas and axis bones found",
+    "answer": "joint connecting the skull and spine",
+    "source": "https://en.wikipedia.org//w/index.php?title=Atlas_(anatomy)&amp;oldid=765916553",
+    "gold": [
+      {
+        "content": "joint connecting the skull and spine",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who claimed responsibility for the bombing of the embassy in beirut",
+    "answer": "Islamic Jihad Organization",
+    "source": "https://en.wikipedia.org//w/index.php?title=1983_United_States_embassy_bombing&amp;oldid=831803971",
+    "gold": [
+      {
+        "content": "Islamic Jihad Organization",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "how much percentage of oxygen is in the air",
+    "answer": "20.95 % oxygen",
+    "source": "https://en.wikipedia.org//w/index.php?title=Atmosphere_of_Earth&amp;oldid=842819720",
+    "gold": [
+      {
+        "content": "20.95 % oxygen",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what was the number one song on october 2 1975",
+    "answer": "I 'm Sorry",
+    "source": "https://en.wikipedia.org//w/index.php?title=List_of_Billboard_Hot_100_number-one_singles_of_1975&amp;oldid=846953647",
+    "gold": [
+      {
+        "content": "I 'm Sorry",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who made the song i need a hero",
+    "answer": "Bonnie Tyler",
+    "source": "https://en.wikipedia.org//w/index.php?title=Holding_Out_for_a_Hero&amp;oldid=799624639",
+    "gold": [
+      {
+        "content": "Bonnie Tyler",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "african countries to reach world cup quarter finals",
+    "answer": "Ghana",
+    "source": "https://en.wikipedia.org//w/index.php?title=African_nations_at_the_FIFA_World_Cup&amp;oldid=833203096",
+    "gold": [
+      {
+        "content": "Ghana",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who created the mouse that is used with computers today",
+    "answer": "Douglas Engelbart",
+    "source": "https://en.wikipedia.org//w/index.php?title=Computer_mouse&amp;oldid=802340145",
+    "gold": [
+      {
+        "content": "Douglas Engelbart",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who is the highest ranking air force officer",
+    "answer": "General David L. Goldfein",
+    "source": "https://en.wikipedia.org//w/index.php?title=Chief_of_Staff_of_the_United_States_Air_Force&amp;oldid=813393818",
+    "gold": [
+      {
+        "content": "General David L. Goldfein",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what was the primary aim of the akali movement which arose in the punjab in 1920",
+    "answer": "to bring reform in the gurdwaras ( the Sikh places of worship ) in India during the early 1920s",
+    "source": "https://en.wikipedia.org//w/index.php?title=Akali_movement&amp;oldid=836952472",
+    "gold": [
+      {
+        "content": "to bring reform in the gurdwaras ( the Sikh places of worship ) in India during the early 1920s",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who declared thanksgiving a national holiday in canada",
+    "answer": "Vincent Massey",
+    "source": "https://en.wikipedia.org//w/index.php?title=Thanksgiving_(Canada)&amp;oldid=815296942",
+    "gold": [
+      {
+        "content": "Vincent Massey",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "krishna institute of medical sciences karad official website",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Krishna_Institute_of_Medical_Sciences&amp;oldid=842524536",
+    "gold": []
+  },
+  {
+    "query": "who played in the movie grumpy old man",
+    "answer": "<Ul> <Li> Jack Lemmon as John Gustafson Jr . </Li> <Li> Walter Matthau as Max Goldman </Li> <Li> Ann - Margret as Ariel Truax </Li> <Li> Burgess Meredith as John Gustafson Sr . </Li> <Li> Daryl Hannah as Melanie Gustafson </Li> <Li> Kevin Pollak as Jacob Goldman </Li> <Li> Ossie Davis as Chuck ( Bait Shop Owner ) </Li> <Li> Buck Henry as Elliott Snyder ( IRS Agent ) </Li> <Li> Christopher McDonald as Mike </Li> <Li> Steve Cochran as Weatherman </Li> <Li> Joe Howard as Pharmacist </Li> </Ul>",
+    "source": "https://en.wikipedia.org//w/index.php?title=Grumpy_Old_Men_(film)&amp;oldid=860290884",
+    "gold": [
+      {
+        "content": "<Ul> <Li> Jack Lemmon as John Gustafson Jr . </Li> <Li> Walter Matthau as Max Goldman </Li> <Li> Ann - Margret as Ariel Truax </Li> <Li> Burgess Meredith as John Gustafson Sr . </Li> <Li> Daryl Hannah as Melanie Gustafson </Li> <Li> Kevin Pollak as Jacob Goldman </Li> <Li> Ossie Davis as Chuck ( Bait Shop Owner ) </Li> <Li> Buck Henry as Elliott Snyder ( IRS Agent ) </Li> <Li> Christopher McDonald as Mike </Li> <Li> Steve Cochran as Weatherman </Li> <Li> Joe Howard as Pharmacist </Li> </Ul>",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what was the impact of the federal deposit insurance corporation",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Federal_Deposit_Insurance_Corporation&amp;oldid=842834096",
+    "gold": []
+  },
+  {
+    "query": "when do we vote for a new governor in california",
+    "answer": "November 6 , 2018",
+    "source": "https://en.wikipedia.org//w/index.php?title=California_gubernatorial_election,_2018&amp;oldid=835582620",
+    "gold": [
+      {
+        "content": "November 6 , 2018",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what is the position of indian currency in the world",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=International_rankings_of_India&amp;oldid=805021420",
+    "gold": []
+  },
+  {
+    "query": "national hospital for neurology and neurosurgery queens square",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=National_Hospital_for_Neurology_and_Neurosurgery&amp;oldid=811694470",
+    "gold": []
+  },
+  {
+    "query": "where did the iberian peninsula get its name",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Iberian_Peninsula&amp;oldid=836911670",
+    "gold": []
+  },
+  {
+    "query": "economic system with minimal government regulation or intervention",
+    "answer": "Economic interventionism",
+    "source": "https://en.wikipedia.org//w/index.php?title=Economic_interventionism&amp;oldid=812347810",
+    "gold": [
+      {
+        "content": "Economic interventionism",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who played the agent in a star is born",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Karl_Urban&amp;oldid=865131530",
+    "gold": []
+  },
+  {
+    "query": "who sang i just dropped in to see",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Just_Dropped_In_(To_See_What_Condition_My_Condition_Was_In)&amp;oldid=829860176",
+    "gold": []
+  },
+  {
+    "query": "where does an atom's mass come from",
+    "answer": "protons and neutrons",
+    "source": "https://en.wikipedia.org//w/index.php?title=Atomic_mass&amp;oldid=839514112",
+    "gold": [
+      {
+        "content": "protons and neutrons",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what was the first country that germany annexed in 1938 thus setting off world war ii",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=German_occupation_of_Czechoslovakia&amp;oldid=855997637",
+    "gold": []
+  },
+  {
+    "query": "who plays johanna in sweeney todd the movie",
+    "answer": "Jayne Wisener",
+    "source": "https://en.wikipedia.org//w/index.php?title=Sweeney_Todd:_The_Demon_Barber_of_Fleet_Street_(2007_film)&amp;oldid=835278706",
+    "gold": [
+      {
+        "content": "Jayne Wisener",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "when does human embryo implant to the wall of the uterus",
+    "answer": "between 6 and 12 days",
+    "source": "https://en.wikipedia.org//w/index.php?title=Implantation_(human_embryo)&amp;oldid=795636200",
+    "gold": [
+      {
+        "content": "between 6 and 12 days",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "many countries accuse the united states of cultural imperialism meaning that they believe the u.s",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=American_imperialism&amp;oldid=808781713",
+    "gold": []
+  },
+  {
+    "query": "is american general life insurance part of aig",
+    "answer": "<P> The early 2000s saw a marked period of growth as AIG acquired American General Corporation , a leading domestic life insurance and annuities provider , and AIG entered new markets including India . In February 2000 , AIG created a strategic advisory venture team with the Blackstone Group and Kissinger Associates `` to provide financial advisory services to corporations seeking high level independent strategic advice . '' AIG was an investor in Blackstone from 1998 to March 2012 , when it sold all of its shares in the company . Blackstone acted as an adviser for AIG during the 2007 - 2008 financial crisis . </P>",
+    "source": "https://en.wikipedia.org//w/index.php?title=American_International_Group&amp;oldid=853662669",
+    "gold": [
+      {
+        "content": "<P> The early 2000s saw a marked period of growth as AIG acquired American General Corporation , a leading domestic life insurance and annuities provider , and AIG entered new markets including India . In February 2000 , AIG created a strategic advisory venture team with the Blackstone Group and Kissinger Associates `` to provide financial advisory services to corporations seeking high level independent strategic advice . '' AIG was an investor in Blackstone from 1998 to March 2012 , when it sold all of its shares in the company . Blackstone acted as an adviser for AIG during the 2007 - 2008 financial crisis . </P>",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "where is zone a in tampa florida located",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Tampa,_Florida&amp;oldid=805522385",
+    "gold": []
+  },
+  {
+    "query": "who starred in it's a mad mad world",
+    "answer": "Edie Adams",
+    "source": "https://en.wikipedia.org//w/index.php?title=It%27s_a_Mad,_Mad,_Mad,_Mad_World&amp;oldid=804337736",
+    "gold": [
+      {
+        "content": "Edie Adams",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what is the force of gravity at the surface of mars",
+    "answer": "3.72076 ms ( about 38 % of that of Earth )",
+    "source": "https://en.wikipedia.org//w/index.php?title=Gravity_of_Mars&amp;oldid=856160956",
+    "gold": [
+      {
+        "content": "3.72076 ms ( about 38 % of that of Earth )",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what is the name of @ in english",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=English_name&amp;oldid=826668398",
+    "gold": []
+  },
+  {
+    "query": "who sang get a little help from my friends",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=With_a_Little_Help_from_My_Friends&amp;oldid=806457540",
+    "gold": []
+  },
+  {
+    "query": "who said time flies like an arrow but fruit flies like a banana",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Time_flies_like_an_arrow;_fruit_flies_like_a_banana&amp;oldid=826861022",
+    "gold": []
+  },
+  {
+    "query": "big knife that carried by knives in armour",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Ballistic_knife&amp;oldid=856086910",
+    "gold": []
+  },
+  {
+    "query": "when does the new andi mack come out on disney now",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Andi_Mack&amp;oldid=854724058",
+    "gold": []
+  },
+  {
+    "query": "how many soldiers are in the indian army",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Indian_Armed_Forces&amp;oldid=848813976",
+    "gold": []
+  },
+  {
+    "query": "meaning of billy joel's and so it goes",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=And_So_It_Goes&amp;oldid=840451870",
+    "gold": []
+  },
+  {
+    "query": "which of the following was not a problem in europe in the century leading up to world war i",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=International_relations_of_the_Great_Powers_(1814%E2%80%931919)&amp;oldid=818158982",
+    "gold": []
+  },
+  {
+    "query": "who did the warriors lose to in 2015",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=2015%E2%80%9316_Golden_State_Warriors_season&amp;oldid=826029505",
+    "gold": []
+  },
+  {
+    "query": "where is the germany sweden game being played",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=2018_FIFA_World_Cup_Group_F&amp;oldid=855673291",
+    "gold": []
+  },
+  {
+    "query": "who was the first person to get verified on twitter",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Use_of_Twitter_by_public_figures&amp;oldid=839552371",
+    "gold": []
+  },
+  {
+    "query": "who played greg martinson on the cosby show",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=Don_Franklin&amp;oldid=799004779",
+    "gold": []
+  },
+  {
+    "query": "where is the chandra x ray telescope located",
+    "answer": "Earth satellite in a 64 - hour orbit",
+    "source": "https://en.wikipedia.org//w/index.php?title=Chandra_X-ray_Observatory&amp;oldid=841184084",
+    "gold": [
+      {
+        "content": "Earth satellite in a 64 - hour orbit",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who holds the record for most grand slams tennis",
+    "answer": "",
+    "source": "https://en.wikipedia.org//w/index.php?title=List_of_Grand_Slam_related_tennis_records&amp;oldid=851412525",
+    "gold": []
   }
 ]

@@ -8,7 +8,7 @@ Baseline chunker (`scripts/chunking_baseline.py`)
 - Text parsing: page-level block parsing with multi-column detection; heading heuristics to tag `section_path`.
 - Table handling: extracts tables via Tabula to CSVs and emits table chunks with metadata.
 - Metadata: per-chunk hashes, page numbers, section names, doc ids; preserves ordering; parallel per-PDF.
-- I/O: reads PDFs from `/app/tat_docs_test/`, writes chunks to `/app/data/chunks_all.jsonl`, tables to `/app/data/csvs/`; skips files listed in `not_included.txt`.
+- I/O: reads PDFs from `/app/original_text/`, writes chunks to `/app/data/chunks_all.jsonl`, tables to `/app/data/csvs/`; skips files listed in `not_included.txt`.
 
 Naive chunker (`scripts/chunking_naive.py`)
 - Token budget: 512 tokens per chunk, 30% overlap; no minimum length guard.
