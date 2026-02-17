@@ -52,8 +52,22 @@ docker-compose.yml
 output/
 *.log
 
+# Large local data (mounted at runtime, not baked into image)
+original_text/
+data/
+logs/
+requests/
+
 # Models (downloaded inside container)
 models/
+
+# Caches
+.cache/
+cache/
+hf_cache/
+
+# Node / frontend artifacts
+node_modules/
 
 # OS
 .DS_Store
