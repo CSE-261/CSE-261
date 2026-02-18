@@ -341,17 +341,10 @@ class DocumentIngestion:
                     if context_header:
                         metadata.setdefault("context_header", context_header)
 
-                    # Include metadata header in content to help BM25/Hybrid, especially for tables
+                    # For pre-chunked JSONL (our case), keep payload text clean to align with gold snippets.
                     content_with_header = raw_content
-                    if context_header:
-                        if raw_content:
-                            content_with_header = f"{context_header}\n\n{raw_content}"
-                        else:
-                            content_with_header = context_header
-
-                    embedding_text = self._add_metadata_context(
-                        content_with_header, metadata, doc_id
-                    )
+                    # Embedding text likewise uses the clean content (no prefixed header)
+                    embedding_text = content_with_header
 
                     yield {
                         "content": content_with_header,

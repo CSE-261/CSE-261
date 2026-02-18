@@ -111,12 +111,8 @@ def process_record(obj: Dict[str, Any], order_base: int) -> List[Dict[str, Any]]
         context_path = section["context"]
         para_text = section["text"]
         
-        # 将上下文拼接到文本前，提供给 Embedding 模型计算向量
-        if context_path:
-            full_text = f"[{context_path}]\n{para_text}"
-        else:
-            full_text = para_text
-            
+        # 不在文本里加前缀，保持与 gold 片段更一致；结构信息放到 metadata
+        full_text = para_text
         chunks = chunk_text(full_text, CONFIG["max_chunk_tokens"], CONFIG["chunk_overlap"])
         
         for chunk in chunks:
@@ -127,7 +123,7 @@ def process_record(obj: Dict[str, Any], order_base: int) -> List[Dict[str, Any]]
                 "doc_id": doc_id,
                 "source": source,
                 "type": "text",
-                "section_path": context_path,  # <- 方便向量数据库做 Metadata 过滤
+                "section_path": context_path,  # 结构路径放 metadata
                 "page": 1,
                 "pages": [1],
                 "order": order_base + offset,

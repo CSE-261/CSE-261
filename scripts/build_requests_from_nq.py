@@ -17,7 +17,9 @@ from bs4 import BeautifulSoup
 SRC = Path("/app/original_text/v1.0-simplified_simplified-nq-train.jsonl")
 DST = Path("/app/requests/requests.json")
 LIMIT = 100
-WINDOW = 200  # tokens to extend before/after the annotated span for evidence
+# Keep gold snippets closer to chunked paragraph length; original chunker uses ~512-token max.
+# A 80-token window (before/after combined) yields ~160-token spans, closer to paragraph chunks.
+WINDOW = 80   # tokens to extend before/after the annotated span for evidence
 ANSWER_MAX_WORDS = 20  # cap answer length
 
 def strip_html(text: str) -> str:
