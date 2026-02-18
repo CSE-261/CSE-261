@@ -96,6 +96,9 @@ def query_command(args):
 
 def evaluate_command(args):
     """Handle evaluation command."""
+    import json
+    import pandas as pd
+
     config = RAGConfig()
     rag = RAGPipeline(config)
     evaluator = RAGEvaluator(rag)
@@ -127,9 +130,19 @@ def evaluate_command(args):
         logger.error("Evaluation requires --cache-path, --json-path, --csv-path, or both --question and --ground-truth")
         sys.exit(1)
 
-    # Generate and display report
     report = evaluator.generate_report(result, args.output)
     print(report)
+
+    if args.save_details:
+        if hasattr(result, 'to_pandas'):
+            df = result.to_pandas()
+            details_data = df.to_dict(orient="records")
+            with open(args.save_details, "w", encoding="utf-8") as f:
+                json.dump(details_data, f, ensure_ascii=False, indent=2)
+            
+            logger.info(f"Detailed evaluation results saved to {args.save_details}")
+        else:
+            logger.warning("Result object does not support .to_pandas(), skipping detail save.")
 
 
 def main():
@@ -175,6 +188,7 @@ def main():
     eval_parser.add_argument("--ground-truth-col", default="ground_truth",
                             help="Name of ground truth column")
     eval_parser.add_argument("--output", help="Path to save evaluation report")
+    eval_parser.add_argument("--save-details", help="Path to save detailed results (Q, A, Contexts, Scores) as JSON")
     eval_parser.set_defaults(func=evaluate_command)
 
     args = parser.parse_args()

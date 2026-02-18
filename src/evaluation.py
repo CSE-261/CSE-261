@@ -21,7 +21,6 @@ from ragas.metrics import (
 )
 
 from langchain_ollama import ChatOllama
-from langchain_aws import ChatBedrock
 from langchain_core.language_models.chat_models import BaseChatModel
 from langchain_core.messages import BaseMessage, AIMessage
 from langchain_core.outputs import ChatGeneration, ChatResult
@@ -103,6 +102,103 @@ class GeminiChatAdapter(BaseChatModel):
     @property
     def _llm_type(self) -> str:
         return "gemini-provider-adapter"
+
+
+class BedrockChatAdapter(BaseChatModel):
+    """LangChain chat wrapper over our BedrockProvider (supports chat models like deepseek)."""
+
+    model_config = ConfigDict(arbitrary_types_allowed=True)
+
+    provider: BedrockProvider = Field(...)
+    temperature: float = Field(...)
+    max_tokens: int = Field(...)
+
+    @staticmethod
+    def _flatten_content(content: Any) -> str:
+        if isinstance(content, str):
+            return content
+        if isinstance(content, list):
+            parts: List[str] = []
+            for item in content:
+                if isinstance(item, dict) and "text" in item:
+                    parts.append(str(item["text"]))
+                else:
+                    parts.append(str(item))
+            return "".join(parts)
+        return "" if content is None else str(content)
+
+    def _convert_messages(self, messages: List[BaseMessage]) -> List[Dict[str, str]]:
+        converted: List[Dict[str, str]] = []
+        for msg in messages:
+            role_type = getattr(msg, "type", "user")
+            if role_type in ("ai", "assistant"):
+                role = "assistant"
+            elif role_type == "system":
+                role = "system"
+            else:
+                role = "user"
+            converted.append({
+                "role": role,
+                "content": self._flatten_content(msg.content).strip(),
+            })
+        return converted
+
+    def _generate(
+        self,
+        messages: List[BaseMessage],
+        stop: Optional[List[str]] = None,
+        run_manager: Optional[Any] = None,
+        **kwargs: Any
+    ) -> ChatResult:
+        converted_messages = self._convert_messages(messages)
+        response = self.provider.generate(
+            messages=converted_messages,
+            temperature=self.temperature,
+            max_tokens=self.max_tokens,
+        )
+        text = response.get("content", "") or ""
+        ai_message = AIMessage(content=text)
+        generation = ChatGeneration(
+            message=ai_message,
+            text=text,
+            generation_info={"usage": response.get("usage")}
+        )
+        llm_output = {
+            "usage": response.get("usage"),
+            "model": response.get("model"),
+        }
+        return ChatResult(generations=[generation], llm_output=llm_output)
+
+    @property
+    def _llm_type(self) -> str:
+        return "bedrock-provider-adapter"
+
+
+class RagasEmbeddingAdapter:
+    """Adapter to provide ragas-required embed_text using existing embedding provider."""
+
+    def __init__(self, provider):
+        self.provider = provider
+
+    def embed_documents(self, texts: List[str]):
+        return self.provider.embed_documents(texts)
+
+    def embed_query(self, text: str):
+        return self.provider.embed_query(text)
+
+    def embed_text(self, text: str):
+        # ragas may call embed_text for single strings
+        return self.provider.embed_documents([text])[0]
+
+    # Async counterparts for ragas async executor compatibility
+    async def aembed_documents(self, texts: List[str]):
+        return self.embed_documents(texts)
+
+    async def aembed_query(self, text: str):
+        return self.embed_query(text)
+
+    async def aembed_text(self, text: str):
+        return self.embed_text(text)
 
 
 class RAGEvaluator:
@@ -192,14 +288,15 @@ class RAGEvaluator:
         if metrics is None:
             metrics = [
                 faithfulness,
-                answer_relevancy,
-                context_precision,
+                # answer_relevancy,
+                # context_precision,
             ]
             # Add metrics that require ground truth only if available
             if ground_truths is not None:
                 metrics.extend([
                     context_recall,
-                    # answer_correctness, # Disabled for smaller models that struggle with JSON output
+                    answer_correctness,
+                    # answer_similarity,
                 ])
 
         # Create a compatible LangChain chat model for ragas based on provider type
@@ -211,11 +308,11 @@ class RAGEvaluator:
                 base_url=llm_provider.base_url,
             )
         elif isinstance(llm_provider, BedrockProvider):
-            # Bedrock with Claude models (native ChatBedrock support)
-            chat_model = ChatBedrock(
-                model_id=llm_provider.model_name,
-                region_name=llm_provider.region_name,
-                client=llm_provider.client
+            # Use custom adapter to support chat models (deepseek, etc.)
+            chat_model = BedrockChatAdapter(
+                provider=llm_provider,
+                temperature=self.rag_pipeline.config.llm.temperature,
+                max_tokens=self.rag_pipeline.config.llm.max_tokens
             )
         elif isinstance(llm_provider, GeminiProvider):
             chat_model = GeminiChatAdapter(
@@ -231,7 +328,7 @@ class RAGEvaluator:
             kwargs = {
                 "metrics": metrics,
                 "llm": chat_model,
-                "embeddings": self.rag_pipeline.embedding_provider,
+                "embeddings": RagasEmbeddingAdapter(self.rag_pipeline.embedding_provider),
             }
             if RunConfig is not None:
                 ragas_cfg = self.rag_pipeline.config.ragas

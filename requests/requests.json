@@ -31,7 +31,7 @@
   },
   {
     "query": "what type of fertilisation takes place in humans",
-    "answer": "<P> The process of fertilization involves a sperm fusing with an ovum . The most common sequence begins with ejaculation",
+    "answer": "The process of fertilization involves a sperm fusing with an ovum . The most common sequence begins with ejaculation",
     "source": "https://en.wikipedia.org//w/index.php?title=Human_fertilization&amp;oldid=831042507",
     "gold": [
       {
@@ -51,17 +51,6 @@
       },
       {
         "content": "leaders Career scoring leaders Brett Favre 's career achievements Peyton Manning 's career achievements The following is a list of the top National Football League ( NFL ) quarterbacks in wins . In the NFL , the quarterback is the only position that is credited with records of wins and losses . Active quarterback Tom Brady holds the records for most wins with 220 , most regular season wins with 195 , and most postseason wins with 25 , as of Week 16 of the 2017 NFL season . Having played the entirety of his career with the New England Patriots , each of Brady 's win records also apply to wins with a single team . Among retired players , the record for most wins is held by Peyton Manning with 200 .",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "what happened to the lost settlement of roanoke",
-    "answer": "Roanoke Colony - wikipedia Roanoke Colony Jump to : navigation , search `` Lost Colony '' redirects here . For",
-    "source": "https://en.wikipedia.org//w/index.php?title=Roanoke_Colony&amp;oldid=843591647",
-    "gold": [
-      {
-        "content": "Roanoke Colony - wikipedia Roanoke Colony Jump to : navigation , search `` Lost Colony '' redirects here . For other uses , see Lost Colony ( disambiguation ) . This article 's lead section does not adequately summarize key points of its contents . Please consider expanding the lead to provide an accessible overview of all important aspects of the article . Please discuss this issue on the article 's talk page . ( March 2018 ) Roanoke Colony Colony of England 1585 -- c. 1590 Virginea Pars map , drawn by John White during his initial visit in 1585 . Roanoke is the small pink island in the middle right of the map . History Established 1585 Birth of Virginia Dare August 18 , 1587 Abandoned Before August c. 1590",
         "type": "TEXT"
       }
     ]
@@ -93,19 +82,8 @@
     ]
   },
   {
-    "query": "who did the voice of the magician in frosty the snowman",
-    "answer": "Frosty the Snowman ( film ) - wikipedia Frosty the Snowman ( film ) Jump to : navigation , search",
-    "source": "https://en.wikipedia.org//w/index.php?title=Frosty_the_Snowman_(film)&amp;oldid=826437974",
-    "gold": [
-      {
-        "content": "Frosty the Snowman ( film ) - wikipedia Frosty the Snowman ( film ) Jump to : navigation , search This article needs additional citations for verification . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . ( December 2011 ) ( Learn how and when to remove this template message ) Frosty the Snowman DVD cover Based on `` Frosty the Snowman '' by Steve Nelson Jack Rollins Written by Romeo Muller Directed by Jules Bass Arthur Rankin , Jr . Starring Billy De Wolfe Jackie Vernon Paul Frees June Foray Narrated by Jimmy Durante Theme music composer Maury Laws Country of origin United States Japan Original language ( s ) English Production Producer (",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
     "query": "what indian tribe did the acadians form friendships and alliances with",
-    "answer": "<P> The survival of the Acadian settlements was based on successful cooperation with the Indigenous peoples of the region .",
+    "answer": "The survival of the Acadian settlements was based on successful cooperation with the Indigenous peoples of the region .",
     "source": "https://en.wikipedia.org//w/index.php?title=History_of_the_Acadians&amp;oldid=844900571",
     "gold": [
       {
@@ -115,19 +93,8 @@
     ]
   },
   {
-    "query": "what is considered the outer banks in north carolina",
-    "answer": "Outer Banks - wikipedia Outer Banks Jump to : navigation , search The Outer Banks , separating the Atlantic Ocean",
-    "source": "https://en.wikipedia.org//w/index.php?title=Outer_Banks&amp;oldid=843381612",
-    "gold": [
-      {
-        "content": "Outer Banks - wikipedia Outer Banks Jump to : navigation , search The Outer Banks , separating the Atlantic Ocean ( east ) from Currituck and Albemarle Sounds ( north ) and Pamlico Sound ( south ) Aerial view of Outer banks ( looking north ) , with ocean on the right and sound on the left The Outer Banks ( OBX ) is a 200 - mile - long ( 320 km ) string of barrier islands and spits off the coast of North Carolina and southeastern Virginia , on the east coast of the United States . They cover most of the North Carolina coastline , separating the Currituck Sound , Albemarle Sound , and Pamlico Sound from the Atlantic Ocean . The Outer Banks are a major tourist destination and are known around the world for their subtropical climate and wide expanse of open beachfront . The Cape Hatteras National Seashore has four campgrounds open to visitors . The treacherous seas off the Outer Banks and the large number of shipwrecks that have occurred there have given these seas the nickname Graveyard of the Atlantic . The Graveyard of the Atlantic Museum",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
     "query": "who is deputy cm of j and k",
-    "answer": "<Table> <Tr> <Th_colspan=\"2\"> Deputy Chief Minister of Jammu and Kashmir </Th> </Tr> <Tr> <Td_colspan=\"2\"> Incumbent Vacant since 20 June 2018",
+    "answer": "Deputy Chief Minister of Jammu and Kashmir Incumbent Vacant since 20 June 2018",
     "source": "https://en.wikipedia.org//w/index.php?title=Deputy_Chief_Minister_of_Jammu_and_Kashmir&amp;oldid=846661163",
     "gold": [
       {
@@ -148,34 +115,12 @@
     ]
   },
   {
-    "query": "actual time taken from start to finish to produce one unit of value",
-    "answer": "Takt time - wikipedia Takt time Jump to : navigation , search `` Takt '' redirects here . For the",
-    "source": "https://en.wikipedia.org//w/index.php?title=Takt_time&amp;oldid=800753460",
-    "gold": [
-      {
-        "content": "Takt time - wikipedia Takt time Jump to : navigation , search `` Takt '' redirects here . For the chamber ensemble in Arab music , see Takht ( music ) . For other uses of `` takht '' , see Takht . This article relies largely or entirely on a single source . Relevant discussion may be found on the talk page . Please help improve this article by introducing citations to additional sources . ( October 2010 ) Takt time is the average time between the start of production of one unit and the start of production of the next unit , when these production starts are set to match the rate of customer demand . For example , if a customer wants 10 units per week , then , given a 40 - hour work week and steady flow through the production line , the average time between production starts should be 4 hours , yielding 10 units produced per week . Note , a common misconception is that takt time is related to the time it takes to actually make the product . In the",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
     "query": "i had trouble in getting to solla sellew",
     "answer": "I Had trouble in Getting to Solla Sollew - wikipedia I Had trouble in Getting to Solla Sollew Jump to",
     "source": "https://en.wikipedia.org//w/index.php?title=I_Had_Trouble_in_Getting_to_Solla_Sollew&amp;oldid=805651999",
     "gold": [
       {
         "content": "I Had trouble in Getting to Solla Sollew - wikipedia I Had trouble in Getting to Solla Sollew Jump to : navigation , search I Had Trouble in Getting to Solla Sollew Author Dr. Seuss Country United States Language English Genre Children 's literature Publisher Random House Publication date 1965 ( renewed 1993 ) Media type Print ( Hardcover and paperback ) OCLC 1425583 Preceded by Fox in Socks Followed by The Cat in the Hat Song Book Children 's literature portal I Had Trouble in Getting to Solla Sollew is a 1965 children 's book by Dr. Seuss . The story features classic Seuss rhymes and drawings in his distinctive pen and ink style . The book is a first - person narrative told",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "ed sheeran i ' m in love with your body",
-    "answer": "Shape of You - wikipedia Shape of You Jump to : navigation , search For the Beverley Knight song ,",
-    "source": "https://en.wikipedia.org//w/index.php?title=Shape_of_You&amp;oldid=826239448",
-    "gold": [
-      {
-        "content": "Shape of You - wikipedia Shape of You Jump to : navigation , search For the Beverley Knight song , see Shape of You ( Reshaped ) . `` Shape of You '' Single by Ed Sheeran from the album ÷ Released 6 January 2017 ( 2017 - 01 - 06 ) Format CD digital download Recorded 2016 Genre Pop dancehall tropical house Length 3 : 53 Label Asylum Atlantic Songwriter ( s ) Ed Sheeran Steve Mac Johnny McDaid Kandi Burruss Tameka Cottle Kevin Briggs Producer ( s ) Ed Sheeran Steve Mac",
         "type": "TEXT"
       }
     ]
@@ -191,17 +136,6 @@
       },
       {
         "content": "early 1960s , the Nashville sound began to be challenged by the rival Bakersfield sound on the country side and by the British Invasion on the pop side ; compounding these problems were the sudden deaths , in separate airplane crashes , of Patsy Cline and Jim Reeves , two of the Nashville Sound 's biggest stars . Nashville 's pop song structure became more pronounced and it morphed into what was called Countrypolitan - a smoother sound typified through the use of lush string arrangements with a real orchestra and often , background vocals provided by a choir . Countrypolitan was aimed straight at mainstream markets and it sold well throughout the later 1960s into the early 1970s . Among the architects of this sound were producers Billy Sherrill ( who was instrumental in shaping Tammy Wynette 's early career ) and Glenn Sutton . Artists who typified the countrypolitan sound initially included Wynette , Glen Campbell ( who recorded in Hollywood and not Nashville ) , Lynn Anderson , Charlie Rich , and Charley Pride , the",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "the new atlantis a journal of technology and society",
-    "answer": "The New Atlantis ( journal ) - wikipedia The New Atlantis ( journal ) Jump to : navigation , search",
-    "source": "https://en.wikipedia.org//w/index.php?title=The_New_Atlantis_(journal)&amp;oldid=803542973",
-    "gold": [
-      {
-        "content": "The New Atlantis ( journal ) - wikipedia The New Atlantis ( journal ) Jump to : navigation , search The New Atlantis Editor Ari Schulman Frequency Quarterly Publisher The Center for the Study of Technology and Society , The Ethics and Public Policy Center Year founded 2003 ( 2003 ) Based in Washington , D.C. Language English Website www.thenewatlantis.com ISSN 1543 - 1215 ( print ) 1555 - 5569 ( web ) OCLC number 56518547 The New Atlantis , founded in 2003 , is a quarterly journal about the social , ethical , political , and policy dimensions of modern science and technology . The journal is published in Washington , D.C. by the social conservative advocacy group the Ethics and Public Policy Center in partnership with the Center for the Study of Technology and Society",
         "type": "TEXT"
       }
     ]
@@ -245,7 +179,7 @@
   },
   {
     "query": "what is the use of jdk in java",
-    "answer": "<P> The Java Development Kit ( JDK ) is an implementation of either one of the Java Platform , Standard",
+    "answer": "The Java Development Kit ( JDK ) is an implementation of either one of the Java Platform , Standard",
     "source": "https://en.wikipedia.org//w/index.php?title=Java_Development_Kit&amp;oldid=837037556",
     "gold": [
       {
@@ -280,17 +214,6 @@
       },
       {
         "content": "and directed by Michael Mason . It is the third installment of the God 's Not Dead series , following the 2014 film and its 2016 sequel . It stars David A.R. White , John Corbett , Shane Harper , Benjamin Onyango , Ted McGinley , Jennifer Taylor , Tatum O'Neal , Shwayze and Cissy Houston . Principal photography was completed in Little Rock , Arkansas in December 2017 . It was released in the United States on March 30 , 2018 . Unlike the first two films , A Light in Darkness was a box office bomb , making less in its entire theatrical run ( $5.7 million ) than the others grossed in their respective opening weekends ( $9.7 million and $7.6 million ) . Contents ( hide ) 1 Plot summary 2 Cast 3 Production 4 Reception 4.1 Box office 4.2 Critical",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "who plays young flo in the progressive commercials",
-    "answer": "Stephanie Courtney - wikipedia Stephanie Courtney Jump to : navigation , search Stephanie Courtney ( 1970 - 02 - 08",
-    "source": "https://en.wikipedia.org//w/index.php?title=Stephanie_Courtney&amp;oldid=842546602",
-    "gold": [
-      {
-        "content": "Stephanie Courtney - wikipedia Stephanie Courtney Jump to : navigation , search Stephanie Courtney ( 1970 - 02 - 08 ) February 8 , 1970 ( age 48 ) Stony Point , New York , U.S. Occupation Actress , comedian Years active 1995 -- present Known for Flo in Progressive Insurance ads Spouse ( s ) Scott Kolanach ( m . 2008 ) Stephanie Courtney ( born February 8 , 1970 ) is an American actress and comedian , best known for playing the advertising character Flo in television and radio commercials for Progressive Corporation beginning in 2008 , and noted for her recurring roles on several television series , including the voices of Renee the Receptionist and Joy Peters on the Adult Swim comedy Tom Goes to the Mayor ( 2004 -- 06 ) , Marge on the AMC drama Mad Men ( 2007 ) ; and Diane on the ABC comedy Cavemen ( 2007 ) . She also appeared",
         "type": "TEXT"
       }
     ]
@@ -339,28 +262,6 @@
       },
       {
         "content": "Inaugural holder Paul - Henri Spaak Formation 1946 Website List of Presidents of the UN General Assembly The President of the United Nations General Assembly is a position voted for by representatives in the United Nations General Assembly ( UNGA ) on a yearly basis . The President presides over the sessions of the General Assembly . Miroslav Lajčák of Slovakia has been elected as the United Nations General Assembly President of its 72nd session beginning in September 2017 . Contents ( hide ) 1 Election 2 List of presidents 3 See also 4 References 5 External links Election ( edit ) A map of the world showing the home countries of Presidents of the United Nations General Assembly up",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "why does the author say that the vampire in nosferatu is named count orlok and not count dracula",
-    "answer": "Count Dracula - wikipedia Count Dracula Jump to : navigation , search For the film , see Count Dracula (",
-    "source": "https://en.wikipedia.org//w/index.php?title=Count_Dracula&amp;oldid=800643279",
-    "gold": [
-      {
-        "content": "Count Dracula - wikipedia Count Dracula Jump to : navigation , search For the film , see Count Dracula ( 1970 film ) . For other uses , see Dracula ( disambiguation ) . Count Dracula Dracula character Bela Lugosi as Count Dracula in the 1931 film Dracula . Created by Bram Stoker Portrayed by See below Information Nickname ( s ) Evil Eye Ordog Pokol Stregoika Vrolok Vlkoslag D . Nosferatu Aliases Dracula Count De Ville Mr. De Ville Species Vampire Undead human Werewolf Gender Male Title Transylvanian Noble Voivode of Wallachia Solomonari Vampire King Spouse ( s ) Possibly Brides of Dracula ( unclear ) Nationality Székely Count Dracula is the title character of Bram Stoker 's 1897 gothic horror novel Dracula .",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "what season does chris pratt join the office",
-    "answer": "Andy Dwyer - wikipedia Andy Dwyer Jump to : navigation , search Andy Dwyer Parks and Recreation character First appearance",
-    "source": "https://en.wikipedia.org//w/index.php?title=Andy_Dwyer&amp;oldid=801935128",
-    "gold": [
-      {
-        "content": "Andy Dwyer - wikipedia Andy Dwyer Jump to : navigation , search Andy Dwyer Parks and Recreation character First appearance `` Pilot '' Last appearance `` One Last Ride '' Portrayed by Chris Pratt Information Aliases Burt Macklin , FBI Kip Hackman Andy Radical Tim Buckanowski Brother Nature Johnny Karate Johnathon Karate Sgt . Thunderfist , MD Eagle One Gender Male Occupation Shoeshinist ( shoeshiner ) Musician Assistant O'possum Tackle Security Officer Star of Johnny Karate 's Super Awesome Musical Explosion Show Spouse ( s ) April Ludgate Significant other ( s ) Ann Perkins ( ex-girlfriend ) Children Burt Snakehole Ludgate Karate Dracula Macklin Demon Jack - o - Lantern `` Jack '' Dwyer Sir Andrew Maxwell `` Andy '' Dwyer KBE / ˈdwaɪ.",
         "type": "TEXT"
       }
     ]
@@ -426,17 +327,6 @@
     ]
   },
   {
-    "query": "when was all that is gold does not glitter written",
-    "answer": "All that is gold does not glitter - wikipedia All that is gold does not glitter Jump to : navigation",
-    "source": "https://en.wikipedia.org//w/index.php?title=All_that_is_gold_does_not_glitter&amp;oldid=810397593",
-    "gold": [
-      {
-        "content": "All that is gold does not glitter - wikipedia All that is gold does not glitter Jump to : navigation , search This article is written like a personal reflection or opinion essay that states a Wikipedia editor 's personal feelings about a topic . Please help improve it by rewriting it in an encyclopedic style . ( January 2017 ) ( Learn how and when to remove this template message ) This article possibly contains original research . Please improve it by verifying the claims made and adding inline citations . Statements consisting only of original research should be removed . ( September 2016 ) ( Learn how and when to remove this template message ) `` All That is Gold Does Not Glitter '' ( alternatively known as `` The Riddle of Strider '' or `` Song of Aragorn '' ) is a poem written by J.R.R. Tolkien for his fantasy novel The Lord of the Rings . It alludes to an integral part of the plot , and describes Aragorn , son of Arathorn .",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
     "query": "what is the musical term for fast tempo",
     "answer": "List of Italian musical terms used in English - wikipedia List of Italian musical terms used in English Jump to",
     "source": "https://en.wikipedia.org//w/index.php?title=List_of_Italian_musical_terms_used_in_English&amp;oldid=802664430",
@@ -460,7 +350,7 @@
   },
   {
     "query": "once upon a time season 6 episode list",
-    "answer": "<Table> <Tr> <Th> No . overall </Th> <Th> No. in season </Th> <Th> Title </Th> <Th> Directed by </Th> <Th>",
+    "answer": "No . overall No. in season Title Directed by",
     "source": "https://en.wikipedia.org//w/index.php?title=Once_Upon_a_Time_(season_6)&amp;oldid=848398047",
     "gold": [
       {
@@ -471,22 +361,11 @@
   },
   {
     "query": "where is a georgia concealed carry permit valid",
-    "answer": "<P> Georgia reciprocates in recognizing firearms licenses with the following states : Alabama , Alaska , Arizona , Arkansas ,",
+    "answer": "Georgia reciprocates in recognizing firearms licenses with the following states : Alabama , Alaska , Arizona , Arkansas ,",
     "source": "https://en.wikipedia.org//w/index.php?title=Gun_laws_in_Georgia&amp;oldid=801284260",
     "gold": [
       {
         "content": "also 4 References Overview ( edit ) On June 8 , 2010 , Senate Bill 308 was signed by Governor Sonny Perdue reforming and clarifying many of Georgia 's Gun Laws , while leaving certain restrictions in place . Georgia is a `` shall issue '' state , with the Georgia Weapons Carry License application to be submitted through the probate court of the county of residence . Georgia reciprocates in recognizing firearms licenses with the following states : Alabama , Alaska , Arizona , Arkansas , Colorado , Florida , Idaho , Indiana , Iowa , Kansas , Kentucky , Louisiana , Maine , Michigan , Mississippi , Missouri , Montana , New Hampshire , North Carolina , North Dakota , Ohio , Oklahoma , Pennsylvania , South Carolina , South Dakota , Tennessee , Texas , Utah , Virginia , West Virginia , Wisconsin , and Wyoming . South Carolina H3799 was signed by Gov Haley on June 3 , 2016 , allowing reciprocity with Georgia CCW permits . There are a number of ways a firearm can be carried without a permit . No permit is needed : To carry a firearm in a person 's home , place of business , or vehicle To carry a long gun in a fully open and exposed manner To",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "when does a tv show go into syndication",
-    "answer": "Broadcast syndication - Wikipedia Broadcast syndication Jump to : navigation , search hide This article has multiple issues . Please",
-    "source": "https://en.wikipedia.org//w/index.php?title=Broadcast_syndication&amp;oldid=837862653",
-    "gold": [
-      {
-        "content": "Broadcast syndication - Wikipedia Broadcast syndication Jump to : navigation , search hide This article has multiple issues . Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these template messages ) This article needs additional citations for verification . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . ( April 2008 ) ( Learn how and when to remove this template message ) This article possibly contains original research . Please improve it by verifying the claims made and adding inline citations . Statements consisting only of original research should be removed . ( February 2011 ) ( Learn how and when to remove this template message ) This article may be in need of reorganization to comply with Wikipedia 's layout guidelines . Please help by editing the article to make improvements to the overall structure . ( March 2018 ) ( Learn how and when to remove",
         "type": "TEXT"
       }
     ]
@@ -513,17 +392,6 @@
       },
       {
         "content": "Brodie - Sangster , Dexter Darden , Nathalie Emmanuel , Giancarlo Esposito , Aidan Gillen , Walton Goggins , Ki Hong Lee , Jacob Lofland , Katherine McNamara , Barry Pepper , Will Poulter , Rosa Salazar , and Patricia Clarkson . Maze Runner : The Death Cure was originally set to be released on February 17 , 2017 , in the United States by 20th Century Fox , but the studio rescheduled the film 's release for January 26 , 2018 in theatres and IMAX , allowing time for O'Brien to recover from injuries he sustained during filming . The film received mixed reviews from critics and has grossed over $272 million worldwide . Contents ( hide ) 1 Plot 2 Cast 3 Production 3.1 Filming 4 Release 5 Reception 5.1 Box office 5.2 Critical response",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "where does the san andres fault start and end",
-    "answer": "San Andreas fault - wikipedia San Andreas fault Jump to : navigation , search For other uses , see San",
-    "source": "https://en.wikipedia.org//w/index.php?title=San_Andreas_Fault&amp;oldid=808545169",
-    "gold": [
-      {
-        "content": "San Andreas fault - wikipedia San Andreas fault Jump to : navigation , search For other uses , see San Andreas ( disambiguation ) . San Andreas Fault Aerial photo of the San Andreas Fault Map of the San Andreas Fault showing relative motion Etymology San Andreas Lake Named by Andrew Lawson Year defined 1895 Country United States State California Cities San Francisco Characteristics Segments Calaveras , Hayward , Elsinore , Imperial , Laguna Salada , San Jacinto Length 1,200 km ( 750 mi ) Displacement 20 -- 35 mm ( 0.79 -- 1.38 in ) / yr Tectonics Plate North American & Pacific Status Active Earthquakes",
         "type": "TEXT"
       }
     ]
@@ -598,7 +466,7 @@
   },
   {
     "query": "when were the plus and minus signs first recorded",
-    "answer": "<P> In Europe in the early 15th century the letters `` P '' and `` M '' were generally used",
+    "answer": "In Europe in the early 15th century the letters `` P '' and `` M '' were generally used",
     "source": "https://en.wikipedia.org//w/index.php?title=Plus_and_minus_signs&amp;oldid=837938555",
     "gold": [
       {
@@ -609,7 +477,7 @@
   },
   {
     "query": "where does the phrase bob's your uncle come from",
-    "answer": "<P> ... And Bob 's your uncle is an expression of unknown origin , that means `` and there it",
+    "answer": "... And Bob 's your uncle is an expression of unknown origin , that means `` and there it",
     "source": "https://en.wikipedia.org//w/index.php?title=Bob%27s_your_uncle&amp;oldid=802574284",
     "gold": [
       {
@@ -620,7 +488,7 @@
   },
   {
     "query": "the one where chandler and monica get engaged",
-    "answer": "<P> After searching all day , Chandler hurries back to his apartment and when he gets there , Joey meets",
+    "answer": "After searching all day , Chandler hurries back to his apartment and when he gets there , Joey meets",
     "source": "https://en.wikipedia.org//w/index.php?title=The_One_with_the_Proposal&amp;oldid=804200917",
     "gold": [
       {
@@ -660,17 +528,6 @@
     ]
   },
   {
-    "query": "who said mangal bhawan amangal haari dravahu so dasrath ajir bihari to whom",
-    "answer": "Ramcharitmanas - Wikipedia Ramcharitmanas Jump to : navigation , search Ramcharitmanas Sri Sita Rama , Lakshmana and Hanuman Information Religion",
-    "source": "https://en.wikipedia.org//w/index.php?title=Ramcharitmanas&amp;oldid=817801488",
-    "gold": [
-      {
-        "content": "Ramcharitmanas - Wikipedia Ramcharitmanas Jump to : navigation , search Ramcharitmanas Sri Sita Rama , Lakshmana and Hanuman Information Religion Hinduism Author Tulsidas Language Awadhi dialect of Hindi Verses 10,902 A Ramlila actor playing Ravana in traditional attire . Ramcharitmanas ( Devanāgarī : श्रीरामचरितमानस , IAST : ŚrīRāmacaritamānasa ) , is an epic poem in the language Awadhi , composed by the 16th - century Indian bhakti poet Goswami Tulsidas ( c. 1532 -- 1623 ) . Ramcharitmanas literally means `` Lake of the deeds of Rama '' . Ramcharitmanas is considered as one of the greatest works of Hindi literature , Indian literature as well as of the world literature . The work has variously been acclaimed as `` the living sum of Indian culture '' , `` the tallest tree in the magic garden of medieval Indian poetry '' , `` the greatest book of all devotional literature '' and `` the best and most trustworthy guide",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
     "query": "when did usa start driving on the right",
     "answer": "late 1700s",
     "source": "https://en.wikipedia.org//w/index.php?title=Left-_and_right-hand_traffic&amp;oldid=815780618",
@@ -681,28 +538,6 @@
       },
       {
         "content": "on the left . Mainland China drives on the right . Some historians , such as C. Northcote Parkinson , believed that ancient travellers on horseback or on foot generally kept to the left , since most people were right handed . If two men riding on horseback were to start a fight , each would edge toward the left . In the year 1300 , Pope Boniface VIII directed pilgrims to keep left . In the late 1700s , traffic in the United States was RHT based on teamsters ' use of large freight wagons pulled by several pairs of horses . The wagons had no driver 's seat , so the ( typically right - handed ) postilion held his whip in his right hand and thus sat on the left rear horse . Seated on the left , the driver preferred that other wagons pass him on the left so that he could be sure to",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "into the badlands season 1 and 2 recap",
-    "answer": "Into the Badlands ( TV series ) - Wikipedia Into the Badlands ( TV series ) Jump to : navigation",
-    "source": "https://en.wikipedia.org//w/index.php?title=Into_the_Badlands_(TV_series)&amp;oldid=843571355",
-    "gold": [
-      {
-        "content": "Into the Badlands ( TV series ) - Wikipedia Into the Badlands ( TV series ) Jump to : navigation , search Into the Badlands Genre Action Adventure Drama Wuxia Created by Alfred Gough Miles Millar Starring Daniel Wu Orla Brady Sarah Bolger Aramis Knight Emily Beecham Oliver Stark Madeleine Mantock Ally Ioannides Marton Csokas Nick Frost Lorraine Toussaint Babou Ceesay Ella - Rae Smith Sherman Augustus Theme music composer Mike Shinoda Composer ( s ) Dave Shephard Trevor Yuile ( season 2 ) Country of origin United States Original language ( s ) English",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "hitchhiker's guide to the galaxy slartibartfast quotes",
-    "answer": "Slartibartfast - wikipedia Slartibartfast Jump to : navigation , search Slartibartfast Richard Vernon as Slartibartfast in the 1981 TV series",
-    "source": "https://en.wikipedia.org//w/index.php?title=Slartibartfast&amp;oldid=822369600",
-    "gold": [
-      {
-        "content": "Slartibartfast - wikipedia Slartibartfast Jump to : navigation , search Slartibartfast Richard Vernon as Slartibartfast in the 1981 TV series . Vernon first played the character on radio in 1978 and on the subsequent LP rerecording of the first radio series . First appearance Fit the Third ( radio ) Created by Douglas Adams Portrayed by Richard Vernon ( radio and TV ) Richard Griffiths ( radio ) Bill Nighy ( film ) Information Species Magrathean Gender Male Slartibartfast is a character in The Hitchhiker 's Guide to the Galaxy , a comedy / science fiction series created by Douglas Adams . The character appears in the first and third novels , the first and third radio series ( and the LP adaptation of the first radio series ) , the 1981 television series and the 2005 feature film . The character was modelled after actor John Le Mesurier .",
         "type": "TEXT"
       }
     ]
@@ -757,30 +592,8 @@
     ]
   },
   {
-    "query": "who sang the song when you say nothing at all",
-    "answer": "When You Say Nothing at All - wikipedia When You Say Nothing at All Jump to : navigation , search",
-    "source": "https://en.wikipedia.org//w/index.php?title=When_You_Say_Nothing_at_All&amp;oldid=837584838",
-    "gold": [
-      {
-        "content": "When You Say Nothing at All - wikipedia When You Say Nothing at All Jump to : navigation , search `` When You Say Nothing at All '' Single by Keith Whitley from the album Do n't Close Your Eyes B - side `` Lucky Dog '' Released August 1988 Format 7 '' vinyl Recorded Genre Country Length 3 : 40 Label RCA Nashville Songwriter ( s ) Paul Overstreet Don Schlitz Producer ( s ) Garth Fundis , Keith Whitley Keith Whitley singles chronology `` Do n't Close Your Eyes '' ( 1988 ) `` When You Say Nothing at All '' ( 1988 ) `` I",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "what was dennis hopper's bike in easy rider",
-    "answer": "Easy Rider - wikipedia Easy Rider Jump to : navigation , search This article is about the film . For",
-    "source": "https://en.wikipedia.org//w/index.php?title=Easy_Rider&amp;oldid=834515183",
-    "gold": [
-      {
-        "content": "Easy Rider - wikipedia Easy Rider Jump to : navigation , search This article is about the film . For other uses , see Easy Rider ( disambiguation ) . Easy Rider Original poster Directed by Dennis Hopper Produced by Peter Fonda Written by Peter Fonda Dennis Hopper Terry Southern Starring Peter Fonda Dennis Hopper Jack Nicholson Music by The Band The Byrds The Jimi Hendrix Experience Roger McGuinn Steppenwolf Cinematography László Kovács Edited by Donn Cambern Production company Raybert Productions Pando Company Distributed by Columbia Pictures Release date July 14 , 1969 ( 1969 - 07 - 14 ) Running time 95 minutes Country United States",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
     "query": "is hong kong a part of the commonwealth",
-    "answer": "<P> The transfer of sovereignty over Hong Kong in 1997 ended the colony 's ties to the Commonwealth through the",
+    "answer": "The transfer of sovereignty over Hong Kong in 1997 ended the colony 's ties to the Commonwealth through the",
     "source": "https://en.wikipedia.org//w/index.php?title=Commonwealth_of_Nations&amp;oldid=814669361",
     "gold": [
       {
@@ -791,7 +604,7 @@
   },
   {
     "query": "where can pulse be felt in the body",
-    "answer": "<P> In medicine , a pulse represents the tactile arterial palpation of the heartbeat by trained fingertips . The pulse",
+    "answer": "In medicine , a pulse represents the tactile arterial palpation of the heartbeat by trained fingertips . The pulse",
     "source": "https://en.wikipedia.org//w/index.php?title=Pulse&amp;oldid=853519745",
     "gold": [
       {
@@ -807,17 +620,6 @@
     "gold": [
       {
         "content": "I Am a Fugitive from a Georgia Chain Gang ! - Wikipedia I Am a Fugitive from a Georgia Chain Gang ! This article needs additional citations for verification . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . ( December 2009 ) ( Learn how and when to remove this template message ) I Am a Fugitive from a Georgia Chain Gang ! is a book written by Robert Elliott Burns in 1932 and published by Grosset & Dunlap . The book tells the story of Burns ' imprisonment on a chain gang in Georgia in the 1920s , his subsequent escape , and the furor that developed . The story was first published in January 1932 , serialized in True Detective Mysteries magazine . Later that year , Burns ' story was made into the motion picture I Am a Fugitive from a Chain Gang , starring Paul Muni . The book and movie were both credited with helping to reform deplorable conditions on Deep South chain gangs under Governor Ellis Arnall in 1943",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "where was 10 things i hate about you filmed school",
-    "answer": "Stadium High school - wikipedia Stadium High school Jump to : navigation , search Stadium High School Address 111 North",
-    "source": "https://en.wikipedia.org//w/index.php?title=Stadium_High_School&amp;oldid=834153020",
-    "gold": [
-      {
-        "content": "Stadium High school - wikipedia Stadium High school Jump to : navigation , search Stadium High School Address 111 North E Street Tacoma , Pierce , Washington 98403 United States Information School type Public Status open School district Tacoma Public Schools CEEB code 481395 Principal Kevin Ikeda Grades 9 - 12 Campus type Closed School color ( s ) Royal Blue , Gold Mascot Tiger Nickname Tigers Newspaper Stadium World Yearbook Tahoma Website Website Stadium High School is a public high school in Tacoma , Washington , and a historic landmark . It is part of Tacoma",
         "type": "TEXT"
       }
     ]
@@ -850,7 +652,7 @@
   },
   {
     "query": "how long does it take for the moon to go around earth",
-    "answer": "<Table> Orbit of the Moon <Tr> <Td> </Td> </Tr> <Tr> <Td> Diagram of the Moon 's orbit with respect to",
+    "answer": "Orbit of the Moon Diagram of the Moon 's orbit with respect to",
     "source": "https://en.wikipedia.org//w/index.php?title=Orbit_of_the_Moon&amp;oldid=828269670",
     "gold": [
       {
@@ -871,34 +673,12 @@
     ]
   },
   {
-    "query": "where does the last name aponte come from",
-    "answer": "Aponte - wikipedia Aponte Jump to : navigation , search Aponte may refer to : Surname : Galician and Portuguese",
-    "source": "https://en.wikipedia.org//w/index.php?title=Aponte&amp;oldid=768794101",
-    "gold": [
-      {
-        "content": "Aponte - wikipedia Aponte Jump to : navigation , search Aponte may refer to : Surname : Galician and Portuguese : from a misdivision of Daponte , a topographic name from da ponte ' from the bridge ' Carlos Aponte , Colombian footballerc Christopher Aponte , American ballet dancer Edwin David Aponte ( born 1957 ) , American historian and theologian Gabriel Cano de Aponte ( 1665 -- 1733 ) , Spanish soldier and Royal Governor of Chile Gianluigi Aponte ( born 1940 ) , Italian businessman Javier Aponte Dalmau , Puerto Rican politician José Aponte ( disambiguation ) , several people Kevin Aponte ( born 1990 ) , Puerto Rican actor Luis Aponte ( born 1953 ) , Venezuelan baseball player Luis Aponte Martínez ( 1922 -- 2012 ) , Puerto Rican Catholic cardinal Manuel Alejandro Aponte Gómez ( 1974 -- 2014 ) , Mexican drug cartel leader Marco Aponte ( born 1966 ) , Venezuelan academic and performer Mari Carmen Aponte ( born 1946 ) ,",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
     "query": "two words used together that mean the same thing",
     "answer": "Tautology ( language ) - wikipedia Tautology ( language ) This article is about tautology in language . For other",
     "source": "https://en.wikipedia.org//w/index.php?title=Tautology_(language)&amp;oldid=864342086",
     "gold": [
       {
         "content": "Tautology ( language ) - wikipedia Tautology ( language ) This article is about tautology in language . For other uses , see Tautology ( disambiguation ) . In literary criticism and rhetoric , a tautology is a statement which repeats the same idea , using near - synonymous morphemes , words , or phrases , that is , `` saying the same thing twice '' . Tautology and pleonasm are not consistently differentiated in the literature . Like pleonasm , it is often considered a fault of style when unintentional . On the other hand , an intentional repetition may be an effective way to emphasize a thought , or help the listener or reader understand a point . Sometimes logical tautologies like `` Boys will be boys '' are conflated with language tautologies , but in general , a rhetorical tautology is not inherently true . Contents 1 Etymology 2 Examples 3 Discussion 4 See also 5 References 6 External links Etymology ( edit ) The word was coined",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "difference between medium and higher level of occupation",
-    "answer": "High - and low - level - Wikipedia High - and low - level Jump to : navigation , search",
-    "source": "https://en.wikipedia.org//w/index.php?title=High-_and_low-level&amp;oldid=802772186",
-    "gold": [
-      {
-        "content": "High - and low - level - Wikipedia High - and low - level Jump to : navigation , search This article does not cite any sources . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . ( December 2009 ) ( Learn how and when to remove this template message ) High - level and low - level are typically terms used to classify , describe and point to specific goals of a systematic operation , though its uses also vary depending on the context - such as use in computer science versus business administration . In general , high - level is used to describe operations that are more abstract in nature , where overall goals and systemic features are typically more concerned with the wider , macro system as a whole . Alternatively , a low - level description is one that describes more specific individual components of a systematic operation , focusing on the details of rudimentary micro functions rather than macro , complex processes . Low - level classification is typically more concerned",
         "type": "TEXT"
       }
     ]
@@ -914,17 +694,6 @@
       },
       {
         "content": "Prime Minister of Mauritius - wikipedia Prime Minister of Mauritius Prime Minister of Mauritius Coat of arms of Mauritius Flag of Mauritius Incumbent Pravind Jugnauth since 23 January 2017 Style The Honourable Residence Clarisse House ( Official ) Nominator The President who must appoint the MP supporting a clear majority in the National Assembly Appointer Ameenah Gurib Term length At The President 's Pleasure serving as long as the office holder has a majority in",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "where does the movie the crucifixion take place",
-    "answer": "The Passion of the Christ - wikipedia The Passion of the Christ Jump to : navigation , search This article",
-    "source": "https://en.wikipedia.org//w/index.php?title=The_Passion_of_the_Christ&amp;oldid=818122402",
-    "gold": [
-      {
-        "content": "The Passion of the Christ - wikipedia The Passion of the Christ Jump to : navigation , search This article is about the film . For the passions of Jesus Christ , see Passion of Jesus . For the set of paintings , see The Passion of Christ ( Strasbourg ) . The Passion of the Christ Theatrical release poster Directed by Mel Gibson Produced by Bruce Davey Mel Gibson Stephen McEveety Screenplay by Mel Gibson Benedict Fitzgerald Translation : William Fulco Based on The Passion in the New Testament of the Bible and The Dolorous Passion of Our Lord Jesus Christ by Anne Catherine Emmerich Starring Jim Caviezel Monica Bellucci Claudia Gerini Maia Morgenstern Sergio Rubini Music by John Debney",
         "type": "TEXT"
       }
     ]
@@ -964,19 +733,8 @@
     ]
   },
   {
-    "query": "purpose of valuation determines the method of valuation",
-    "answer": "Valuation ( finance ) - wikipedia Valuation ( finance ) Jump to : navigation , search This article needs additional",
-    "source": "https://en.wikipedia.org//w/index.php?title=Valuation_(finance)&amp;oldid=788340232",
-    "gold": [
-      {
-        "content": "Valuation ( finance ) - wikipedia Valuation ( finance ) Jump to : navigation , search This article needs additional citations for verification . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . ( March 2009 ) ( Learn how and when to remove this template message ) Accounting Historical cost Constant purchasing power Management Tax Major types ( show ) Auditing Cost Forensic Financial Fund Governmental Management Social Tax Key concepts ( show ) Accounting period Accrual Constant purchasing power Economic entity Fair value Going concern Historical cost Matching principle Materiality Revenue recognition Unit of account Selected accounts ( show )",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
     "query": "when does the new series of black sails start",
-    "answer": "<P> Black Sails is an American television drama series created by Jon Steinberg and Robert Levine for Starz that debuted",
+    "answer": "Black Sails is an American television drama series created by Jon Steinberg and Robert Levine for Starz that debuted",
     "source": "https://en.wikipedia.org//w/index.php?title=List_of_Black_Sails_episodes&amp;oldid=853546907",
     "gold": [
       {
@@ -1018,17 +776,6 @@
       },
       {
         "content": "Space Soonest 1960 USAF Dyna - Soar 1962 NASA Group 2 Total EVAs Total EVA time 2 hours 31 minutes Missions Gemini 8 , Apollo 11 Awards Presidential Medal of Freedom Congressional Space Medal of Honor Congressional Gold Medal NASA Distinguished Service Medal NASA Exceptional Service Medal Air Medal ( 3 ) Neil Alden Armstrong ( August 5 , 1930 -- August 25 , 2012 ) was an American astronaut and aeronautical engineer who was the first person to walk on the Moon . He was also a naval aviator , test pilot , and university professor . A graduate of Purdue University , Armstrong studied aeronautical engineering with his college tuition paid for by the U.S. Navy under the Holloway Plan . He became a midshipman in 1949 , and a naval",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "where did britain create colonies for its empire",
-    "answer": "British Empire - wikipedia British Empire Jump to : navigation , search British Empire Flag of the United Kingdom All",
-    "source": "https://en.wikipedia.org//w/index.php?title=British_Empire&amp;oldid=838180842",
-    "gold": [
-      {
-        "content": "British Empire - wikipedia British Empire Jump to : navigation , search British Empire Flag of the United Kingdom All areas of the world that were ever part of the British Empire . Current British Overseas Territories have their names underlined in red . The British Empire comprised the dominions , colonies , protectorates , mandates and other territories ruled or administered by the United Kingdom and its predecessor states . It originated with the overseas possessions and trading posts established by England between the late 16th and early 18th centuries . At its height , it was the largest empire in history and , for over a century , was the foremost global power . By 1913 , the British Empire held sway over 412 million people , 7001230000000000000 ♠ 23 % of the world population at the time , and by 1920 , it covered 35,500,000 km ( 13,700,000 sq mi ) , 7001240000000000000 ♠ 24 % of the Earth 's total land area . As a result , its political , legal , linguistic and cultural legacy is widespread .",
         "type": "TEXT"
       }
     ]
@@ -1110,7 +857,7 @@
   },
   {
     "query": "city of stars are you shining just for me meaning",
-    "answer": "<Tr> <Td> `` </Td> <Td> ( The song ) started at the piano with me just working on demos for",
+    "answer": "`` ( The song ) started at the piano with me just working on demos for",
     "source": "https://en.wikipedia.org//w/index.php?title=City_of_Stars&amp;oldid=802382499",
     "gold": [
       {
@@ -1121,7 +868,7 @@
   },
   {
     "query": "who have been the winners of ink master",
-    "answer": "<Table> <Tr> <Th> Season </Th> <Th> Contestants </Th> <Th> Winner </Th> <Th> Runner Up </Th> <Th> Third Place </Th> <Th>",
+    "answer": "Season Contestants Winner Runner Up Third Place",
     "source": "https://en.wikipedia.org//w/index.php?title=Ink_Master&amp;oldid=804447311",
     "gold": [
       {
@@ -1206,17 +953,6 @@
     ]
   },
   {
-    "query": "who owns the rights to romeo and juliet",
-    "answer": "Romeo and Juliet ( Prokofiev ) - wikipedia Romeo and Juliet ( Prokofiev ) Jump to : navigation , search",
-    "source": "https://en.wikipedia.org//w/index.php?title=Romeo_and_Juliet_(Prokofiev)&amp;oldid=797556787",
-    "gold": [
-      {
-        "content": "Romeo and Juliet ( Prokofiev ) - wikipedia Romeo and Juliet ( Prokofiev ) Jump to : navigation , search This article is about Sergei Prokofiev 's ballet . For other uses , see Romeo and Juliet ( disambiguation ) . Romeo and Juliet Commemorative coin depicting a scene from the ballet . Choreographer Ivo Váña - Psota Music Sergei Prokofiev Based on Romeo and Juliet Premiere 1938 ( 1938 ) Mahen Theatre , Brno Original ballet company Ballet of the National Theatre , Brno Characters Ivo Váña - Psota as Romeo Zora Šemberová as Juliet Genre Drambalet Romeo and Juliet ( Russian : Ромео и Джульетта ) , Op. 64 , is a ballet by Sergei Prokofiev based on William Shakespeare 's play Romeo and Juliet . Prokofiev reused music from the ballet in three suites for orchestra and a solo piano work .",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
     "query": "the highest post in police department of karnataka state is",
     "answer": "The Director General and Inspector General of Police ( DG&IGP )",
     "source": "https://en.wikipedia.org//w/index.php?title=Karnataka_Police&amp;oldid=827735308",
@@ -1233,33 +969,11 @@
   },
   {
     "query": "is it a bank holiday today in spain",
-    "answer": "<Table> <Tr> <Th_colspan=\"3\"> </Th> <Th_colspan=\"18\"> Autonomous communities </Th> </Tr> <Tr> <Th> Date </Th> <Th> English name </Th> <Th> Native name",
+    "answer": "Autonomous communities Date English name Native name",
     "source": "https://en.wikipedia.org//w/index.php?title=Public_holidays_in_Spain&amp;oldid=790626160",
     "gold": [
       {
         "content": "is sometimes made between weekends and holidays that fall on Tuesday or Thursday . The puente will then create a long weekend . Since 2010 , Ceuta and Melilla , both autonomous cities of Spain , have declared the Muslim holiday of Eid al - Adha or Feast of the Sacrifice , as an official public holiday . It was the first time a non-Christian religious festival has been officially celebrated in Spain since the Reconquista . Autonomous communities Date English name Native name January 1 New Year 's Day ( national holiday ) Año Nuevo Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y January 6 Epiphany ( national holiday ) Día de Reyes / Epifanía del Señor Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y February 28 Regional Holiday Día de Andalucía Y March 1 Regional Holiday Dia de les Illes Balears Y March 19 St. Joseph 's Day San José ML Y Y Y Y Y Y Y Y Y March or April Maundy Thursday Jueves Santo Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Good Friday ( national holiday ) Viernes Santo Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Easter Monday Lunes de Pascua Y Y Y Y Y April 23 Regional Holiday San Jorge ( Día de Aragón ) Y Día de Castilla y León Y May 1 Labour Day ( national holiday ) Día del Trabajador Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y May 2 Regional Holiday Fiesta de la Comunidad de Madrid Y May 17 Regional Holiday ( Galician Literature Day ) Día das Letras Galegas Y May 30 Regional Holiday Día de Canarias Y May 31 Regional Holiday Día de la Región Castilla - La Mancha Y May or June Corpus Christi Corpus Christi Y June 9 Regional Holiday Día de la Región de Murcia Y Día de La Rioja Y June 24 St. John 's Day Sant Joan Y July 25 Saint James Santiago Apóstol Y August 15 Assumption ( national holiday ) Asunción Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y September 2 Municipal Holiday Día de Ceuta CE September 8 Regional Holiday Día de Asturias Y Día de Extremadura Y September 11 National Day of Catalonia Diada Nacional de Catalunya Y September 15 Regional Holiday Día de Cantabria Y October 9 Regional Holiday Dia de la Comunitat Valenciana Y October 12 Fiesta Nacional de España ( national holiday ) Fiesta Nacional de España Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y October 25 Regional Holiday ( from 2011 ) Euskadi Eguna Y November 1 All Saints Day ( national holiday ) Día de todos los Santos Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y December 6 Constitution Day ( national holiday ) Día de la Constitución Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y December 8 Immaculate Conception ( national holiday ) Inmaculada Concepción Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y December 25 Christmas Day ( national holiday ) Navidad Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y Y December 26 St. Stephen 's Day Sant Esteve Y Y Variable Islamic Feast of the Sacrifice or Eid al - Adha Celebración del Sacrificio Y References ( edit ) Jump up ^ `` Muslim Holiday in Ceuta and Melilla '' . Spainforvisitors.com . Retrieved 2011 - 09 - 03 . Jump up ^ `` Public Holidays and Bank Holidays for Spain '' . Qppstudio.net . Retrieved 2011 - 09 - 03 . Jump up ^ http://www.elmundo.es/elmundo/2010/11/12/espana/1289546348.html Jump up ^ http://www.elcorreodigital.com/vizcaya/20091205/politica/fiesta-euskadi-nace-division-20091205.html External links ( edit ) National and regional holidays",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "who owned the iconic bugalow named mehrangir situated in south mumbai",
-    "answer": "Bungalow - wikipedia Bungalow Jump to : navigation , search This article needs additional citations for verification . Please help",
-    "source": "https://en.wikipedia.org//w/index.php?title=Bungalow&amp;oldid=810119094",
-    "gold": [
-      {
-        "content": "Bungalow - wikipedia Bungalow Jump to : navigation , search This article needs additional citations for verification . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . ( May 2017 ) ( Learn how and when to remove this template message ) A bungalow home in Houston , Texas A bungalow is a type of building , originally developed in the Bengal region in South Asia , but now found throughout the world . The meaning of the word bungalow varies internationally . Common features of many bungalows include verandas and being low - rise . In Australia , the California bungalow associated with the United States was popular after the First World War . In North America and the United Kingdom , a bungalow today is a house , normally detached , that may contain a small loft . It is either single - story or has a second story built into a sloping roof , usually with dormer windows ( one - and - a-half stories ) . Contents ( hide",
-        "type": "TEXT"
-      }
-    ]
-  },
-  {
-    "query": "what is the great vessel that leaves the left ventricle",
-    "answer": "Great vessels - wikipedia Great vessels Jump to : navigation , search Anterior view of the heart , with all",
-    "source": "https://en.wikipedia.org//w/index.php?title=Great_vessels&amp;oldid=786234606",
-    "gold": [
-      {
-        "content": "Great vessels - wikipedia Great vessels Jump to : navigation , search Anterior view of the heart , with all great vessels labeled . Great vessels are the large vessels that bring blood to and from the heart . These are : Superior vena cava Inferior vena cava Pulmonary arteries Pulmonary veins Aorta Transposition of the great vessels is a group of congenital heart defects involving an abnormal spatial arrangement of any of the great vessels . Retrieved from `` https://en.wikipedia.org/w/index.php?title=Great_vessels&oldid=786234606 '' Categories : Angiology Talk About Wikipedia",
         "type": "TEXT"
       }
     ]
@@ -1271,6 +985,368 @@
     "gold": [
       {
         "content": "Italy v West Germany ( 1970 FIFA World Cup ) - wikipedia Italy v West Germany ( 1970 FIFA World Cup ) For other uses , see The Game of the Century . This article needs additional citations for verification . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . ( June 2010 ) ( Learn how and when to remove this template message ) 1970 FIFA World Cup Semi-final Event 1970 FIFA World Cup Italy West Germany After extra time Date 17 June 1970 ( 1970 - 06 - 17 ) Venue Estadio Azteca , Mexico City Referee Arturo Yamasaki Maldonado ( Mexico ) Attendance 102,444 The semi-final of the 1970 FIFA World Cup between",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who played the bank robber in dirty harry",
+    "answer": "Dirty Harry ( 1971 ) - Bank Robber ( uncredited )",
+    "source": "https://en.wikipedia.org//w/index.php?title=Albert_Popwell&amp;oldid=847897996",
+    "gold": [
+      {
+        "content": "He did not appear in the last film in the series , The Dead Pool , due to a scheduling conflict . His final film role was opposite Sharon Stone in Scissors . He died eight years later , at age 72 , from complications following open heart surgery . Selected filmography ( edit ) With Clint Eastwood ( edit ) Coogan 's Bluff ( 1968 ) - Wonderful Digby Dirty Harry ( 1971 ) - Bank Robber ( uncredited ) Magnum Force ( 1973 ) - Pimp , J.J. Wilson The Enforcer ( 1976 ) - Big Ed Mustapha Sudden Impact ( 1983 ) - Horace King Other appearances ( edit ) Journey to Shiloh ( 1968 ) - Samuel The Peace Killers ( 1971 ) - Blackjack Search ( 1972 ) - Griffin Glass Houses ( 1972 ) Fuzz (",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what is the worth of the catholic church",
+    "answer": "$140 billion +",
+    "source": "https://en.wikipedia.org//w/index.php?title=List_of_wealthiest_organizations&amp;oldid=865819845",
+    "gold": [
+      {
+        "content": "( 2016 ) United States Ford Foundation $11.2 billion United States J. Paul Getty Trust $10.5 billion United States Mohammed bin Rashid Al Maktoum Foundation $10.0 billion United Arab Emirates Azim Premji Foundation $9.8 billion India Religious organizations ( edit ) Organization Worth Country Notes Catholic Church $140 billion + Vatican The Church of Jesus Christ of Latter - Day Saints $67 billion + United States Church of England $7.8 billion United Kingdom Opus Dei ( part of the Catholic Church ) $2.8 billion Italy Church of Scientology $2.0 billion United States Educational institutions ( edit ) See also : List of colleges and universities in the United States by endowment Organization Worth Country Notes Harvard University $37.6 billion United States See Harvard University endowment Yale University $25.6 billion United States University of Texas System",
+        "type": "TEXT"
+      },
+      {
+        "content": "J. Paul Getty Trust $10.5 billion United States Mohammed bin Rashid Al Maktoum Foundation $10.0 billion United Arab Emirates Azim Premji Foundation $9.8 billion India Religious organizations ( edit ) Organization Worth Country Notes Catholic Church $140 billion + Vatican The Church of Jesus Christ of Latter - Day Saints $67 billion + United States Church of England $7.8 billion United Kingdom Opus Dei ( part of the Catholic Church ) $2.8 billion Italy Church of Scientology $2.0 billion",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "how many classes do u have to fail to get held back",
+    "answer": "Grade retention - wikipedia Grade retention This article needs additional citations for verification . Please help improve this article by",
+    "source": "https://en.wikipedia.org//w/index.php?title=Grade_retention&amp;oldid=849079860",
+    "gold": [
+      {
+        "content": "Grade retention - wikipedia Grade retention This article needs additional citations for verification . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . ( August 2010 ) ( Learn how and when to remove this template message ) Grade retention or grade repetition is the process of having a particular student to repeat a grade , because during the previous year , the student failed the grade . Students who repeat a grade are referred as `` repeaters '' . Repeaters can be referred to as having been `` held back '' . Students do not necessarily repeat the grade in the same classroom , but it will be the same grade . The alternative to grade retention ( for those who have failed ) is a policy of social promotion , under the ideological principle that staying with their same - age peers is important . Social promotion is the obligatory promotion of all students , regardless of achievement and absences . Social promotion is somewhat more accepted in countries which use tracking to group",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "where is the best farming soil in the us and where did all the dirt come from",
+    "answer": "The Black Dirt Region",
+    "source": "https://en.wikipedia.org//w/index.php?title=Black_Dirt_Region&amp;oldid=793364067",
+    "gold": [
+      {
+        "content": "Warwick , centered on the hamlet of Pine Island . Some sections spill over into adjacent portions of the towns of Chester , Goshen and Wawayanda in New York and parts of Wantage and Vernon , New Jersey . Before the region was drained in the early nineteenth century through drainage culverts and the construction of the Delaware and Hudson Canal , it was a densely - vegetated marsh known as the `` Drowned Lands of the Wallkill '' The Black Dirt Region takes its name from the dark , extremely fertile soil left over from an ancient glacial lake bottom augmented by decades of past flooding of the Wallkill River . The 26,000 acres ( 10,400 ha ) of muck left over is the largest concentration of such soil in the United States outside the Florida Everglades . The Black Dirt Region , viewed looking south from a hill in the Town of Goshen . Contents ( hide ) 1 Geography 2 History 3 See also 4 References 5 Further reading 6 External links Geography ( edit ) The area mostly consists of flat flood plain . The few areas that rise above the valley",
+        "type": "TEXT"
+      },
+      {
+        "content": ", centered on the hamlet of Pine Island . Some sections spill over into adjacent portions of the towns of Chester , Goshen and Wawayanda in New York and parts of Wantage and Vernon , New Jersey . Before the region was drained in the early nineteenth century through drainage culverts and the construction of the Delaware and Hudson Canal , it was a densely - vegetated marsh known as the `` Drowned Lands of the Wallkill '' The Black Dirt Region takes its name from the dark , extremely fertile soil left over from an ancient glacial lake bottom augmented by decades of past flooding of the Wallkill River . The 26,000 acres ( 10,400 ha ) of muck left over is the largest concentration of such soil in the United States outside the Florida Everglades . The Black Dirt Region , viewed looking south from a hill in the Town of Goshen . Contents (",
+        "type": "TEXT"
+      },
+      {
+        "content": "of the towns of Chester , Goshen and Wawayanda in New York and parts of Wantage and Vernon , New Jersey . Before the region was drained in the early nineteenth century through drainage culverts and the construction of the Delaware and Hudson Canal , it was a densely - vegetated marsh known as the `` Drowned Lands of the Wallkill '' The Black Dirt Region takes its name from the dark , extremely fertile soil left over from an ancient glacial lake bottom augmented by decades of past flooding of the Wallkill River . The 26,000 acres ( 10,400 ha ) of muck left over is the largest concentration of such soil in the United States outside the Florida Everglades . The Black Dirt Region , viewed looking south from a hill in the Town of Goshen . Contents ( hide ) 1 Geography 2 History 3 See also 4 References 5 Further reading 6 External",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "the pair of hand drums used in indian classical music is called",
+    "answer": "tabla",
+    "source": "https://en.wikipedia.org//w/index.php?title=Tabla&amp;oldid=857033146",
+    "gold": [
+      {
+        "content": "Hindustani classical music since the 18th century , and remains in use in India , Pakistan , Afghanistan , Nepal , Bangladesh , and Sri Lanka . The name tabla likely comes from tabl , the Persian and Arabic word for drum . However , the ultimate origin of the musical instrument is contested by scholars , some tracing it to West Asia , others tracing it to the evolution of indigenous musical instruments of the Indian subcontinent . The tabla consists of two single headed , barrel shaped small drums of slightly different size and shapes : daya also called dahina meaning right ( also called `` tabla '' ) , and baya also called bahina meaning left ( also called `` dagga '' ) . The daya tabla is played by the musician 's right hand ( dominant hand ) , and is about 15 centimetres ( ~ 6 in ) in diameter and 25 centimetres ( ~ 10 in ) high . The baya tabla is a bit bigger and deep kettledrum shaped , about 20 centimetres ( ~ 8 in ) in diameter and 25 centimetres ( ~ 10 in ) in height . Each is made of hollowed out wood or clay or brass , the daya drum laced with hoops , thongs and wooden dowels on its sides . The dowels and hoops are used to tighten the tension of the membrane . The daya is tuned to the ground note of the raga called Sa ( tonic in India music ) . The baya construction and tuning is about a fifth to an octave below that of the daya drum . The musician uses his hand 's heel pressure to change the pitch and tone colour of each drum during a performance . Play media Tabla playing , a demo . The playing technique is complex and involves extensive use of the fingers and palms in various configurations to create a wide variety of different sounds and rhythms , reflected in mnemonic syllables ( bol ) . In the Hindustani style tabla is played in two ways : band bol and khula bol . In the sense of classical music it is termed `` tali '' and `` khali '' . It",
+        "type": "TEXT"
+      },
+      {
+        "content": "music since the 18th century , and remains in use in India , Pakistan , Afghanistan , Nepal , Bangladesh , and Sri Lanka . The name tabla likely comes from tabl , the Persian and Arabic word for drum . However , the ultimate origin of the musical instrument is contested by scholars , some tracing it to West Asia , others tracing it to the evolution of indigenous musical instruments of the Indian subcontinent . The tabla consists of two single headed , barrel shaped small drums of slightly different size and shapes : daya also called dahina meaning right ( also called `` tabla '' ) , and baya also called bahina meaning left ( also called `` dagga '' ) . The daya tabla is played by the musician 's right hand ( dominant hand ) , and is about 15 centimetres ( ~ 6 in ) in diameter and 25 centimetres ( ~ 10",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "where does the term petty officer come from",
+    "answer": "Age of Sail",
+    "source": "https://en.wikipedia.org//w/index.php?title=Petty_officer&amp;oldid=807097820",
+    "gold": [
+      {
+        "content": "to a more senior non-commissioned officer , such as a chief petty officer . Contents ( hide ) 1 Origin 2 Usage in Navies 2.1 Canada 2.2 India 2.3 United Kingdom 2.4 United States 2.5 Non English - speaking countries 3 See also 4 References Origin ( edit ) The modern petty officer dates back to the Age of Sail . Petty officers rank between naval officers ( both commissioned and warrant ) and most enlisted sailors . These were men with some claim to officer rank , sufficient to distinguish them from ordinary ratings , without raising them so high as the sea officers . Several were warrant officers , in the literal sense of being appointed by warrant , and like the warrant sea officers , their superiors , they were usually among the specialists of the ship 's company . The Oxford English Dictionary suggests that the title derives from the Anglo - Norman and Middle French `` petit '' , meaning `` of small size , small , little '' . Two of the petty officer 's rates , midshipman and master 's mate , were a superior petty officer with a more general authority , but they remained no more than ratings . However , it was quite possible for a warrant officer ( such as the armourer ) , in his role as a superior officer , to be court - martialed for striking a midshipman . This is because both were regarded as future sea officers ,",
+        "type": "TEXT"
+      },
+      {
+        "content": "a chief petty officer . Contents ( hide ) 1 Origin 2 Usage in Navies 2.1 Canada 2.2 India 2.3 United Kingdom 2.4 United States 2.5 Non English - speaking countries 3 See also 4 References Origin ( edit ) The modern petty officer dates back to the Age of Sail . Petty officers rank between naval officers ( both commissioned and warrant ) and most enlisted sailors . These were men with some claim to officer rank , sufficient to distinguish them from ordinary ratings , without raising them so high as the sea officers . Several were warrant officers , in the literal sense of being appointed by warrant , and like the warrant sea officers , their superiors , they were usually among the specialists of the ship",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what does the name erica mean in hebrew",
+    "answer": "Erika ( given name ) - wikipedia Erika ( given name ) Erika , Erica , Ericka Pronunciation / ˈɛrɪkə",
+    "source": "https://en.wikipedia.org//w/index.php?title=Erika_(given_name)&amp;oldid=854137985",
+    "gold": [
+      {
+        "content": "Erika ( given name ) - wikipedia Erika ( given name ) Erika , Erica , Ericka Pronunciation / ˈɛrɪkə / Italian : ( ˈerika ) German : ( ˈeːʁiːka ) Gender Female Origin Word / name Old Norse Meaning `` eternal ruler '' , `` ever powerful '' Other names Related names Eric , Erik , Eriko , Erico Look up Erica , Erika , or erica in Wiktionary , the free dictionary . The given name Erika , Erica , or Ericka is a feminine form of Eric , deriving from the Old Norse name Eiríkr ( or Eríkr in Eastern Scandinavia due to monophthongization ) . The first element , ei - is derived either from the older Proto - Norse * aina ( z ) , meaning `` one , alone , unique '' , as in the form Æinrikr explicitly",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what do the colors of the olympic rings mean",
+    "answer": "The rings are five interlocking rings , coloured blue , yellow , black , green , and red on",
+    "source": "https://en.wikipedia.org//w/index.php?title=Olympic_symbols&amp;oldid=856535142",
+    "gold": [
+      {
+        "content": "intangible . '' The motto was introduced in 1924 at the Olympic Games in Paris . A more informal but well - known motto , also introduced by Coubertin , is `` The most important thing is not to win but to take part ! '' Coubertin got this motto from a sermon by the Bishop of Pennsylvania during the 1908 London Games . Rings ( edit ) The five - ringed symbol of the Olympic Games The rings are five interlocking rings , coloured blue , yellow , black , green , and red on a white field , known as the `` Olympic rings '' . The symbol was originally designed in 1912 by de Coubertin . He appears to have intended the rings to represent the five participating regions : Africa , Asia , America , Oceania and Europe . According to Coubertin , the colours of the rings together with the white of the background included the colours composing every competing nation 's flag at the time . Upon its initial introduction , Coubertin stated the following in the August 1912 edition of Olympique : ... the six colours ( including the flag 's white background ) combined in this way reproduce the colours of every country without exception . The blue and yellow of Sweden , the blue and white of Greece , the tricolour flags of France , England , the United States , Germany , Belgium , Italy and Hungary , and the yellow and red of Spain are included , as are the innovative flags of Brazil and Australia ,",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "where is israel located on the world map",
+    "answer": "the Middle East , on the southeastern shore of the Mediterranean Sea and the northern shore of the Red Sea",
+    "source": "https://en.wikipedia.org//w/index.php?title=Israel&amp;oldid=803902748",
+    "gold": [
+      {
+        "content": "IL Internet TLD . il Website www.israel.org ^ 20,770 is Israel within the Green Line . 22,072 includes the annexed Golan Heights and East Jerusalem . This article contains Hebrew and Arabic text . Without proper rendering support , you may see question marks , boxes , or other symbols . Israel ( / ˈɪzreɪəl / ; Hebrew : יִשְׂרָאֵל ‎ , Arabic : إِسْرَائِيل ‎ ‎ ) , officially the State of Israel ( Hebrew : מְדִינַת יִשְׂרָאֵל ‎ , Arabic : دَوْلَة إِسْرَائِيل ‎ ‎ ) , is a country in the Middle East , on the southeastern shore of the Mediterranean Sea and the northern shore of the Red Sea . It has land borders with Lebanon to the north , Syria to the northeast , Jordan on the east , the Palestinian territories of the West Bank and Gaza Strip to the east and west , respectively , and Egypt to the southwest . The country contains geographically diverse features within its relatively small area . Israel 's economy and technology center is Tel Aviv , while its seat of government and proclaimed capital is Jerusalem , although the state 's sovereignty over East Jerusalem is not recognised internationally . The Kingdoms of Israel and Judah emerged during the Iron Age . The Neo-Assyrian Empire destroyed Israel around 720 BCE . The Jewish -- Babylonian war resulted in the Babylonian conquest of Judah in 586 BCE and the formation of the province of Yehud . During the Persian rule , the Jewish autonomous province , Yehud Medinata , had existed for two centuries until the conquest of Alexander the Great . The successful Maccabean Revolt against the Seleucid Empire",
+        "type": "TEXT"
+      },
+      {
+        "content": "This article contains Hebrew and Arabic text . Without proper rendering support , you may see question marks , boxes , or other symbols . Israel ( / ˈɪzreɪəl / ; Hebrew : יִשְׂרָאֵל ‎ , Arabic : إِسْرَائِيل ‎ ‎ ) , officially the State of Israel ( Hebrew : מְדִינַת יִשְׂרָאֵל ‎ , Arabic : دَوْلَة إِسْرَائِيل ‎ ‎ ) , is a country in the Middle East , on the southeastern shore of the Mediterranean Sea and the northern shore of the Red Sea . It has land borders with Lebanon to the north , Syria to the northeast , Jordan on the east , the Palestinian territories of the West Bank and Gaza Strip to the east and west , respectively , and Egypt to the southwest . The country contains geographically diverse features within its relatively small area . Israel 's economy and technology center is Tel Aviv , while its seat of government and proclaimed capital is Jerusalem , although the",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who played smiley in tinker tailor soldier spy",
+    "answer": "Gary Oldman",
+    "source": "https://en.wikipedia.org//w/index.php?title=Tinker_Tailor_Soldier_Spy_(film)&amp;oldid=809053594",
+    "gold": [
+      {
+        "content": "( Venice Film Festival ) 16 September 2011 ( 2011 - 09 - 16 ) ( United Kingdom ) Running time 127 minutes Country France United Kingdom Germany Language English Budget $21 million Box office $80.6 million Tinker Tailor Soldier Spy is a 2011 Cold War espionage film directed by Tomas Alfredson . The screenplay was written by Bridget O'Connor and Peter Straughan , based on John le Carré 's 1974 novel of the same name . The film , starring Gary Oldman as George Smiley , along with Colin Firth , Tom Hardy , John Hurt , Toby Jones , Mark Strong , Benedict Cumberbatch , and Ciarán Hinds , and featuring David Dencik , is set in London in the early 1970s and follows the hunt for a Soviet double agent at the top of the British secret service . The film was produced and financed by France 's StudioCanal . It premiered in competition at the 68th Venice International Film Festival . It was a critical and commercial success , and was the highest - grossing film at the British box office for three consecutive weeks . It won the BAFTA Award for Best British Film . The film also received three Academy Awards nominations : Best Adapted Screenplay , Best Original Score , and for Oldman ,",
+        "type": "TEXT"
+      },
+      {
+        "content": "France United Kingdom Germany Language English Budget $21 million Box office $80.6 million Tinker Tailor Soldier Spy is a 2011 Cold War espionage film directed by Tomas Alfredson . The screenplay was written by Bridget O'Connor and Peter Straughan , based on John le Carré 's 1974 novel of the same name . The film , starring Gary Oldman as George Smiley , along with Colin Firth , Tom Hardy , John Hurt , Toby Jones , Mark Strong , Benedict Cumberbatch , and Ciarán Hinds , and featuring David Dencik , is set in London in the early 1970s and follows the hunt for a Soviet double agent at the top of the British secret service . The film was produced and financed by France 's StudioCanal . It premiered in competition at the 68th Venice",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "which of these was not an export of ancient greece",
+    "answer": "Economy of ancient Greece - wikipedia Economy of ancient Greece This article needs additional citations for verification . Please help",
+    "source": "https://en.wikipedia.org//w/index.php?title=Economy_of_ancient_Greece&amp;oldid=848725803",
+    "gold": [
+      {
+        "content": "Economy of ancient Greece - wikipedia Economy of ancient Greece This article needs additional citations for verification . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . ( October 2017 ) ( Learn how and when to remove this template message ) Men weighing merchandise , side B of an Attic black - figure amphora The economy of ancient Greece was defined largely by the region 's dependence on imported goods . As a result of the poor quality of Greece 's soil , agricultural trade was of particular importance . The impact of limited crop production was somewhat offset by Greece 's paramount location , as its position in the Mediterranean gave its provinces control over some of Egypt 's most crucial seaports and trade routes . Beginning in the 6th century BC , trade craftsmanship and commerce , principally maritime , became pivotal aspects of Greek economic output . Greece lacked a consolidated , centralized economy in the modern sense of the word . There was a relative absence of contemporary phrases to describe",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "is the micrometer screw gauge used for measurement of inner diameter of tube",
+    "answer": "Tube micrometers have a cylindrical anvil positioned perpendicularly to a spindle and is used to measure the thickness of",
+    "source": "https://en.wikipedia.org//w/index.php?title=Micrometer&amp;oldid=804398195",
+    "gold": [
+      {
+        "content": "Limit mics have two anvils and two spindles , and are used like a snap gauge . The part being checked must pass through the first gap and must stop at the second gap in order to be within specification . The two gaps accurately reflect the top and bottom of th e tolerance range . Bore micrometer , typically a three - anvil head on a micrometer base used to accurately measure inside diameters . Tube micrometers have a cylindrical anvil positioned perpendicularly to a spindle and is used to measure the thickness of tubes . Micrometer stops are micrometer heads that are mounted on the table of a manual milling machine , bedways of a lathe , or other machine tool , in place of simple stops . They help the operator to position the table or carriage precisely . Stops can also be used to actuate kickout mechanisms or limit switches to halt an automatic feed system . Ball micrometers have ball - shaped ( spherical ) anvils . They may",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "when does brennan get pregnant the first time",
+    "answer": "season six finale",
+    "source": "https://en.wikipedia.org//w/index.php?title=Temperance_%22Bones%22_Brennan&amp;oldid=853896998",
+    "gold": [
+      {
+        "content": "creating reasonable doubt ) , and he begins to rebuild his life . He temporarily works at the Jeffersonian as a guide for children visiting the place and demonstrates his brilliant talent as a former science teacher . However , Brennan is concerned about a convicted felon having access to a lab that investigates crimes . Max also introduces Brennan to her cousin Margaret Whitesell , portrayed by Deschanel 's real - life sister Zooey Deschanel . Brennan is best friends with her coworker , Angela , saying in the 6th - season premiere she loves Angela `` like a sister '' and is going to be an aunt to Hodgins ' and Angela 's newborn child . It is revealed at the end of the season six finale `` The Change in the Game '' that Brennan is pregnant and the father is Booth . In Season 7 , episode 2 `` The Hot Dog in the Competition '' , Brennan and Booth found out they were having a baby girl . Their daughter , Christine Angela Booth ( named for Brennan 's mother and her best friend ) , was born in a stable during the episode `` The Prisoner in the Pipe '' . In the Season 7 finale , `` The Past in the Present '' , key evidence in the",
+        "type": "TEXT"
+      },
+      {
+        "content": "access to a lab that investigates crimes . Max also introduces Brennan to her cousin Margaret Whitesell , portrayed by Deschanel 's real - life sister Zooey Deschanel . Brennan is best friends with her coworker , Angela , saying in the 6th - season premiere she loves Angela `` like a sister '' and is going to be an aunt to Hodgins ' and Angela 's newborn child . It is revealed at the end of the season six finale `` The Change in the Game '' that Brennan is pregnant and the father is Booth . In Season 7 , episode 2 `` The Hot Dog in the Competition '' , Brennan and Booth found out they were having a baby girl . Their daughter , Christine Angela Booth ( named for Brennan 's mother and her best friend ) , was born in a stable during the episode `` The Prisoner in the Pipe '' .",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "when did season 2 of handmaid's tale start",
+    "answer": "April 25 , 2018",
+    "source": "https://en.wikipedia.org//w/index.php?title=The_Handmaid%27s_Tale_(TV_series)&amp;oldid=855805173",
+    "gold": [
+      {
+        "content": "season 2 ) , Luke 's ex-wife . Rebecca Rittenhouse as Odette ( season 2 ) , a Doctor and Moira 's fiancée . Sam Jaeger as Mark Tuello ( season 2 ) , a mysterious stranger who Serena encounters in Canada . Oprah Winfrey ( uncredited ) as Newsreader ( season 2 ) on a car radio . Episodes ( edit ) Series overview ( edit ) Season Episodes Originally released First released Last released 10 April 26 , 2017 ( 2017 - 04 - 26 ) June 14 , 2017 ( 2017 - 06 - 14 ) 13 April 25 , 2018 ( 2018 - 04 - 25 ) July 11 , 2018 ( 2018 - 07 - 11 ) Season 1 ( 2017 ) ( edit ) No . overall No. in season Title Directed by Teleplay by Original release date `` Offred '' Reed Morano Bruce Miller April 26 , 2017 ( 2017 - 04 - 26 ) A family is pursued by a group",
+        "type": "TEXT"
+      },
+      {
+        "content": "Episodes ( edit ) Series overview ( edit ) Season Episodes Originally released First released Last released 10 April 26 , 2017 ( 2017 - 04 - 26 ) June 14 , 2017 ( 2017 - 06 - 14 ) 13 April 25 , 2018 ( 2018 - 04 - 25 ) July 11 , 2018 ( 2018 - 07 - 11 ) Season 1 ( 2017 ) ( edit ) No . overall No. in season Title Directed by Teleplay by Original release date `` Offred '' Reed Morano Bruce Miller",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what causes a dead zone in the ocean",
+    "answer": "excessive nutrient pollution from human activities coupled with other factors that deplete the oxygen",
+    "source": "https://en.wikipedia.org//w/index.php?title=Dead_zone_(ecology)&amp;oldid=846165468",
+    "gold": [
+      {
+        "content": "zone ( disambiguation ) . For the natural anoxic basins , see Anoxic waters . Red circles show the location and size of many dead zones . Black dots show dead zones of unknown size . The size and number of marine dead zones -- areas where the deep water is so low in dissolved oxygen that sea creatures ca n't survive -- have grown explosively in the past half - century . -- NASA Earth Observatory ( 2008 ) Dead zones are hypoxic ( low - oxygen ) areas in the world 's oceans and large lakes , caused by `` excessive nutrient pollution from human activities coupled with other factors that deplete the oxygen required to support most marine life in bottom and near - bottom water . ( NOAA ) '' . In the 1970s oceanographers began noting increased instances of dead zones . These occur near inhabited coastlines , where aquatic life is most concentrated . ( The vast middle portions of the oceans , which naturally have little life , are not considered `` dead zones '' . ) Dead zones are bodies of water that do not have sufficient oxygen ( 3 ) levels in order to support most marine life . Dead zones are caused by oxygen - depleting factors which include , but are not limited to , human pollution ( 4 ) . This is a process called eutrophication , where oxygen levels decrease as elements such nitrogen and phosphorus increase . A healthy river will have increased amounts of oxygen for consumption by organisms",
+        "type": "TEXT"
+      },
+      {
+        "content": "many dead zones . Black dots show dead zones of unknown size . The size and number of marine dead zones -- areas where the deep water is so low in dissolved oxygen that sea creatures ca n't survive -- have grown explosively in the past half - century . -- NASA Earth Observatory ( 2008 ) Dead zones are hypoxic ( low - oxygen ) areas in the world 's oceans and large lakes , caused by `` excessive nutrient pollution from human activities coupled with other factors that deplete the oxygen required to support most marine life in bottom and near - bottom water . ( NOAA ) '' . In the 1970s oceanographers began noting increased instances of dead zones . These occur near inhabited coastlines , where aquatic life is most concentrated . ( The vast middle portions of the oceans , which naturally have little life , are not considered `` dead zones '' . ) Dead zones are bodies of water that do not have sufficient",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who left so you think you can dance",
+    "answer": "So You Think You Can dance ( Us season 15 ) - wikipedia So You Think You Can dance (",
+    "source": "https://en.wikipedia.org//w/index.php?title=So_You_Think_You_Can_Dance_(U.S._season_15)&amp;oldid=866386396",
+    "gold": [
+      {
+        "content": "So You Think You Can dance ( Us season 15 ) - wikipedia So You Think You Can dance ( Us season 15 ) So You Think You Can Dance ( U.S. TV series ) Season 15 Broadcast from June 4 -- September 10 , 2018 Judges Nigel Lythgoe Mary Murphy Vanessa Hudgens Stephen `` tWitch '' Boss Host ( s ) Cat Deeley Broadcaster Fox Broadcasting Company Venue United States Website www.fox.com/dance Winner Hannahlei Cabanilla Runner - up Jensen Arnold Chronology ◀ 2018 So You Think You Can Dance , an American dance competition show , returned for its fifteenth season on Monday , June 4 , 2018 . The season 's judge panel once again",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who is the present governor of puerto rico",
+    "answer": "Alejandro Javier García Padilla",
+    "source": "https://en.wikipedia.org//w/index.php?title=Alejandro_Garc%C3%ADa_Padilla&amp;oldid=806947485",
+    "gold": [
+      {
+        "content": "Political party Popular Democratic Party Other political affiliations Democratic Spouse ( s ) Wilma Pastrana ( 2001 -- present ) Children Education University of Puerto Rico , Río Piedras ( BA ) Interamerican University of Puerto Rico ( JD ) Website Government website Alejandro Javier García Padilla ( Spanish : ( aleˈxandɾo ɣarˈsi. a ) ; born August 3 , 1971 ) is a Puerto Rican politician and attorney who served as the 11th Governor of Puerto Rico from 2013 to 2017 . Prior to this position , García Padilla held various roles in the political landscape of Puerto Rico ; first as Secretary of Consumer Affairs , and then as a member of the 24th Senate of Puerto Rico and as president of the Popular Democratic Party . Locally , he is a staunch advocate for maintaining the current political status of Puerto Rico as that of an unincorporated territory of the United States with self - government , while at the national level he is allied with the Democratic Party . As governor , García Padilla shared his legislative powers with the 25th Senate and 29th House of Representatives , both controlled by his party . Regardless of this , he was not able to persuade several members of his own party to support his proposals . This failure , in addition to his low popularity , ultimately led him to not seek re-election thus becoming the second governor in Puerto Rican history to not do so after his first",
+        "type": "TEXT"
+      },
+      {
+        "content": "Political party Popular Democratic Party Other political affiliations Democratic Spouse ( s ) Wilma Pastrana ( 2001 -- present ) Children Education University of Puerto Rico , Río Piedras ( BA ) Interamerican University of Puerto Rico ( JD ) Website Government website Alejandro Javier García Padilla ( Spanish : ( aleˈxandɾo ɣarˈsi. a ) ; born August 3 , 1971 ) is a Puerto Rican politician and attorney who served as the 11th Governor of Puerto Rico from 2013 to 2017 . Prior to this position , García Padilla held various roles in the political landscape of Puerto Rico ; first as Secretary of Consumer Affairs , and then as a member of the 24th Senate of Puerto Rico and as president of the Popular Democratic",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what affect does acetylcholine have on the sarcolemma",
+    "answer": "can depolarize the muscle fiber , causing a cascade that eventually results in muscle contraction",
+    "source": "https://en.wikipedia.org//w/index.php?title=Neuromuscular_junction&amp;oldid=825334810",
+    "gold": [
+      {
+        "content": "TH H2. 00.06. 1.02001 FMA 61803 Anatomical terminology ( edit on Wikidata ) A neuromuscular junction ( or myoneural junction ) is a chemical synapse formed by the contact between a motor neuron and a muscle fiber . It is at the neuromuscular junction that a motor neuron is able to transmit a signal to the muscle fiber , causing muscle contraction . Muscles require innervation to function -- and even just to maintain muscle tone , avoiding atrophy . Synaptic transmission at the neuromuscular junction begins when an action potential reaches the presynaptic terminal of a motor neuron , which activates voltage - dependent calcium channels to allow calcium ions to enter the neuron . Calcium ions bind to sensor proteins ( synaptotagmin ) on synaptic vesicles , triggering vesicle fusion with the cell membrane and subsequent neurotransmitter release from the motor neuron into the synaptic cleft . In vertebrates , motor neurons release acetylcholine ( ACh ) , a small molecule neurotransmitter , which diffuses across the synaptic cleft and binds to nicotinic acetylcholine receptors ( nAChRs ) on the cell membrane of the muscle fiber , also known as the sarcolemma . nAChRs are ionotropic receptors , meaning they serve as ligand - gated ion channels . The binding of ACh to the receptor can depolarize the muscle fiber , causing a cascade that eventually results in muscle contraction . Neuromuscular junction diseases can be of genetic and autoimmune origin . Genetic disorders , such as Duchenne muscular dystrophy , can arise from mutated structural proteins that comprise the neuromuscular junction , whereas autoimmune diseases , such as myasthenia gravis , occur when antibodies are produced against nicotinic acetylcholine receptors on the sarcolemma . Contents ( hide ) 1 Structure and function 1.1 Mechanism of action 1.2 Acetylcholine",
+        "type": "TEXT"
+      },
+      {
+        "content": "subsequent neurotransmitter release from the motor neuron into the synaptic cleft . In vertebrates , motor neurons release acetylcholine ( ACh ) , a small molecule neurotransmitter , which diffuses across the synaptic cleft and binds to nicotinic acetylcholine receptors ( nAChRs ) on the cell membrane of the muscle fiber , also known as the sarcolemma . nAChRs are ionotropic receptors , meaning they serve as ligand - gated ion channels . The binding of ACh to the receptor can depolarize the muscle fiber , causing a cascade that eventually results in muscle contraction . Neuromuscular junction diseases can be of genetic and autoimmune origin . Genetic disorders , such as Duchenne muscular dystrophy , can arise from mutated structural proteins that comprise the neuromuscular junction , whereas autoimmune diseases , such as myasthenia gravis , occur when antibodies are produced against nicotinic acetylcholine receptors on the sarcolemma . Contents ( hide ) 1 Structure and function 1.1 Mechanism of action",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who plays claire underwood's mom on house of cards",
+    "answer": "Ellen Burstyn",
+    "source": "https://en.wikipedia.org//w/index.php?title=Claire_Underwood&amp;oldid=808564257",
+    "gold": [
+      {
+        "content": "Contents ( hide ) 1 Character overview 1.1 Relationship with Frank 2 Fictional character biography 2.1 Season 1 2.2 Season 2 2.3 Season 3 2.4 Season 4 2.5 Season 5 3 Reception 3.1 Awards and nominations 4 Notes Character overview ( edit ) Claire Hale Underwood is originally from the exclusive Highland Park enclave of Dallas , Texas . Her late father was a major Texas Republican . While at Radcliffe College in Cambridge , she met Francis J. Underwood , a Harvard Law student from South Carolina . She is from a wealthy family , and the show characterizes her as a `` Dallas Debutante '' and `` Lily White '' . She recounts her father 's taking her to Dealey Plaza , where John F. Kennedy was assassinated , and that it made her feel `` so sad , so angry '' . She has a difficult relationship with her mother , Elizabeth Hale ( Ellen Burstyn ) , who despises Frank and is disappointed in Claire for marrying him . Brian Stelter of The New York Times described her as Frank Underwood 's conniving wife and described the Underwoods as `` the scheming husband and wife at the center of ' House of Cards ' '' . She is a woman `` who will stop at nothing to conquer everything '' . Hank Stuever of The Washington Post describes her as an `` ice - queen wife '' . The Independent 's Sarah Hughes echoes this description , saying",
+        "type": "TEXT"
+      },
+      {
+        "content": "Francis J. Underwood , a Harvard Law student from South Carolina . She is from a wealthy family , and the show characterizes her as a `` Dallas Debutante '' and `` Lily White '' . She recounts her father 's taking her to Dealey Plaza , where John F. Kennedy was assassinated , and that it made her feel `` so sad , so angry '' . She has a difficult relationship with her mother , Elizabeth Hale ( Ellen Burstyn ) , who despises Frank and is disappointed in Claire for marrying him . Brian Stelter of The New York Times described her as Frank Underwood 's conniving wife and described the Underwoods as `` the scheming husband and wife at the center of ' House of Cards ' '' . She is a woman `` who will stop at nothing to conquer everything '' . Hank Stuever of The Washington Post describes her as an `` ice",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who won the all ireland football final 2017",
+    "answer": "Dublin",
+    "source": "https://en.wikipedia.org//w/index.php?title=2017_All-Ireland_Senior_Football_Championship_Final&amp;oldid=840534261",
+    "gold": [
+      {
+        "content": "and ladies ' finals . The final was shown live in Ireland on RTÉ Two as part of The Sunday Game live programme , presented by Michael Lyster from Croke Park , with studio analysis from Joe Brolly , Pat Spillane , and Colm O'Rourke . Match commentary was provided by Ger Canning with analysis by Dessie Dolan . The game was also shown live on Sky Sports , presented by Rachel Wyse and Brian Carney . Dublin won the final by a point on a 1 - 17 to 1 - 16 scoreline to claim their third title in a row , the first time this has happened since 1921 - 23 . The final was played before a capacity attendance of 82,243 people . The match drew a peak audience of 1.3 million , which made it the most watched RTÉ broadcast of 2017 , surpassing the hurling final . Contents ( hide ) 1 Paths to the final 1.1 Mayo 1.2 Dublin 2 Pre-match 2.1 Jubilee team 2.2 Ticketing",
+        "type": "TEXT"
+      },
+      {
+        "content": "ladies ' finals . The final was shown live in Ireland on RTÉ Two as part of The Sunday Game live programme , presented by Michael Lyster from Croke Park , with studio analysis from Joe Brolly , Pat Spillane , and Colm O'Rourke . Match commentary was provided by Ger Canning with analysis by Dessie Dolan . The game was also shown live on Sky Sports , presented by Rachel Wyse and Brian Carney . Dublin won the final by a point on a 1 - 17 to 1 - 16 scoreline to claim their third title in a row , the first time this has happened since 1921 - 23 . The final was played before a capacity attendance of 82,243 people . The match drew a peak audience of 1.3 million , which made it the most watched RTÉ broadcast of 2017 , surpassing the hurling final .",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who played robbie douglas wife on my three sons",
+    "answer": "Tina Cole",
+    "source": "https://en.wikipedia.org//w/index.php?title=My_Three_Sons&amp;oldid=804982671",
+    "gold": [
+      {
+        "content": "does not need to hire a housekeeper , since Uncle Charley already has things running smoothly . The family soon appears before a judge who researches the law , and determines that its intent is to ensure a full - time caregiver is in the household . With Charley meeting that role , and having had a change of heart about Ernie , Charley assents to a legal fiction declaring him `` housemother '' to the Douglas family . While the three sons were always central to the storyline , several major changes took place by the late 1960s . In the spring of 1967 , the ratings for the series began to sag and My Three Sons finished its seventh season in 31st place in the Nielsen ratings . It was decided that the 1967 - 1968 season would bring the program not only a new time slot , but also new storylines to spice up the ratings . In the fall of 1967 , CBS moved My Three Sons to Saturday night at 8 : 30 pm . In the season - premiere episode , `` Moving Day '' , the Douglas family and Uncle Charley relocate from the fictional town of Bryant Park in the Midwest to Los Angeles . Robbie ( Don Grady ) marries his classmate / girlfriend , Katie Miller ( Tina Cole ) . Tina Cole , in fact , had appeared in different roles on three previous episodes of My Three Sons : `` House For Sale '' from the fourth season ( February 13 , 1964 ) , `` The Coffee House Set '' from the fifth season ( November 19 , 1964 ) , and `` Robbie and the Little Stranger '' from the sixth season ( February 17 , 1966 ) . At the end of the 1967 - 1968 season , the ratings had improved from the previous year with the series placing at 24th in the Nielsens . The following season , the newlyweds discover that Katie is pregnant , and she gives birth to triplets named Robert , Steven , and Charles . Although originally played by sets of uncredited twins , these babies were played uncredited by Guy , Gunnar , and Garth Swanson . The most familiar triplets in the show 's last two seasons are played by Michael , Daniel , and Joseph Todd . The following year in the tenth season , 1969 - 1970 , Steve remarries , taking widowed teacher Barbara Harper ( Beverly Garland ) as his wife ; she brings with her a 5 - year - old daughter , Dorothy `` Dodie '' ( Dawn Lyn ) , so Steven now had a stepdaughter whom he also subsequently adopts . Also , the last year - and - a-half of the series feature fewer appearances of both Don",
+        "type": "TEXT"
+      },
+      {
+        "content": "time slot , but also new storylines to spice up the ratings . In the fall of 1967 , CBS moved My Three Sons to Saturday night at 8 : 30 pm . In the season - premiere episode , `` Moving Day '' , the Douglas family and Uncle Charley relocate from the fictional town of Bryant Park in the Midwest to Los Angeles . Robbie ( Don Grady ) marries his classmate / girlfriend , Katie Miller ( Tina Cole ) . Tina Cole , in fact , had appeared in different roles on three previous episodes of My Three Sons : `` House For Sale '' from the fourth season ( February 13 , 1964 ) , `` The Coffee House Set '' from the fifth season ( November 19 , 1964 ) , and `` Robbie and the Little Stranger '' from the sixth season ( February 17 , 1966 ) . At the end of the 1967",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who hit the most 3 pointers in a nba game",
+    "answer": "13",
+    "source": "https://en.wikipedia.org//w/index.php?title=NBA_regular_season_records&amp;oldid=826336400",
+    "gold": [
+      {
+        "content": "18 by Wilt Chamberlain , Philadelphia 76ers ( vs. Baltimore Bullets ) on February 24 , 1967 Most field goals attempted in a game , none made 17 by Tim Hardaway , Golden State Warriors ( at Minnesota Timberwolves ) on December 27 , 1991 Most 3 - point field goals made in a game 13 by Stephen Curry , Golden State Warriors ( vs. New Orleans Pelicans ) on November 7 , 2016 ( 13 / 17 ) Most 3 - point field goals attempted in a game 22 by J.R. Smith , New York Knicks ( at Miami Heat ) on April 6 , 2014 ( 10 / 22 ) Most 3 - point field goals made in a game , no misses 9 by Latrell Sprewell , New York Knicks ( vs. Los Angeles Clippers )",
+        "type": "TEXT"
+      },
+      {
+        "content": "18 by Wilt Chamberlain , Philadelphia 76ers ( vs. Baltimore Bullets ) on February 24 , 1967 Most field goals attempted in a game , none made 17 by Tim Hardaway , Golden State Warriors ( at Minnesota Timberwolves ) on December 27 , 1991 Most 3 - point field goals made in a game 13 by Stephen Curry , Golden State Warriors ( vs. New Orleans Pelicans ) on November 7 , 2016 ( 13 / 17 ) Most 3 - point field goals attempted in a game 22 by J.R. Smith , New York Knicks ( at Miami Heat ) on April 6 , 2014 ( 10 / 22 ) Most 3 - point field goals",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "what type of fish live in the pacific ocean",
+    "answer": "Category : fish of the Pacific ocean - wikipedia Help Category : fish of the Pacific ocean This category contains",
+    "source": "https://en.wikipedia.org//w/index.php?title=Category:Fish_of_the_Pacific_Ocean&amp;oldid=833415512",
+    "gold": [
+      {
+        "content": "Category : fish of the Pacific ocean - wikipedia Help Category : fish of the Pacific ocean This category contains fish which are native to Pacific . This category has the following 3 subcategories , out of 3 total . ° ► Western American coastal fauna ‎ ( 3 C , 10 P ) ► Fish of the North Pacific ‎ ( 2 C , 12 P ) ► Fish of Oceania ‎ ( 8 C , 35 P ) Pages in category `` fish of the Pacific ocean '' The following 200 pages are in this category , out of approximately 506 total . This list may not reflect recent changes ( learn more ) . ( previous page ) ( next page ) Ablabys macracanthus Abyssobrotula Abyssobrotula galatheae Acantholiparis caecus Acantholiparis opercularis Alaska blackfish Alaska pollock Albula argentea Albula pacifica Alcichthys elongatus Alfonsino Amblygaster clupeoides Amur stickleback",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "the most common system of land title in australia",
+    "answer": "Torrens title",
+    "source": "https://en.wikipedia.org//w/index.php?title=Torrens_title&amp;oldid=862701733",
+    "gold": [
+      {
+        "content": "Nemo dat Quicquid plantatur Conflict of property laws Blackacre Security deposit Other common law areas Contract law Tort law Wills , trusts and estates Criminal law Evidence Higher category : Law and Common law Torrens title is a land registration and land transfer system , in which a state creates and maintains a register of land holdings , which serves as the conclusive evidence ( termed `` indefeasibility '' ) of title of the person recorded on the register as the proprietor ( owner ) , and of all other interests recorded on the register . The interests that are not guaranteed are called `` paramount interests '' . Ownership of land is transferred by registration of a transfer of title , instead of by the use of deeds . The Registrar would provide a Certificate of Title to the new proprietor , which is merely a copy of the related folio of the register . The main benefit of the system is to enhance certainty of title to land and to simplify dealings involving land . The system has been adopted by many countries , especially those in the Commonwealth of Nations , and has been extended to cover other interests , including credit interests ( such as mortgages ) , leaseholds and strata titles . The design and introduction in 1858 of the Torrens system in South Australia is generally attributed to Sir",
+        "type": "TEXT"
+      },
+      {
+        "content": "Nemo dat Quicquid plantatur Conflict of property laws Blackacre Security deposit Other common law areas Contract law Tort law Wills , trusts and estates Criminal law Evidence Higher category : Law and Common law Torrens title is a land registration and land transfer system , in which a state creates and maintains a register of land holdings , which serves as the conclusive evidence ( termed `` indefeasibility '' ) of title of the person recorded on the register as the proprietor ( owner ) , and of all other interests recorded on the register . The interests that are not guaranteed are called `` paramount interests '' . Ownership of land is transferred by registration",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "who sings with jackson brown on the load out",
+    "answer": "Rosemary Butler",
+    "source": "https://en.wikipedia.org//w/index.php?title=The_Load-Out&amp;oldid=817942820",
+    "gold": [
+      {
+        "content": "Empty . It is a tribute to his roadies and fans . The song was recorded live at Merriweather Post Pavilion in Columbia , Maryland on August 27 , 1977 , as part of the tour in support of the album The Pretender . Contents ( hide ) 1 History 2 Reaction 3 Chart positions 4 Notes History ( edit ) `` The Load - Out '' describes the daily practices of a band and its road crew on a concert tour , and the emotions evoked throughout such an endeavor . The first three verses of the song consist of Browne singing and playing piano with David Lindley playing steel guitar . They are later joined by a synthesizer , followed by the rest of the band . Eventually `` The Load - Out '' segues into an interpretation of Maurice Williams ' 1960 hit `` Stay , '' sung by Browne , Rosemary Butler , and Lindley . It is Lindley who sings the falsetto . Many radio stations played `` The Load - Out '' and `` Stay '' together as a medley , and , although it was n't released as a single to the public initially ( `` Rosie '' was the original B - side to `` Stay '' ) , `` The Load - Out '' charted as a tag - along to `` Stay '' on the Billboard Hot 100 singles charts , based on airplay . `` Stay",
+        "type": "TEXT"
+      },
+      {
+        "content": "and its road crew on a concert tour , and the emotions evoked throughout such an endeavor . The first three verses of the song consist of Browne singing and playing piano with David Lindley playing steel guitar . They are later joined by a synthesizer , followed by the rest of the band . Eventually `` The Load - Out '' segues into an interpretation of Maurice Williams ' 1960 hit `` Stay , '' sung by Browne , Rosemary Butler , and Lindley . It is Lindley who sings the falsetto . Many radio stations played `` The Load - Out '' and `` Stay '' together as a medley , and , although it was n't released as a single to the public initially ( `` Rosie '' was the original B - side to `` Stay '' ) , `` The Load - Out '' charted as a tag - along to `` Stay '' on",
+        "type": "TEXT"
+      },
+      {
+        "content": "Contents ( hide ) 1 History 2 Reaction 3 Chart positions 4 Notes History ( edit ) `` The Load - Out '' describes the daily practices of a band and its road crew on a concert tour , and the emotions evoked throughout such an endeavor . The first three verses of the song consist of Browne singing and playing piano with David Lindley playing steel guitar . They are later joined by a synthesizer , followed by the rest of the band . Eventually `` The Load - Out '' segues into an interpretation of Maurice Williams ' 1960 hit `` Stay , '' sung by Browne , Rosemary Butler , and Lindley . It is Lindley who sings the falsetto . Many radio stations played `` The Load - Out '' and `` Stay '' together as a medley ,",
+        "type": "TEXT"
+      }
+    ]
+  },
+  {
+    "query": "which of the following does not pass through the kaziranga national park",
+    "answer": "Geography of Kaziranga National park - Wikipedia Geography of Kaziranga National park Flooded grasslands in the Kaziranga National Park Kaziranga",
+    "source": "https://en.wikipedia.org//w/index.php?title=Geography_of_Kaziranga_National_Park&amp;oldid=851100030",
+    "gold": [
+      {
+        "content": "Geography of Kaziranga National park - Wikipedia Geography of Kaziranga National park Flooded grasslands in the Kaziranga National Park Kaziranga National Park ( Assamese : কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান , Kazirônga Rastriyô Uddyan , IPA : ( kaziɹɔŋa ɹastɹijɔ udːjan ) ( listen ) ) is an Indian national park and a World Heritage Site in Golaghat and Nagaon districts of Assam , India . It is refuge for the world 's largest population of Great One - horned Rhinoceros . Kaziranga has the highest density of tigers in the World and is declared a Tiger Reserve in 2006 . The park has many Elephant , Water Buffalo and Swamp Deer . It is recognized as an Important Bird Area by Birdlife International for conservation of avifaunal species . The park has achieved notable progress in wildlife conservation despite several constraints . Kaziranga is a vast stretch of tall elephant grass , marshland and dense tropical moist broadleaf forests crisscrossed by four main rivers -- Brahmaputra , Diphlu , Mora Diphlu and Mora Dhansiri and has numerous small water bodies . Kaziranga has been the theme of several books , documentaries and songs .",
         "type": "TEXT"
       }
     ]

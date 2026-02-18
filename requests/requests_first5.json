@@ -31,7 +31,7 @@
   },
   {
     "query": "what type of fertilisation takes place in humans",
-    "answer": "<P> The process of fertilization involves a sperm fusing with an ovum . The most common sequence begins with ejaculation",
+    "answer": "The process of fertilization involves a sperm fusing with an ovum . The most common sequence begins with ejaculation",
     "source": "https://en.wikipedia.org//w/index.php?title=Human_fertilization&amp;oldid=831042507",
     "gold": [
       {
@@ -56,12 +56,12 @@
     ]
   },
   {
-    "query": "what happened to the lost settlement of roanoke",
-    "answer": "Roanoke Colony - wikipedia Roanoke Colony Jump to : navigation , search `` Lost Colony '' redirects here . For",
-    "source": "https://en.wikipedia.org//w/index.php?title=Roanoke_Colony&amp;oldid=843591647",
+    "query": "what are the different regions of africa and how do they differ",
+    "answer": "List of regions of Africa - wikipedia List of regions of Africa This article needs additional citations for verification .",
+    "source": "https://en.wikipedia.org//w/index.php?title=List_of_regions_of_Africa&amp;oldid=846015670",
     "gold": [
       {
-        "content": "Roanoke Colony - wikipedia Roanoke Colony Jump to : navigation , search `` Lost Colony '' redirects here . For other uses , see Lost Colony ( disambiguation ) . This article 's lead section does not adequately summarize key points of its contents . Please consider expanding the lead to provide an accessible overview of all important aspects of the article . Please discuss this issue on the article 's talk page . ( March 2018 ) Roanoke Colony Colony of England 1585 -- c. 1590 Virginea Pars map , drawn by John White during his initial visit in 1585 . Roanoke is the small pink island in the middle right of the map . History Established 1585 Birth of Virginia Dare August 18 , 1587 Abandoned Before August c. 1590",
+        "content": "List of regions of Africa - wikipedia List of regions of Africa This article needs additional citations for verification . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . ( November 2015 ) ( Learn how and when to remove this template message ) The five regions according to the United Nations geoscheme for Africa . The five regions of the African Union . The five regions of the Confederation of African Football . The continent of Africa is commonly divided into five regions or subregions , four of which are in Sub-Saharan Africa , though some definitions may contain four ( removing Central Africa ) or six regions ( separating the horn of Africa into its own region ) . Contents ( hide ) 1 List of subregions in Africa 2 Directional approach 3 Physiographic approach 4 Linguistic approach 4.1 By official language 4.2 By indigenous language family 5 Investment approach 6 See also",
         "type": "TEXT"
       }
     ]

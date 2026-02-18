@@ -69,10 +69,10 @@ docker-compose exec rag-app python scripts/evaluate_retrieval.py \
 
 # Evaluate with request.json
 docker-compose exec rag-app python main.py evaluate \
-  --json-path /app/requests/requests.json \
-  --json-question-key query \
-  --json-answer-key answer \
-  --output /app/output/report.txt
+  --json-path /app/requests/requests_first5.json \
+  --output /app/output/report.txt \
+  --save-details /app/output/eval_details.json
+
 
 docker-compose exec rag-app python scripts/latency_eval.py \
   --input //app/requests/requests.json \

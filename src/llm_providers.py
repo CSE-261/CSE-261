@@ -200,84 +200,116 @@ class BedrockProvider(LLMProvider):
 
     def generate(
         self,
-        messages: List[Dict[str, str]],
+        messages,
         temperature: float = 0.7,
         max_tokens: int = 1000
     ) -> Dict[str, Any]:
-        """Generate response using AWS Bedrock with Claude models."""
+        """
+        Generate response using AWS Bedrock.
+
+        Accepts either a string prompt or a list of chat messages (dicts with role/content).
+        Internally adapts payload per model family (Titan text, Claude chat, generic chat).
+        """
         try:
-            # Convert messages to Bedrock Claude format
-            if "anthropic.claude" in self.model_name:
-                # Format for Claude models
+            # Normalize input to list of messages
+            if isinstance(messages, str):
+                messages = [{"role": "user", "content": messages}]
+
+            model = self.model_name
+
+            # Titan text models accept simple prompt
+            if "titan-text" in model:
+                prompt = "\n".join(m.get("content", "") for m in messages)
+                body = {
+                    "inputText": prompt,
+                    "textGenerationConfig": {
+                        "temperature": temperature,
+                        "maxTokenCount": max_tokens,
+                    },
+                }
+            # Claude chat models
+            elif "anthropic.claude" in model:
                 system_message = None
                 conversation = []
-
                 for msg in messages:
                     role = msg.get("role", "user")
                     content = msg.get("content", "")
-
                     if role == "system":
                         system_message = content
                     else:
-                        # Map 'assistant' and 'user' roles
-                        conversation.append({
-                            "role": role,
-                            "content": content
-                        })
-
-                # Build request body for Claude
+                        conversation.append({"role": role, "content": content})
                 body = {
                     "anthropic_version": "bedrock-2023-05-31",
                     "messages": conversation,
                     "temperature": temperature,
-                    "max_tokens": max_tokens
+                    "max_tokens": max_tokens,
                 }
-
                 if system_message:
                     body["system"] = system_message
-
+            # Generic chat models (e.g., deepseek, llama on Bedrock)
             else:
-                # Generic format for other models (adjust as needed)
                 body = {
                     "messages": messages,
                     "temperature": temperature,
-                    "max_tokens": max_tokens
+                    "max_tokens": max_tokens,
                 }
 
-            # Call Bedrock API
             response = self.client.invoke_model(
-                modelId=self.model_name,
+                modelId=model,
                 body=json.dumps(body)
             )
+            response_body = json.loads(response["body"].read())
 
-            # Parse response
-            response_body = json.loads(response['body'].read())
-
-            # Extract content based on model type
-            if "anthropic.claude" in self.model_name:
-                # Claude models format
-                content = response_body.get("content", [{}])[0].get("text", "")
-                usage = response_body.get("usage", {})
-
+            # Parse per model family
+            if "titan-text" in model:
+                result = response_body.get("results", [{}])[0]
+                content = result.get("outputText", "")
+                usage = result.get("tokenCount", {})
                 return {
                     "content": content,
-                    "model": self.model_name,
+                    "model": model,
+                    "usage": {
+                        "prompt_tokens": usage.get("inputTextTokenCount", 0),
+                        "completion_tokens": usage.get("outputTextTokenCount", 0),
+                        "total_tokens": usage.get("totalTokens", 0),
+                    },
+                }
+            elif "anthropic.claude" in model:
+                content = response_body.get("content", [{}])[0].get("text", "")
+                usage = response_body.get("usage", {})
+                return {
+                    "content": content,
+                    "model": model,
                     "usage": {
                         "prompt_tokens": usage.get("input_tokens", 0),
                         "completion_tokens": usage.get("output_tokens", 0),
-                        "total_tokens": usage.get("input_tokens", 0) + usage.get("output_tokens", 0)
-                    }
+                        "total_tokens": usage.get("input_tokens", 0)
+                        + usage.get("output_tokens", 0),
+                    },
                 }
             else:
-                # Generic response parsing (fallback)
+                # Generic / OpenAI-style chat (e.g., deepseek on Bedrock)
+                content = ""
+                usage = response_body.get("usage", {})
+                if "choices" in response_body:
+                    choices = response_body.get("choices") or []
+                    if choices:
+                        message = choices[0].get("message", {})
+                        content = message.get("content", "") or response_body.get("output", "")
+                else:
+                    content = (
+                        response_body.get("output", "")
+                        or response_body.get("content", "")
+                        or response_body.get("completion", "")
+                    )
                 return {
-                    "content": response_body.get("completion", ""),
-                    "model": self.model_name,
+                    "content": content,
+                    "model": model,
                     "usage": {
-                        "prompt_tokens": 0,
-                        "completion_tokens": 0,
-                        "total_tokens": 0
-                    }
+                        "prompt_tokens": usage.get("prompt_tokens", 0),
+                        "completion_tokens": usage.get("completion_tokens", 0),
+                        "total_tokens": usage.get("total_tokens", 0),
+                    },
                 }
 
         except Exception as e:

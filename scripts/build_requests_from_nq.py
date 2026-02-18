@@ -1,13 +1,15 @@
 """
 Build requests/requests.json from NQ simplified train set with contextual gold passages.
+Includes strict filtering to remove garbage entries (e.g., Wikipedia navigation text).
 
 Rules:
-- Take first 100 records from /app/original_text/v1.0-simplified_simplified-nq-train.jsonl
+- Read from /app/original_text/v1.0-simplified_simplified-nq-train.jsonl
 - Query: question_text
 - Answer: short answer text if present, else long answer span, else empty
 - Gold: one TEXT item with a context window around the annotated answer:
     * Prefer long_answer span; fallback to first short_answer span; fallback to first 200 tokens of document_text
     * Window = [start-80, end+80] tokens (clipped to doc bounds)
+- Filtering: Skips entries with navigation text in answers or missing gold context.
 """
 from __future__ import annotations
 import json
@@ -30,6 +32,33 @@ def strip_html(text: str) -> str:
     cleaned = soup.get_text(" ", strip=True)
     return " ".join(cleaned.split())
 
+def is_garbage(text: str) -> bool:
+    """Check if the answer text contains Wikipedia navigation garbage or is invalid."""
+    if not text or len(text.strip()) < 2:
+        return True
+    
+    text_lower = text.lower()
+    
+    # Common garbage patterns in Wikipedia extraction
+    garbage_triggers = [
+        "jump to : navigation",
+        "jump to: navigation",
+        "jump to navigation",
+        "redirects here",
+        "from wikipedia",
+        "the free encyclopedia",
+        "user:", 
+        "talk:", 
+        "file:",
+        "image:",
+        "category:"
+    ]
+    
+    for trigger in garbage_triggers:
+        if trigger in text_lower:
+            return True
+            
+    return False
 
 def extract_span_tokens(tokens, start, end, window=WINDOW):
     """Return a context window around start:end token span."""
@@ -87,15 +116,21 @@ def build_entry(obj):
 
     # fallback evidence
     if not gold_items:
-        add_ctx(" ".join(tokens[:200]))
+        fallback_ctx = " ".join(tokens[:200])
+        if fallback_ctx:
+            add_ctx(fallback_ctx)
 
     # Fallback: if answer empty, borrow first gold snippet
     if not answer_text and gold_items:
-        answer_text = " ".join(gold_items[0]["content"].split()[:ANSWER_MAX_WORDS])
+        # Take first few words from gold content as a pseudo-answer if real answer is missing
+        # But be careful, this might just be context. 
+        # For now we stick to original logic but ensure it's not garbage.
+        candidate = " ".join(gold_items[0]["content"].split()[:ANSWER_MAX_WORDS])
+        answer_text = candidate
 
     return {
         "query": obj.get("question_text", "").strip(),
-        "answer": answer_text,
+        "answer": strip_html(answer_text), # Ensure answer itself is clean
         "source": obj.get("document_url", ""),
         "gold": gold_items,
     }
@@ -104,14 +139,45 @@ def build_entry(obj):
 def main():
     DST.parent.mkdir(parents=True, exist_ok=True)
     out = []
+    
+    print(f"Reading from {SRC}...")
+    
     with SRC.open() as f:
+        # Use enumerate just for logging line numbers, not for limiting logic
         for i, line in enumerate(f, 1):
-            obj = json.loads(line)
-            out.append(build_entry(obj))
-            if i >= LIMIT:
-                break
+            try:
+                obj = json.loads(line)
+                entry = build_entry(obj)
+                
+                # --- Filtering Logic ---
+                
+                # 1. Filter Garbage Answers
+                if is_garbage(entry.get("answer", "")):
+                    # Optional: Print skipped items to debug
+                    # print(f"Skipping line {i}: Garbage answer found.")
+                    continue
+                
+                # 2. Filter Missing Gold Context
+                # If there is no context, we can't evaluate retrieval properly
+                if not entry.get("gold"):
+                    # print(f"Skipping line {i}: No gold context.")
+                    continue
+
+                # 3. Filter Missing Query
+                if not entry.get("query"):
+                    continue
+
+                out.append(entry)
+                
+                # Stop once we have enough VALID entries
+                if len(out) >= LIMIT:
+                    break
+            except Exception as e:
+                print(f"Error processing line {i}: {e}")
+                continue
+
     DST.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Wrote {len(out)} entries to {DST}")
+    print(f"Successfully wrote {len(out)} clean entries to {DST}")
 
 
 if __name__ == "__main__":
