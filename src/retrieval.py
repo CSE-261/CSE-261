@@ -750,7 +750,10 @@ class RAGPipeline:
 
 Question: {query}
 
-Answer: Provide a detailed and accurate answer based on the contexts above. If the contexts don't contain enough information to answer the question, say so."""
+Answer format (very important):
+- Line 1: a concise direct answer (<=12 words) that states the key entity/value; start with it immediately (e.g., "Tom Brady" or "a sperm fusing with an egg cell").
+- Following lines: a brief explanation grounded in the contexts.
+- If the contexts don't contain enough information, say so explicitly."""
 
         return prompt
 

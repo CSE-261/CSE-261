@@ -295,8 +295,8 @@ class RAGEvaluator:
             if ground_truths is not None:
                 metrics.extend([
                     context_recall,
-                    answer_correctness,
-                    # answer_similarity,
+                    # answer_correctness,
+                    answer_similarity,
                 ])
 
         # Create a compatible LangChain chat model for ragas based on provider type
