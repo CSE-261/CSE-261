@@ -22,6 +22,7 @@ from src.config import RAGConfig
 logger = logging.getLogger(__name__)
 
 _MISSING_REFERENCE_LOG: set[str] = set()
+DEFAULT_FUZZY_THRESHOLD = 0.02
 
 
 def normalize_text(value: str) -> str:
@@ -377,12 +378,6 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         help="Optional path to store per-query retrieval details as JSON.",
     )
-    parser.add_argument(
-        "--fuzzy-threshold",
-        type=float,
-        default=0.7,
-        help="Similarity ratio (0-1) required to count a retrieved chunk as covering a gold evidence span.",
-    )
     return parser.parse_args()
 
 
@@ -415,7 +410,7 @@ def main() -> None:
             sample.query, top_k=retrieval_k, score_threshold=score_threshold
         )
 
-        evaluation = evaluate_query(retrieved, sample.gold_items, k_values, args.fuzzy_threshold)
+        evaluation = evaluate_query(retrieved, sample.gold_items, k_values, DEFAULT_FUZZY_THRESHOLD)
         per_query_results.append(evaluation)
 
         if args.save_details:
