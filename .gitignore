@@ -55,7 +55,6 @@ logs/
 
 # Output
 results/
-output/
 
 # Secrets/keys
 *.pem

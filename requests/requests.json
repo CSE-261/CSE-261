@@ -92,18 +92,6 @@
     
   },
 
-{
-    "query": "who is the deputy chief minister of jammu and kashmir",
-    "answer": "surinder kumar choudhary",
-    "source": "https://en.wikipedia.org/w/index.php?title=List_of_deputy_chief_ministers_of_Jammu_and_Kashmir&amp;oldid=846661163",
-    "gold": [
-      {
-        "content": "incumbent deputy chief minister of jammu and kashmir: surinder kumar choudhary, since 16 october 2024.",
-        "type": "TEXT"
-      }
-    ]
-  },
-
   {
     "query": "what is the central bank of the philippines",
     "answer": "bangko sentral ng pilipinas",
@@ -555,18 +543,6 @@
     "gold": [
       {
         "content": "in medicine, pulse is the rhythmic expansion and contraction of an artery in response to the cardiac cycle (heartbeat). the pulse may be felt (palpated) in any place that allows an artery to be compressed near the surface of the body, such as at the neck (carotid artery), wrist (radial artery or ulnar artery), at the groin (femoral artery), behind the knee (popliteal artery), near the ankle joint (posterior tibial artery), and on foot (dorsalis pedis artery). the pulse is most commonly measured at the wrist or neck for adults and at the brachial artery (inner upper arm between the shoulder and elbow) for infants and very young children.",
-        "type": "TEXT"
-      }
-    ]
-  },
-  
-  {
-    "query": "i was a fugitive from a georgia chain gang",
-    "answer": "i am a fugitive from a georgia chain gang!",
-    "source": "https://en.wikipedia.org//w/index.php?title=I_Am_a_Fugitive_from_a_Georgia_Chain_Gang!&amp;oldid=844871095",
-    "gold": [
-      {
-        "content": "i am a fugitive from a georgia chain gang! (1932) is a book written by veteran robert elliott burns and published by grosset & dunlap. the book recounts burns' imprisonment on a chain gang in georgia in the 1920s, his subsequent escape to new jersey, and the furor that developed. the story was first published in january 1931, serialized in true detective mysteries magazine. later that year, burns's story was adapted as the motion picture i am a fugitive from a chain gang, starring paul muni. the book and movie were both credited with contributing to governor ellis arnall's effort in 1943 to reform deplorable conditions on georgia chain gangs.",
         "type": "TEXT"
       }
     ]

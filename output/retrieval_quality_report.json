@@ -1,0 +1,281 @@
+{
+  "summary": {
+    "precision_at_5": 0.7003401360544216,
+    "evidence_recall_at_3": 0.87,
+    "evidence_recall_at_10": 0.87,
+    "per_query_coverage_at_3": 0.8826530612244898,
+    "per_query_coverage_at_10": 0.8826530612244898,
+    "full_coverage_rate_at_3": 0.8775510204081632,
+    "full_coverage_rate_at_10": 0.8775510204081632,
+    "mean_average_precision": 0.8146258503401361,
+    "mean_reciprocal_rank": 0.8197278911564627,
+    "hit_rate_at_10": 0.8877551020408163
+  },
+  "total_queries": 98,
+  "zero_retrieved": [
+    {
+      "query": "what indian tribe did the acadians form friendships and alliances with",
+      "retrieved": 0,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "god father mobster who was shot in the eye",
+      "retrieved": 0,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "what episode in victorious is give it up",
+      "retrieved": 0,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "city of stars are you shining just for me meaning",
+      "retrieved": 0,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "what is the worth of the catholic church",
+      "retrieved": 0,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "what affect does acetylcholine have on the sarcolemma",
+      "retrieved": 0,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "does argyrosomus japonicus live in the pacific ocean",
+      "retrieved": 0,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    }
+  ],
+  "no_hit_at_10": [
+    {
+      "query": "what indian tribe did the acadians form friendships and alliances with",
+      "retrieved": 0,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "god father mobster who was shot in the eye",
+      "retrieved": 0,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "what episode in victorious is give it up",
+      "retrieved": 0,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "who sold manhattan to the dutch in 1626",
+      "retrieved": 2,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "city of stars are you shining just for me meaning",
+      "retrieved": 0,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "what percentage of the united states is forested",
+      "retrieved": 1,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "what is the worth of the catholic church",
+      "retrieved": 0,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "how many classes do u have to fail to get held back",
+      "retrieved": 1,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "who left so you think you can dance",
+      "retrieved": 1,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "what affect does acetylcholine have on the sarcolemma",
+      "retrieved": 0,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "does argyrosomus japonicus live in the pacific ocean",
+      "retrieved": 0,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    }
+  ],
+  "poor_retrieval": [
+    {
+      "query": "who sold manhattan to the dutch in 1626",
+      "retrieved": 2,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "what percentage of the united states is forested",
+      "retrieved": 1,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "how many classes do u have to fail to get held back",
+      "retrieved": 1,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "who left so you think you can dance",
+      "retrieved": 1,
+      "matched": 0,
+      "mrr": 0.0,
+      "ap": 0.0,
+      "hit10": 0.0,
+      "rec10": 0.0,
+      "p5": 0.0
+    },
+    {
+      "query": "who played mantis guardians of the galaxy 2",
+      "retrieved": 1,
+      "matched": 1,
+      "mrr": 1.0,
+      "ap": 0.5,
+      "hit10": 1.0,
+      "rec10": 0.5,
+      "p5": 1.0
+    },
+    {
+      "query": "which former Goldman Sachs executive became U.S. Secretary of the Treasury?",
+      "retrieved": 5,
+      "matched": 1,
+      "mrr": 0.3333333333333333,
+      "ap": 0.3333333333333333,
+      "hit10": 1.0,
+      "rec10": 1.0,
+      "p5": 0.2
+    },
+    {
+      "query": "who won Big Brother 20?",
+      "retrieved": 20,
+      "matched": 1,
+      "mrr": 0.5,
+      "ap": 0.5,
+      "hit10": 1.0,
+      "rec10": 1.0,
+      "p5": 0.2
+    },
+    {
+      "query": "who holds the nba record for most points in a career",
+      "retrieved": 20,
+      "matched": 1,
+      "mrr": 1.0,
+      "ap": 1.0,
+      "hit10": 1.0,
+      "rec10": 1.0,
+      "p5": 0.2
+    }
+  ]
+}

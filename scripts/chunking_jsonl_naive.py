@@ -1,4 +1,5 @@
 from __future__ import annotations
+import argparse
 import json
 import hashlib
 import pathlib
@@ -20,6 +21,13 @@ CONFIG = {
 }
 
 _enc = tiktoken.get_encoding("cl100k_base")
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Chunk JSONL records into retrieval chunks.")
+    parser.add_argument("--input-file", default=CONFIG["input_file"], help="Input JSONL path.")
+    parser.add_argument("--output-file", default=CONFIG["output_file"], help="Output JSONL path.")
+    return parser.parse_args()
 
 def md5(s: str) -> str:
     return hashlib.md5(s.encode("utf-8")).hexdigest()
@@ -44,8 +52,8 @@ def clean_wikipedia_garbage(text: str) -> str | None:
         r"article possibly contains original research",
     ]
     trigger_regex = re.compile("|".join(garbage_triggers), re.IGNORECASE)
-    if trigger_regex.search(text):
-        return None
+    # Remove boilerplate phrases instead of dropping the whole block.
+    text = trigger_regex.sub(" ", text)
 
     text = re.sub(r"\(\s*hide\s*\)", "", text, flags=re.IGNORECASE)
     text = re.sub(r"\(\s*Learn how and when.*?\)", "", text, flags=re.IGNORECASE)
@@ -64,7 +72,7 @@ def is_semantic_block(text: str) -> bool:
     Filter out TOC / nav / listy fragments.
     """
     words = text.split()
-    if len(words) < CONFIG["min_words_per_block"]:
+    if len(words) < max(4, CONFIG["min_words_per_block"] // 2):
         return False
 
     # 【改进点 1】: 过滤纯目录结构 (例如 "2.1 History 2.2 Origins")
@@ -75,12 +83,12 @@ def is_semantic_block(text: str) -> bool:
 
     # too non-linguistic (tables/menus)
     alpha = sum(ch.isalpha() for ch in text)
-    if alpha / max(len(text), 1) < 0.55:
+    if alpha / max(len(text), 1) < 0.35:
         return False
 
     # lots of very short tokens (menus)
     short = sum(1 for w in words if len(w) <= 2)
-    if short / max(len(words), 1) > 0.35:
+    if short / max(len(words), 1) > 0.55:
         return False
 
     return True
@@ -127,7 +135,8 @@ def parse_html_with_bs4(html_text: str) -> List[Dict[str, str]]:
     headers: Dict[int, str] = {}
     raw_sections: List[Dict[str, str]] = []
 
-    tags_of_interest = ["h1", "h2", "h3", "h4", "h5", "h6", "p", "li"]
+    # Include table text to avoid losing list/table-driven pages.
+    tags_of_interest = ["h1", "h2", "h3", "h4", "h5", "h6", "p", "li", "td", "th", "caption"]
     skip_header_patterns = [
         r"^references\b", r"^external links\b", r"^see also\b",
         r"^notes\b", r"^further reading\b", r"^bibliography\b",
@@ -242,7 +251,13 @@ def process_record(obj: Dict[str, Any], order_base: int) -> List[Dict[str, Any]]
 
     raw_sections = parse_html_with_bs4(text)
     if not raw_sections:
-        return []
+        # Fallback: keep at least one section from full visible text.
+        plain = BeautifulSoup(text, "html.parser").get_text(separator=" ", strip=True)
+        plain = clean_wikipedia_garbage(plain) or ""
+        plain = re.sub(r"\s+", " ", plain).strip()
+        if not plain:
+            return []
+        raw_sections = [{"context": "Fallback", "text": plain}]
 
     merged_sections = merge_small_sections(
         raw_sections,
@@ -293,8 +308,9 @@ def process_record(obj: Dict[str, Any], order_base: int) -> List[Dict[str, Any]]
     return results
 
 def main():
-    src = pathlib.Path(CONFIG["input_file"])
-    dst = pathlib.Path(CONFIG["output_file"])
+    args = parse_args()
+    src = pathlib.Path(args.input_file)
+    dst = pathlib.Path(args.output_file)
     dst.parent.mkdir(parents=True, exist_ok=True)
     total = 0
     print(f"Start processing: {src} -> {dst}")
