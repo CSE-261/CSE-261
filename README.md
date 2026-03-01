@@ -69,7 +69,7 @@ docker-compose exec rag-app python scripts/evaluate_retrieval.py \
 
 # Evaluate with request.json
 docker-compose exec rag-app python main.py evaluate \
-  --json-path /app/requests/requests_first5.json \
+  --json-path /app/requests/requests_first.json \
   --output /app/output/report.txt \
   --save-details /app/output/eval_details.json
 
