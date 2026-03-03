@@ -91,6 +91,7 @@ Update `.env` to control the pipeline:
 
 - `LLM_PROVIDER`, `LLM_MODEL`, `OLLAMA_BASE_URL`: select the generator model. Increase `LLM_MAX_TOKENS` when using thinking-capable models.
 - `GEMINI_API_KEY`, `LLM_REQUEST_INTERVAL`: required when `LLM_PROVIDER=gemini`. Set a small interval (e.g., 6s) to avoid API throttling during evaluation.
+- `RAGAS_LLM_PROVIDER`, `RAGAS_LLM_MODEL`: optional dedicated evaluator model. If unset, RAGAS reuses `LLM_PROVIDER`/`LLM_MODEL`. Provider-specific overrides like `RAGAS_GEMINI_API_KEY` or `RAGAS_AWS_REGION` are also supported.
 - `DENSE_BATCH_SIZE`, `USE_FP16`, `SORT_BY_LENGTH`: tune GPU-friendly ingestion; large batches + FP16 keep the GPU busy while length sorting reduces padding waste.
 - `RAG_TOP_K`, `RAG_SCORE_THRESHOLD`, `RAG_FINAL_CONTEXT_LIMIT`: retrieval fan-out, similarity gating, and how many reranked contexts actually reach the LLM prompt.
 - `RERANK_ENABLED`, `RERANK_MODEL`, `RERANK_TOP_N`, `RERANK_REQUEST_INTERVAL`: enable optional Bedrock reranking (e.g., `amazon.rerank-v1:0`) and tune how many docs are scored + how long to pause between calls to avoid throttling.

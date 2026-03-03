@@ -1,0 +1,9 @@
+{
+    "total_samples": 98,
+    "exact_match": 0.0,
+    "contain_match": 0.5204081632653061,
+    "f1_score": 0.12229460546585573,
+    "faithfulness": 0.9057653797449716,
+    "context_recall": 0.8460884353741497,
+    "answer_similarity": 0.5228664856126709
+}

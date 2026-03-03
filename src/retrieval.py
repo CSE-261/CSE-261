@@ -19,6 +19,8 @@ from .rerankers import create_reranker
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+NO_CONTEXT_FALLBACK = "No relevant snippets were retrieved from the knowledge base."
+
 
 class RAGPipeline:
     """Retrieval-Augmented Generation pipeline."""
@@ -781,16 +783,17 @@ class RAGPipeline:
         """
         context_text = "\n\n".join([f"Context {i+1}:\n{ctx}" for i, ctx in enumerate(contexts)])
 
-        prompt = f"""You are a helpful assistant. Answer the user's question based on the provided contexts.
+        prompt = f"""You are a helpful assistant. Answer the user's question strictly based on the provided contexts.
 
 {context_text}
 
 Question: {query}
 
 Answer format (very important):
-- Line 1: a concise direct answer (<=12 words) that states the key entity/value; start with it immediately (e.g., "Tom Brady" or "a sperm fusing with an egg cell").
-- Following lines: a brief explanation grounded in the contexts.
-- If the contexts don't contain enough information, say so explicitly."""
+- Output exactly one line only.
+- Prefer a concise direct answer phrase.
+- Do not add explanation, reasoning, or extra sentences.
+- If the contexts do not contain enough information to answer, output exactly: "{NO_CONTEXT_FALLBACK}"."""
 
         return prompt
 
@@ -888,6 +891,18 @@ Answer format (very important):
         filtered_docs = self._apply_adaptive_filters(retrieved_docs)
         final_docs_for_generation = self._select_docs_for_generation(filtered_docs)
         contexts = [doc.get("content", "") for doc in final_docs_for_generation]
+
+        if not any((ctx or "").strip() for ctx in contexts):
+            logger.info("No retrieved context for query; returning fallback message.")
+            return {
+                "answer": NO_CONTEXT_FALLBACK,
+                "query": query,
+                "contexts": contexts,
+                "model": None,
+                "usage": {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0},
+                "retrieved_docs": filtered_docs,
+                "used_retrieved_docs": final_docs_for_generation,
+            }
 
         result = self.generate(query, contexts)
         result["retrieved_docs"] = filtered_docs

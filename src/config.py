@@ -106,6 +106,26 @@ class RAGASEvaluatorConfig:
     max_retries: int = int(os.getenv("RAGAS_MAX_RETRIES", "3"))
     max_wait: int = int(os.getenv("RAGAS_MAX_WAIT", "30"))
 
+    # Optional dedicated LLM for RAGAS (falls back to LLM_* when unset)
+    llm_provider: Optional[str] = os.getenv("RAGAS_LLM_PROVIDER")
+    llm_model_name: Optional[str] = os.getenv("RAGAS_LLM_MODEL")
+    llm_temperature: Optional[float] = _get_optional_float_env("RAGAS_LLM_TEMPERATURE")
+    llm_max_tokens: Optional[int] = _get_optional_int_env("RAGAS_LLM_MAX_TOKENS")
+    llm_request_interval: Optional[float] = _get_optional_float_env("RAGAS_LLM_REQUEST_INTERVAL")
+
+    # Ollama-specific override
+    llm_ollama_base_url: Optional[str] = os.getenv("RAGAS_OLLAMA_BASE_URL") or os.getenv("OLLAMA_BASE_URL")
+
+    # Bedrock-specific override
+    llm_aws_region: Optional[str] = os.getenv("RAGAS_AWS_REGION") or os.getenv("AWS_REGION")
+    llm_aws_access_key_id: Optional[str] = os.getenv("RAGAS_AWS_ACCESS_KEY_ID") or os.getenv("AWS_ACCESS_KEY_ID")
+    llm_aws_secret_access_key: Optional[str] = os.getenv("RAGAS_AWS_SECRET_ACCESS_KEY") or os.getenv("AWS_SECRET_ACCESS_KEY")
+    llm_aws_session_token: Optional[str] = os.getenv("RAGAS_AWS_SESSION_TOKEN") or os.getenv("AWS_SESSION_TOKEN")
+    llm_aws_profile_name: Optional[str] = os.getenv("RAGAS_AWS_PROFILE") or os.getenv("AWS_PROFILE_NAME")
+
+    # Gemini-specific override
+    llm_gemini_api_key: Optional[str] = os.getenv("RAGAS_GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY")
+
 
 @dataclass
 class RerankConfig:

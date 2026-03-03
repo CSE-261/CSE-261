@@ -10,7 +10,6 @@
       }
     ]
   },
-  
   {
     "query": "who is the mother in how i met your mother",
     "answer": "tracy mcconnell",
@@ -22,7 +21,6 @@
       }
     ]
   },
-
   {
     "query": "what type of fertilisation takes place in humans",
     "answer": "a sperm fusing with an egg cell",
@@ -34,7 +32,6 @@
       }
     ]
   },
-  
   {
     "query": "who had the most wins in the nfl",
     "answer": "tom brady",
@@ -46,7 +43,6 @@
       }
     ]
   },
-  
   {
     "query": "what are the different regions of africa and how do they differ",
     "answer": "northern africa, western africa, eastern africa, central africa, southern africa",
@@ -58,23 +54,17 @@
       }
     ]
   },
-
   {
     "query": "who played mantis guardians of the galaxy 2",
     "answer": "pom klementieff",
     "source": "https://en.wikipedia.org//w/index.php?title=Pom_Klementieff&amp;oldid=829523540",
     "gold": [
       {
-        "content": "pom alexandra klementieff (french: [pɔm klemɑ̃tjɛf]; born 3 may 1986) is a french actress. she is best known for playing mantis in the marvel cinematic universe (2017–2023), and paris in the final two films of the mission: impossible series (2023–2025).",
-        "type": "TEXT"
-      },
-      {
-        "content": "klementieff received worldwide recognition when she joined the marvel cinematic universe as mantis, appearing in the films guardians of the galaxy vol. 2 (2017), avengers: infinity war (2018), and avengers: endgame (2019). in 2019, she appeared in an episode of the netflix science fiction anthology series black mirror and the thriller film uncut gems and had voice roles in the animated supernatural comedy film the addams family. in 2020, she had a recurring role as martel in the hbo science fiction series westworld.",
+        "content": "She plays the role of Mantis in the film Guardians of the Galaxy Vol. 2 ( 2017 ) and will appear in the same role in the film Avengers : Infinity War ( 2018 ) .",
         "type": "TEXT"
       }
-        ]
+    ]
   },
-
   {
     "query": "what indian tribe did the acadians form friendships and alliances with",
     "answer": "mi'kmaq",
@@ -89,9 +79,7 @@
         "type": "TEXT"
       }
     ]
-    
   },
-
   {
     "query": "what is the central bank of the philippines",
     "answer": "bangko sentral ng pilipinas",
@@ -103,7 +91,6 @@
       }
     ]
   },
-  
   {
     "query": "who is the author of i had trouble in getting to solla sollew",
     "answer": "dr. seuss",
@@ -115,7 +102,6 @@
       }
     ]
   },
-  
   {
     "query": "the nashville sound brought a polished and cosmopolitan sound to country music by",
     "answer": "the use of lush string arrangements with a real orchestra and background vocals provided by a choir",
@@ -127,7 +113,6 @@
       }
     ]
   },
-
   {
     "query": "list the seven wonders of the modern world",
     "answer": "great wall of china, petra, christ the redeemer, machu picchu, chichen itza, colosseum, taj mahal",
@@ -139,7 +124,6 @@
       }
     ]
   },
-  
   {
     "query": "what is rolling stone's 100 greatest artists of all time",
     "answer": "a special issue published by rolling stone in two parts in 2004 and 2005, and later updated in 2011",
@@ -151,19 +135,17 @@
       }
     ]
   },
-  
   {
     "query": "which uk broadcaster shows the most premier league games",
     "answer": "sky sports",
     "source": "https://en.wikipedia.org//w/index.php?title=List_of_Premier_League_broadcasters&amp;oldid=808611916",
     "gold": [
       {
-        "content": "this is a list of television broadcasters which provide coverage of the premier league, english football's top-level competition, which is the most watched league in the world. the main broadcasters in the united kingdom and ireland, in current contract (2025–29), are sky sports (at least 215 televised games in the uk and ireland), tnt sports (52) and premier sports (32) (ireland only). the bbc shows weekly highlights of the premier league on its match of the day and match of the day 2 programmes on saturdays and sundays.",
+        "content": "The main broadcasters in the United Kingdom are Sky Sports , who broadcast 126 of the 168 televised games in the UK , and BT Sport .",
         "type": "TEXT"
       }
     ]
   },
-  
   {
     "query": "what is the use of jdk in java",
     "answer": "a software development kit for development of a java platform application",
@@ -175,7 +157,6 @@
       }
     ]
   },
-  
   {
     "query": "who needs to be in the car with a permit driver in the united kingdom",
     "answer": "a driver who has held a full driving licence for three years, and who is 21 or over",
@@ -187,7 +168,6 @@
       }
     ]
   },
-  
   {
     "query": "god's not dead a light in the darkness release date",
     "answer": "march 30, 2018",
@@ -199,7 +179,6 @@
       }
     ]
   },
-  
   {
     "query": "what is i love it by icona pop",
     "answer": "a song by swedish synth-pop duo icona pop featuring vocals from british singer charli xcx",
@@ -211,7 +190,6 @@
       }
     ]
   },
-  
   {
     "query": "where can decisions of the u.s. courts of appeals be appealed?",
     "answer": "their decisions can be appealed to the supreme court of the united states",
@@ -223,7 +201,6 @@
       }
     ]
   },
-  
   {
     "query": "who won RuPaul's Drag Race All Stars season 2?",
     "answer": "alaska",
@@ -235,31 +212,28 @@
       }
     ]
   },
-
   {
     "query": "who is the current president of un general assembly",
-    "answer": "annalena baerbock",
+    "answer": "miroslav lajčák",
     "source": "https://en.wikipedia.org//w/index.php?title=President_of_the_United_Nations_General_Assembly&amp;oldid=807429262",
     "gold": [
       {
-        "content": "incumbent annalena baerbock since 9 september 2025. the president of the united nations general assembly is a position voted by representatives in the united nations general assembly (unga) on a yearly basis. the president is the chair and presiding officer of the general assembly.",
+        "content": "Miroslav Lajčák of Slovakia has been elected as the United Nations General Assembly President of its 72nd session beginning in September 2017 .",
         "type": "TEXT"
       }
     ]
   },
-
   {
     "query": "when are powerball drawings held?",
-    "answer": "mondays, wednesdays, and saturdays at 10:59 p.m. eastern time",
+    "answer": "wednesdays and saturdays at 10:59 p.m. eastern time",
     "source": "https://en.wikipedia.org//w/index.php?title=Powerball&amp;oldid=807097187",
     "gold": [
       {
-        "content": "powerball is an american lottery game offered by 45 states, the district of columbia, puerto rico and the u.s. virgin islands, and overseen by the multi-state lottery association (musl), which also manages other large jackpot games such as the mega millions. drawings are held three times weekly on mondays, wednesdays, and saturdays at 10:59 p.m. eastern time, at the florida lottery's headquarters in tallahassee.",
+        "content": "Drawings for Powerball are held every Wednesday and Saturday evening at 10:59 p.m. Eastern Time .",
         "type": "TEXT"
       }
     ]
   },
-
   {
     "query": "when did the solar eclipse of august 21 2017 take place?",
     "answer": "august 21, 2017",
@@ -271,7 +245,6 @@
       }
     ]
   },
-  
   {
     "query": "what is the name of the sea surrounding dubai",
     "answer": "persian gulf",
@@ -283,19 +256,17 @@
       }
     ]
   },
-  
   {
     "query": "who holds the nba record for most points in a career",
-    "answer": "lebron james",
+    "answer": "Kareem Abdul-Jabbar",
     "source": "https://en.wikipedia.org//w/index.php?title=List_of_National_Basketball_Association_career_scoring_leaders&amp;oldid=834470586",
     "gold": [
       {
-        "content": "lebron james has scored the most career regular season points in nba history.",
+        "content": "Kareem Abdul - Jabbar has scored the most career points in NBA history .",
         "type": "TEXT"
       }
     ]
   },
-
   {
     "query": "what is the musical term for fast tempo",
     "answer": "allegro",
@@ -307,7 +278,6 @@
       }
     ]
   },
-  
   {
     "query": "is there an active volcano in new zealand",
     "answer": "this is a partial list of active, dormant, and extinct volcanoes in new zealand",
@@ -319,7 +289,6 @@
       }
     ]
   },
-  
   {
     "query": "when did Once Upon a Time season 6 premiere?",
     "answer": "september 25, 2016",
@@ -331,19 +300,6 @@
       }
     ]
   },
-  
-  {
-    "query": "what is the minimum age to carry a firearm in Georgia?",
-    "answer": "21 years of age",
-    "source": "https://en.wikipedia.org//w/index.php?title=Gun_laws_in_Georgia&amp;oldid=801284260",
-    "gold": [
-      {
-        "content": "georgia is a \"shall issue\" state for both open and concealed carry, with the georgia weapon's carry license application to be submitted through the probate court of the county of residence. applicants must be at least 21 years of age, unless they provide proof of basic training and service in the military. on april 12, 2022, governor brian kemp signed the constitutional carry bill sb 319 into law allowing for both open and concealed carry without a permit, for both residents and non-residents 21 years of age or older, of handguns, long guns, and other weapons including knives and various others.",
-        "type": "TEXT"
-      }
-    ]
-  },
-  
   {
     "query": "who won Big Brother 20?",
     "answer": "kaycee clark",
@@ -355,7 +311,6 @@
       }
     ]
   },
-  
   {
     "query": "when was Maze Runner: The Death Cure released in the United States?",
     "answer": "january 26, 2018",
@@ -367,19 +322,17 @@
       }
     ]
   },
-  
   {
     "query": "which former Goldman Sachs executive became U.S. Secretary of the Treasury?",
-    "answer": "robert rubin",
+    "answer": "henry paulson",
     "source": "https://en.wikipedia.org//w/index.php?title=List_of_former_employees_of_Goldman_Sachs&amp;oldid=865679757",
     "gold": [
       {
-        "content": " robert rubin – former secretary of the treasury of the united states, ex–chairman of citigroup.",
+        "content": "Henry Paulson -- Former United States Secretary of the Treasury ( 2006 -- 2009 )",
         "type": "TEXT"
       }
     ]
   },
-  
   {
     "query": "how many players are on a box lacrosse team?",
     "answer": "six",
@@ -391,7 +344,6 @@
       }
     ]
   },
-  
   {
     "query": "where will the 2028 Summer Olympics be held?",
     "answer": "los angeles",
@@ -403,7 +355,6 @@
       }
     ]
   },
-
   {
     "query": "when was the basketball three second rule introduced?",
     "answer": "1936",
@@ -415,7 +366,6 @@
       }
     ]
   },
-  
   {
     "query": "when did the plus and minus symbols first appear in print?",
     "answer": "1494",
@@ -427,7 +377,6 @@
       }
     ]
   },
-  
   {
     "query": "what is the origin of the phrase bob's your uncle?",
     "answer": "the origins are uncertain",
@@ -439,7 +388,6 @@
       }
     ]
   },
-  
   {
     "query": "which Friends episode is the one where Chandler and Monica get engaged?",
     "answer": "the one with the proposal",
@@ -451,7 +399,6 @@
       }
     ]
   },
-  
   {
     "query": "who won So You Think You Can Dance 2016?",
     "answer": "leon \"kida\" burns",
@@ -463,7 +410,6 @@
       }
     ]
   },
-
   {
     "query": "who plays Norman Bates in Bates Motel?",
     "answer": "freddie highmore",
@@ -475,19 +421,17 @@
       }
     ]
   },
-  
   {
     "query": "when did the United States start driving on the right?",
-    "answer": "late 18th century",
+    "answer": "1792",
     "source": "https://en.wikipedia.org//w/index.php?title=Left-_and_right-hand_traffic&amp;oldid=815780618",
     "gold": [
       {
-        "content": "in the late 18th century, right-hand traffic started to be introduced in the united states based on teamsters' use of large freight wagons pulled by several pairs of horses and without a driver's seat; the (typically right-handed) postilion held his whip in his right hand and thus sat on the left rear horse, and therefore preferred other wagons passing on the left so that he would have a clear view of other vehicles. the first keep-right law for driving in the united states was passed in 1792 and applied to the philadelphia and lancaster turnpike. massachusetts formalized rht in 1821.",
+        "content": "The first keep - right law for driving in the United States was passed in 1792 and applied to the Philadelphia and Lancaster Turnpike",
         "type": "TEXT"
       }
     ]
   },
-  
   {
     "query": "name some primarily components of the central nervous system (cns)",
     "answer": "brain, spinal cord and retina",
@@ -499,7 +443,6 @@
       }
     ]
   },
-  
   {
     "query": "who's the director of the price is right",
     "answer": "adam sandler",
@@ -511,7 +454,6 @@
       }
     ]
   },
-  
   {
     "query": "bridge on the river kwai fact or fiction",
     "answer": "fiction",
@@ -523,10 +465,9 @@
       }
     ]
   },
-
   {
     "query": "is hong kong a part of the commonwealth",
-    "answer": "no",
+    "answer": "hong kong is not a member of the commonwealth",
     "source": "https://en.wikipedia.org//w/index.php?title=Commonwealth_of_Nations&amp;oldid=814669361",
     "gold": [
       {
@@ -535,7 +476,6 @@
       }
     ]
   },
-  
   {
     "query": "where can pulse be felt in the body",
     "answer": "at the neck (carotid artery), wrist (radial artery or ulnar artery), at the groin (femoral artery), behind the knee (popliteal artery), near the ankle joint (posterior tibial artery), and on foot (dorsalis pedis artery)",
@@ -548,7 +488,7 @@
     ]
   },
   {
-"query": "who held the most wwe titles at one time",
+    "query": "who held the most wwe titles at one time",
     "answer": "john cena",
     "source": "https://en.wikipedia.org//w/index.php?title=List_of_WWE_Champions&amp;oldid=866450897",
     "gold": [
@@ -558,7 +498,6 @@
       }
     ]
   },
-  
   {
     "query": "why did argentina attack the falklands/malvinas islands",
     "answer": "the reclamation of its own territory",
@@ -570,7 +509,6 @@
       }
     ]
   },
-  
   {
     "query": "how long does it take for the moon to go around earth",
     "answer": "27.322 days",
@@ -582,7 +520,6 @@
       }
     ]
   },
-
   {
     "query": "where did the name las vegas golden knights come from",
     "answer": "knights as a homage to the black knights of the united states military academy, foley's alma mater; golden because nevada is the largest gold-producing state in the country",
@@ -594,9 +531,8 @@
       }
     ]
   },
-
   {
-"query": "two words used together that mean the same thing",
+    "query": "two words used together that mean the same thing",
     "answer": "a tautology: a statement that repeats an idea using near-synonymous morphemes, words or phrases, effectively saying the same thing twice",
     "source": "https://en.wikipedia.org//w/index.php?title=Tautology_(language)&amp;oldid=864342086",
     "gold": [
@@ -606,19 +542,17 @@
       }
     ]
   },
-
   {
     "query": "who is the prime minister of republic of mauritius",
-    "answer": "navin ramgoolam",
+    "answer": "pravind jugnauth",
     "source": "https://en.wikipedia.org//w/index.php?title=Prime_Minister_of_Mauritius&amp;oldid=843271260",
     "gold": [
       {
-        "content": "the current prime minister of mauritius is navin ramgoolam, leader of the labour party; he was appointed by president prithvirajsing roopun on 12 november 2024, following the resignation of prime minister pravind jugnauth. the official residence of the prime minister during his term in office is the clarisse house, the prime minister's office is located in port louis.",
+        "content": "Incumbent Pravind Jugnauth since 23 January 2017",
         "type": "TEXT"
       }
     ]
   },
-
   {
     "query": "what teams are in the fa cup final",
     "answer": "manchester united and chelsea",
@@ -630,7 +564,6 @@
       }
     ]
   },
-
   {
     "query": "where is a midsummer night's dream set",
     "answer": "athens",
@@ -642,31 +575,28 @@
       }
     ]
   },
-
   {
-"query": "when does the new series of black sails start",
-    "answer": "january 25, 2014",
+    "query": "when does the new series of black sails start",
+    "answer": "january 29, 2017",
     "source": "https://en.wikipedia.org//w/index.php?title=List_of_Black_Sails_episodes&amp;oldid=853546907",
     "gold": [
       {
-        "content": "black sails is an american television drama series created by jon steinberg and robert levine for starz that debuted on january 25, 2014. it was produced by film afrika worldwide and platinum dunes. it was written as a prequel to robert louis stevenson's novel treasure island. the series was renewed for a fourth season on july 31, 2015, approximately six months before the third season premiered. on july 20, 2016, starz announced that the series' fourth season would be its last; the season premiered on january 29, 2017 and concluded on april 2, 2017. during the course of the series, 38 episodes of black sails aired over four seasons.",
+        "content": "the season premiered on January 29 , 2017 and concluded on April 2 , 2017 .",
         "type": "TEXT"
       }
     ]
   },
-
   {
-"query": "who has scored the most goals in a premier league season",
-    "answer": "erling haaland",
+    "query": "who has scored the most goals in a premier league season",
+    "answer": "andy cole and alan shearer (34 goals)",
     "source": "https://en.wikipedia.org//w/index.php?title=Premier_League_records_and_statistics&amp;oldid=866511685",
     "gold": [
       {
-        "content": "most premier league goals: 260, alan shearer. most premier league goals at one club: 213, harry kane (for tottenham hotspur). most goals in a season: 36, erling haaland (manchester city, 2022–23).",
+        "content": "Most goals in a season ( 42 games ) : 34 , joint record : Andy Cole ( Newcastle United , 1993 -- 94 ) Alan Shearer ( Blackburn Rovers , 1994 -- 95 )",
         "type": "TEXT"
       }
     ]
   },
-
   {
     "query": "god father mobster who was shot in the eye",
     "answer": "moe greene",
@@ -678,7 +608,6 @@
       }
     ]
   },
-
   {
     "query": "who is the first person who went to moon",
     "answer": "neil armstrong",
@@ -690,9 +619,8 @@
       }
     ]
   },
-
   {
-"query": "when did the first lego movie come out",
+    "query": "when did the first lego movie come out",
     "answer": "february 2014",
     "source": "https://en.wikipedia.org//w/index.php?title=List_of_Lego_films_and_TV_series&amp;oldid=803674018",
     "gold": [
@@ -702,19 +630,21 @@
       }
     ]
   },
-
   {
     "query": "are pure metals made of atoms or ions",
     "answer": "atoms",
     "source": "https://en.wikipedia.org//w/index.php?title=Metal&amp;oldid=815651738",
     "gold": [
       {
-        "content": "the atoms of simple metallic substances are often in one of three common crystal structures, namely body-centered cubic (bcc), face-centered cubic (fcc), and hexagonal close-packed (hcp). in bcc, each atom is positioned at the center of a cube of eight others. in fcc and hcp, each atom is surrounded by twelve others, but the stacking of the layers differs. some metals adopt different structures depending on the temperature. atoms of metals readily lose their outer shell electrons, resulting in a free flowing cloud of electrons within their otherwise solid arrangement. this provides the ability of metallic substances to easily transmit heat and electricity.",
+        "content": "Atoms of metals readily lose their outer shell electrons , resulting in a free flowing cloud of electrons within their otherwise solid arrangement . This provides the ability of metallic substances to easily transmit heat and electricity . While this flow of electrons occurs , the solid characteristic of the metal is produced by electrostatic interactions between each atom and the electron cloud . This type of bond is called a metallic bond .",
+        "type": "TEXT"
+      },
+      {
+        "content": "When considering the electronic band structure and binding energy of a metal , it is necessary to take into account the positive potential caused by the specific arrangement of the ion cores -- which is periodic in crystals . The most important consequence of the periodic potential is the formation of a small band gap at the boundary of the Brillouin zone . Mathematically , the potential of the ion cores can be treated by various models , the simplest being the nearly free electron model .",
         "type": "TEXT"
       }
     ]
   },
-
   {
     "query": "what episode in victorious is give it up",
     "answer": "freak the freak out",
@@ -726,7 +656,6 @@
       }
     ]
   },
-
   {
     "query": "movement of molecules across a membrane powered by atp",
     "answer": "primary active transport",
@@ -738,19 +667,17 @@
       }
     ]
   },
-  
   {
     "query": "who sold manhattan to the dutch in 1626",
-    "answer": "native americans",
+    "answer": "seyseys, chief of the canarsees",
     "source": "https://en.wikipedia.org//w/index.php?title=Peter_Minuit&amp;oldid=845627939",
     "gold": [
       {
-        "content": "minuit is credited with purchasing the island of manhattan from native americans in exchange for traded goods valued at 60 guilders. the figure of 60 guilders comes from a letter by a representative of the dutch states-general and member of the board of the dutch west india company, pieter janszoon schagen, to the states-general in november 1626.",
+        "content": "Minuit is credited with purchasing the island of Manhattan from the Native Americans in exchange for traded goods valued at 60 guilders . According to the writer Nathaniel Benchley , Minuit conducted the transaction with Seyseys , chief of the Canarsees , who were only too happy to accept valuable merchandise in exchange for an island that was mostly controlled by the Weckquaesgeeks ..",
         "type": "TEXT"
       }
     ]
   },
-
   {
     "query": "city of stars are you shining just for me meaning",
     "answer": "hopeful, but melancholy at the same time",
@@ -762,31 +689,28 @@
       }
     ]
   },
-
   {
     "query": "who have been the winners of ink master",
-    "answer": "shane o'neill, steve tefft, joey hamilton, scott marshall, jason clay dunn, dave kruseman, anthony michaels, ryan ashley, old town ink (bubba irwin and dj tambe), josh payne, tony medellin, laura marie, dj tambe, bobby johnson, james tex, matt mooney",
+    "answer": "Shane O'Neill; Steve Tefft; Joey Hamilton; Scott Marshall; Jason Clay Dunn; Dave Kruseman; Anthony Michaels; Ryan Ashley Malarkey; Old Town Ink (Bubba Irwin & DJ Tambe).",
     "source": "https://en.wikipedia.org//w/index.php?title=Ink_Master&amp;oldid=804447311",
     "gold": [
       {
-        "content": "series overview. season 1 winner shane o'neill. season 2 steve tefft. season 3 joey hamilton. season 4 scott marshall. season 5 jason clay dunn. season 6 dave kruseman. season 7 anthony michaels. season 8 ryan ashley. season 9 old town ink (aaron bubba irwin and dj tambe). season 10 josh payne. season 11 tony medellin. season 12 laura marie. season 13 no ink master named. season 14 dj tambe. season 15 bobby johnson. season 16 james tex. season 17 matt mooney.",
+        "content": "Shane O'Neill Steve Tefft Joey Hamilton Scott Marshall Jason Clay Dunn Dave Kruseman Anthony Michaels Ryan Ashley Malarkey Old Town Ink ( Bubba Irwin & DJ Tambe )",
         "type": "TEXT"
       }
     ]
   },
-
   {
-"query": "what percentage of the united states is forested",
-    "answer": "36.21%",
+    "query": "what percentage of the united states is forested",
+    "answer": "33%",
     "source": "https://en.wikipedia.org//w/index.php?title=Forest_cover_by_state_in_the_United_States&amp;oldid=843854262",
     "gold": [
       {
-        "content": "list by region. rank region percent forest (2016). 1 u.s. territories 56.74%. 2 southern region 50.13%. 3 pacific northwest region 37.52%. 4 northern region 30.04%. 5 interior west region 28.14%. — total 36.21%.",
+        "content": "As of 2012 , about 33 percent of the United States is forested .",
         "type": "TEXT"
       }
     ]
   },
-
   {
     "query": "what year did the movie deuces come out",
     "answer": "2017",
@@ -798,31 +722,28 @@
       }
     ]
   },
-
   {
-"query": "who is the present sport minister of india",
-    "answer": "mansukh mandaviya",
+    "query": "who is the present sport minister of india",
+    "answer": "rajyavardhan singh rathore",
     "source": "https://en.wikipedia.org//w/index.php?title=Ministry_of_Youth_Affairs_and_Sports&amp;oldid=806968548",
     "gold": [
       {
-        "content": "minister responsible mansukh mandaviya, cabinet minister. the ministry of youth affairs and sports is a branch of the government of india which administers the department of youth affairs and the department of sports in india. mansukh mandaviya is the current minister of youth affairs and sports followed by his deputy raksha khadse.",
+        "content": "Rajyavardhan Singh Rathore ( 3 September 2017 - present )",
         "type": "TEXT"
       }
     ]
   },
-
   {
     "query": "who has the most followers on instagram in the world",
     "answer": "instagram",
     "source": "https://en.wikipedia.org//w/index.php?title=List_of_most-followed_Instagram_accounts&amp;oldid=843654586",
     "gold": [
       {
-        "content": "as of january 2026, instagram's own account is the most-followed with over 698 million followers; the most-followed person is portuguese footballer cristiano ronaldo with over 670 million followers. instagram's own account is the most-followed account overall and the most-followed brand account on the platform.",
+        "content": "As of May 2018, the most followed user is Instagram's own account, with over 235 million followers.",
         "type": "TEXT"
       }
     ]
   },
-
   {
     "query": "where was life or something like it filmed",
     "answer": "seattle, washington",
@@ -834,7 +755,6 @@
       }
     ]
   },
-  
   {
     "query": "the highest post in police department of karnataka state is",
     "answer": "director general and inspector general of police",
@@ -846,7 +766,6 @@
       }
     ]
   },
-
   {
     "query": "how many public holidays in spain",
     "answer": "each municipality is allowed to have a maximum of 14 public holidays per year",
@@ -858,7 +777,6 @@
       }
     ]
   },
-  
   {
     "query": "what was the result of the 1970 world cup semi final italy vs germany",
     "answer": "italy won 4–3 after extra time",
@@ -870,7 +788,6 @@
       }
     ]
   },
-
   {
     "query": "who played the bank robber in dirty harry",
     "answer": "albert popwell",
@@ -882,19 +799,17 @@
       }
     ]
   },
-
   {
     "query": "what is the worth of the catholic church",
-    "answer": "incalculable",
+    "answer": "$140 billion+",
     "source": "https://en.wikipedia.org//w/index.php?title=List_of_wealthiest_organizations&amp;oldid=865819845",
     "gold": [
       {
-        "content": "holy see (vatican) incalculable vatican city catholicism not available due to widespread properties globally.",
+        "content": "Catholic Church $140 billion + Vatican",
         "type": "TEXT"
       }
     ]
   },
-  
   {
     "query": "how many classes do u have to fail to get held back",
     "answer": "most or all subjects",
@@ -906,7 +821,6 @@
       }
     ]
   },
-
   {
     "query": "where is the best farming soil in the us and where did all the dirt come from",
     "answer": "the black dirt region",
@@ -918,7 +832,6 @@
       }
     ]
   },
-
   {
     "query": "the pair of hand drums used in indian classical music is called",
     "answer": "tabla",
@@ -930,7 +843,6 @@
       }
     ]
   },
-
   {
     "query": "where does the term petty officer come from",
     "answer": "anglo-norman and middle french \"petit\", meaning \"of small size, small, little\"",
@@ -942,7 +854,6 @@
       }
     ]
   },
-
   {
     "query": "what does the name erica mean in hebrew",
     "answer": "\"eternal ruler\", \"ever powerful\"",
@@ -954,7 +865,6 @@
       }
     ]
   },
-  
   {
     "query": "what do the colors of the olympic rings mean",
     "answer": "the six colours (including the flag's white background) combined in this way reproduce the colours of every country without exception",
@@ -966,7 +876,6 @@
       }
     ]
   },
-
   {
     "query": "where is israel located on the world map",
     "answer": "in the southern levant region of west asia",
@@ -978,7 +887,6 @@
       }
     ]
   },
-
   {
     "query": "who played smiley in tinker tailor soldier spy",
     "answer": "gary oldman",
@@ -990,7 +898,6 @@
       }
     ]
   },
-  
   {
     "query": "which of these was not an export of ancient greece",
     "answer": "grain",
@@ -1002,7 +909,6 @@
       }
     ]
   },
-
   {
     "query": "is the micrometer screw gauge used for measurement of inner diameter of tube",
     "answer": "no; tube micrometers are used to measure the thickness of tubes. inside diameters are measured with a bore micrometer.",
@@ -1014,7 +920,6 @@
       }
     ]
   },
-
   {
     "query": "when does brennan get pregnant the first time",
     "answer": "season six finale",
@@ -1026,7 +931,6 @@
       }
     ]
   },
-  
   {
     "query": "when did season 2 of handmaid's tale start",
     "answer": "april 25, 2018",
@@ -1038,7 +942,6 @@
       }
     ]
   },
-
   {
     "query": "what causes a dead zone in the ocean",
     "answer": "an increase in nutrients (particularly nitrogen and phosphorus) in the water, known as eutrophication",
@@ -1050,7 +953,6 @@
       }
     ]
   },
-
   {
     "query": "who left so you think you can dance",
     "answer": "vanessa hudgens",
@@ -1062,7 +964,6 @@
       }
     ]
   },
-
   {
     "query": "who is the present governor of puerto rico",
     "answer": "alejandro javier garcía padilla",
@@ -1074,19 +975,21 @@
       }
     ]
   },
-  
   {
     "query": "what affect does acetylcholine have on the sarcolemma",
-    "answer": "can depolarize the muscle fiber, causing a cascade that eventually results in muscle contraction",
+    "answer": "It depolarizes the sarcolemma by opening ACh-gated ion channels (Na⁺ influx).",
     "source": "https://en.wikipedia.org//w/index.php?title=Neuromuscular_junction&amp;oldid=825334810",
     "gold": [
       {
-        "content": "a neuromuscular junction (or myoneural junction) is a chemical synapse between a motor neuron and a muscle fiber. it allows the motor neuron to transmit a signal to the muscle fiber, causing muscle contraction. muscles require innervation to function—and even just to maintain muscle tone, avoiding atrophy. in the neuromuscular system, nerves from the central nervous system and the peripheral nervous system are linked and work together with muscles. synaptic transmission at the neuromuscular junction begins when an action potential reaches the presynaptic terminal of a motor neuron, which activates voltage-gated calcium channels to allow calcium ions to enter the neuron. calcium ions bind to sensor proteins (synaptotagmins) on synaptic vesicles, triggering vesicle fusion with the cell membrane and subsequent neurotransmitter release from the motor neuron into the synaptic cleft. in vertebrates, motor neurons release acetylcholine (ach), a small molecule neurotransmitter, which diffuses across the synaptic cleft and binds to nicotinic acetylcholine receptors (nachrs) on the cell membrane of the muscle fiber, also known as the sarcolemma. nachrs are ionotropic receptors, meaning they serve as ligand-gated ion channels. the binding of ach to the receptor can depolarize the muscle fiber, causing a cascade that eventually results in muscle contraction. neuromuscular junction diseases can be of genetic and autoimmune origin. genetic disorders, such as congenital myasthenic syndrome, can arise from mutated structural proteins that comprise the neuromuscular junction, whereas autoimmune diseases, such as myasthenia gravis, occur when antibodies are produced against nicotinic acetylcholine receptors on the sarcolemma.",
+        "content": "ACh binds to postsynaptic receptors on the sarcolemma. This binding causes ion channels to open and allows sodium ions to flow across the membrane into the muscle cell. The flow of sodium ions across the membrane into the muscle cell generates an action potential which travels to the myofibril and results in muscle contraction.",
+        "type": "TEXT"
+      },
+      {
+        "content": "ACh binds to postsynaptic receptors on the sarcolemma. This binding causes ion channels to open and allows sodium ions to flow across the membrane into the muscle cell.",
         "type": "TEXT"
       }
     ]
   },
-
   {
     "query": "who plays claire underwood's mom on house of cards",
     "answer": "ellen burstyn",
@@ -1098,7 +1001,6 @@
       }
     ]
   },
-
   {
     "query": "who won the all ireland football final 2017",
     "answer": "dublin",
@@ -1110,7 +1012,6 @@
       }
     ]
   },
-  
   {
     "query": "who played robbie douglas wife on my three sons",
     "answer": "tina cole",
@@ -1122,31 +1023,28 @@
       }
     ]
   },
-
   {
     "query": "who hit the most 3 pointers in a nba game",
-    "answer": "klay thompson",
+    "answer": "stephen curry",
     "source": "https://en.wikipedia.org//w/index.php?title=NBA_regular_season_records&amp;oldid=826336400",
     "gold": [
       {
-        "content": "most 3-point field goals made in a game: 14 by klay thompson, golden state warriors (at chicago bulls) on october 29, 2018 (14/24). most 3-point field goals attempted in a game: 24 by klay thompson, golden state warriors (at chicago bulls) on october 29, 2018 (14/24).",
+        "content": "Most 3 - point field goals made in a game 13 by Stephen Curry , Golden State Warriors ( vs. New Orleans Pelicans ) on November 7 , 2016 ( 13 / 17 )",
         "type": "TEXT"
       }
     ]
   },
-  
   {
     "query": "does argyrosomus japonicus live in the pacific ocean",
-    "answer": "yes",
+    "answer": "no",
     "source": "https://en.wikipedia.org//w/index.php?title=Category:Fish_of_the_Pacific_Ocean&amp;oldid=833415512",
     "gold": [
       {
-        "content": "this category contains fish which are native to pacific. pages in category \"fish of the pacific ocean\": the following 200 pages are in this category, out of approximately 846 total. the list includes argyrosomus japonicus.",
+        "content": "This category contains fish which are native to Pacific .",
         "type": "TEXT"
       }
     ]
   },
-
   {
     "query": "the most common system of land title in australia",
     "answer": "torrens title",
@@ -1158,7 +1056,6 @@
       }
     ]
   },
-  
   {
     "query": "who sings with jackson brown on the load out",
     "answer": "rosemary butler",
@@ -1170,7 +1067,6 @@
       }
     ]
   },
-  
   {
     "query": "which of the following does not pass through the kaziranga national park",
     "answer": "nh-37",

@@ -437,41 +437,37 @@ def main() -> None:
 
     summary = aggregate_metrics(per_query_results, k_values)
 
-    precision_at_5 = summary["precision_at_k"].get(5)
-    evidence_recall_at_3 = summary["evidence_recall_at_k"].get(3, 0.0)
-    evidence_recall_at_10 = summary["evidence_recall_at_k"].get(10, 0.0)
-    per_query_coverage_at_3 = summary["per_query_evidence_coverage"].get(3, 0.0)
-    per_query_coverage_at_10 = summary["per_query_evidence_coverage"].get(10, 0.0)
-    full_coverage_rate_at_3 = summary["full_coverage_rate"].get(3, 0.0)
-    full_coverage_rate_at_10 = summary["full_coverage_rate"].get(10, 0.0)
-    hit_rate_at_10 = summary.get("hit_rate_at_k", {}).get(10, 0.0)
-
     filtered_summary: Dict[str, Any] = {
-        "precision_at_5": precision_at_5,
-        "evidence_recall_at_3": evidence_recall_at_3,
-        "evidence_recall_at_10": evidence_recall_at_10,
-        "per_query_coverage_at_3": per_query_coverage_at_3,
-        "per_query_coverage_at_10": per_query_coverage_at_10,
-        "full_coverage_rate_at_3": full_coverage_rate_at_3,
-        "full_coverage_rate_at_10": full_coverage_rate_at_10,
+        "k_values": k_values,
+        "precision_at_k": {k: summary["precision_at_k"].get(k, 0.0) for k in k_values},
+        "evidence_recall_at_k": {
+            k: summary["evidence_recall_at_k"].get(k, 0.0) for k in k_values
+        },
+        "per_query_coverage_at_k": {
+            k: summary["per_query_evidence_coverage"].get(k, 0.0) for k in k_values
+        },
+        "full_coverage_rate_at_k": {
+            k: summary["full_coverage_rate"].get(k, 0.0) for k in k_values
+        },
+        "hit_rate_at_k": {k: summary.get("hit_rate_at_k", {}).get(k, 0.0) for k in k_values},
         "mean_average_precision": summary["mean_average_precision"],
         "mean_reciprocal_rank": summary["mean_reciprocal_rank"],
-        "hit_rate_at_10": hit_rate_at_10,
     }
 
     print("\nRetrieval Evaluation Summary")
     print("=" * 32)
-    if precision_at_5 is not None:
-        print(f"Precision@5:    {precision_at_5:.4f}")
-    print(f"EvidenceRecall@3:     {evidence_recall_at_3:.4f}")
-    print(f"EvidenceRecall@10:    {evidence_recall_at_10:.4f}")
-    print(f"PerQueryCoverage@3:   {per_query_coverage_at_3:.4f}")
-    print(f"PerQueryCoverage@10:  {per_query_coverage_at_10:.4f}")
-    print(f"FullCoverageRate@3:   {full_coverage_rate_at_3:.4f}")
-    print(f"FullCoverageRate@10:  {full_coverage_rate_at_10:.4f}")
+    for k in k_values:
+        print(f"Precision@{k}:    {filtered_summary['precision_at_k'][k]:.4f}")
+    for k in k_values:
+        print(f"EvidenceRecall@{k}:    {filtered_summary['evidence_recall_at_k'][k]:.4f}")
+    for k in k_values:
+        print(f"PerQueryCoverage@{k}:  {filtered_summary['per_query_coverage_at_k'][k]:.4f}")
+    for k in k_values:
+        print(f"FullCoverageRate@{k}:  {filtered_summary['full_coverage_rate_at_k'][k]:.4f}")
+    for k in k_values:
+        print(f"HitRate@{k}:     {filtered_summary['hit_rate_at_k'][k]:.4f}")
     print(f"MAP:            {filtered_summary['mean_average_precision']:.4f}")
     print(f"MRR:            {filtered_summary['mean_reciprocal_rank']:.4f}")
-    print(f"HitRate@10:     {hit_rate_at_10:.4f}")
 
     if args.save_details:
         args.save_details.parent.mkdir(parents=True, exist_ok=True)

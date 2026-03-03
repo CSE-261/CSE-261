@@ -16,7 +16,6 @@ from ragas.metrics import (
     answer_relevancy,
     context_precision,
     context_recall,
-    answer_similarity,
     answer_correctness
 )
 
@@ -27,7 +26,12 @@ from langchain_core.outputs import ChatGeneration, ChatResult
 from pydantic import ConfigDict, Field
 
 from .retrieval import RAGPipeline
-from .llm_providers import OllamaProvider, BedrockProvider, GeminiProvider
+from .llm_providers import (
+    OllamaProvider,
+    BedrockProvider,
+    GeminiProvider,
+    create_llm_provider,
+)
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -213,6 +217,54 @@ class RAGEvaluator:
         """
         self.rag_pipeline = rag_pipeline
 
+    def _resolve_ragas_llm(self):
+        """
+        Resolve which LLM provider RAGAS should use.
+        Returns:
+            (llm_provider, temperature, max_tokens)
+        """
+        ragas_cfg = self.rag_pipeline.config.ragas
+        llm_cfg = self.rag_pipeline.config.llm
+        has_provider = bool(ragas_cfg.llm_provider)
+        has_model = bool(ragas_cfg.llm_model_name)
+
+        if has_provider != has_model:
+            raise ValueError(
+                "RAGAS dedicated LLM config is incomplete. Set both "
+                "RAGAS_LLM_PROVIDER and RAGAS_LLM_MODEL, or neither."
+            )
+
+        if has_provider and has_model:
+            dedicated_provider = create_llm_provider(
+                provider_type=ragas_cfg.llm_provider,
+                model_name=ragas_cfg.llm_model_name,
+                api_key=ragas_cfg.llm_gemini_api_key,
+                base_url=ragas_cfg.llm_ollama_base_url,
+                region_name=ragas_cfg.llm_aws_region,
+                aws_access_key_id=ragas_cfg.llm_aws_access_key_id,
+                aws_secret_access_key=ragas_cfg.llm_aws_secret_access_key,
+                aws_session_token=ragas_cfg.llm_aws_session_token,
+                aws_profile_name=ragas_cfg.llm_aws_profile_name,
+                request_interval=(
+                    ragas_cfg.llm_request_interval
+                    if ragas_cfg.llm_request_interval is not None
+                    else llm_cfg.request_interval
+                ),
+            )
+            temperature = (
+                ragas_cfg.llm_temperature
+                if ragas_cfg.llm_temperature is not None
+                else llm_cfg.temperature
+            )
+            max_tokens = (
+                ragas_cfg.llm_max_tokens
+                if ragas_cfg.llm_max_tokens is not None
+                else llm_cfg.max_tokens
+            )
+            return dedicated_provider, temperature, max_tokens
+
+        return self.rag_pipeline.llm_provider, llm_cfg.temperature, llm_cfg.max_tokens
+
     def prepare_eval_dataset(
         self,
         questions: List[str],
@@ -288,19 +340,18 @@ class RAGEvaluator:
         if metrics is None:
             metrics = [
                 faithfulness,
-                # answer_relevancy,
-                # context_precision,
+                answer_relevancy,
+                context_precision,
             ]
             # Add metrics that require ground truth only if available
             if ground_truths is not None:
                 metrics.extend([
                     context_recall,
-                    # answer_correctness,
-                    answer_similarity,
+                    answer_correctness,
                 ])
 
         # Create a compatible LangChain chat model for ragas based on provider type
-        llm_provider = self.rag_pipeline.llm_provider
+        llm_provider, ragas_temperature, ragas_max_tokens = self._resolve_ragas_llm()
 
         if isinstance(llm_provider, OllamaProvider):
             chat_model = ChatOllama(
@@ -311,14 +362,14 @@ class RAGEvaluator:
             # Use custom adapter to support chat models (deepseek, etc.)
             chat_model = BedrockChatAdapter(
                 provider=llm_provider,
-                temperature=self.rag_pipeline.config.llm.temperature,
-                max_tokens=self.rag_pipeline.config.llm.max_tokens
+                temperature=ragas_temperature,
+                max_tokens=ragas_max_tokens
             )
         elif isinstance(llm_provider, GeminiProvider):
             chat_model = GeminiChatAdapter(
                 provider=llm_provider,
-                temperature=self.rag_pipeline.config.llm.temperature,
-                max_tokens=self.rag_pipeline.config.llm.max_tokens
+                temperature=ragas_temperature,
+                max_tokens=ragas_max_tokens
             )
         else:
             raise ValueError(f"Unsupported LLM provider type: {type(llm_provider)}")
