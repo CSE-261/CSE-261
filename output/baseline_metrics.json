@@ -2,5 +2,6 @@
     "total_samples": 100,
     "exact_match": 0.21,
     "contain_match": 0.37,
-    "f1_score": 0.3757988938072118
+    "f1_score": 0.3757988938072118,
+    "average_answer_similarity": 0.4955509491078556
 }
